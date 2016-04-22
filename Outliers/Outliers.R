@@ -6,7 +6,7 @@ setwd("C:/Users/Laurae/Documents/Data Science/Santander/")
 train <- read.csv("train.csv")
 test  <- read.csv("test.csv")
 
-train_temp <- train
+train_temp <- train[, -1]
 
 temp_i <- which(train_temp$TARGET == 1)
 excluded_index <- seq(1, nrow(train_temp))
