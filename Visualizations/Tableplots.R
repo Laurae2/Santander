@@ -4,7 +4,7 @@
 remove(list = ls())
 setwd("C:/Users/Laurae/Documents/Data Science/Santander/")
 train <- read.csv("train.csv")
-test  <- read.csv("test.csv")
+a <- tablePrepare(data.frame(target = as.factor(train$TARGET), train[, -371]))
 
 library(tableplot)
 for (i in 2:371) {
