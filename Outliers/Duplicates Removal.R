@@ -12,6 +12,7 @@ temp_i <- which(train_temp$TARGET == 1)
 excluded_index <- seq(1, nrow(train_temp))
 excluded_index[temp_i] <- -1
 temp_mutuals <- data.frame(Row = seq(1, nrow(train_temp)), Target = train_temp$TARGET, Duplicate = rep(FALSE, nrow(train_temp)), Differing = rep(FALSE, nrow(train_temp)))
+sink("debloat.R, append = FALSE, split = FALSE)
 for (i in temp_i) {
   tempStr <- "\n"
   temp_j <- which(!(excluded_index == -1))
@@ -59,3 +60,4 @@ for (i in temp_i) {
     #close(prog_bar)
   }
 }
+sink()
