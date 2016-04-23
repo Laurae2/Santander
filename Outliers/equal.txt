@@ -1,0 +1,1001 @@
+Inspecting 897
+
+Duplicate: 897(1) equal to 39934(1)
+Duplicate: 897(1) equal to 59901(1)
+
+Inspecting 2343
+
+Duplicate: 2343(1) equal to 6978(1)
+
+
+Inspecting 2632
+
+Duplicate: 2632(1) equal to 9723(1)
+
+Inspecting 2704
+
+Duplicate: 2704(1) equal to 3629(1)
+Duplicate: 2704(1) equal to 11600(1)
+Duplicate: 2704(1) equal to 14871(1)
+Duplicate: 2704(1) equal to 19089(1)
+Duplicate: 2704(1) equal to 19102(1)
+Duplicate: 2704(1) equal to 26986(1)
+Duplicate: 2704(1) equal to 37993(1)
+Duplicate: 2704(1) equal to 42844(1)
+Duplicate: 2704(1) equal to 43436(1)
+Duplicate: 2704(1) equal to 43760(1)
+Duplicate: 2704(1) equal to 47293(1)
+Duplicate: 2704(1) equal to 47692(1)
+Duplicate: 2704(1) equal to 49750(1)
+Duplicate: 2704(1) equal to 51311(1)
+Duplicate: 2704(1) equal to 64714(1)
+
+Inspecting 3880
+
+Duplicate: 3880(1) equal to 16149(1)
+
+Inspecting 4771
+
+Duplicate: 4771(1) equal to 65552(1)
+
+Inspecting 5151
+
+Duplicate: 5151(1) equal to 65359(1)
+
+Inspecting 5511
+
+Duplicate: 5511(1) equal to 26231(1)
+
+Inspecting 6130
+
+Duplicate: 6130(1) equal to 20828(1)
+
+Inspecting 6283
+
+Duplicate: 6283(1) equal to 2519(1)
+Duplicate: 6283(1) equal to 6395(1)
+Duplicate: 6283(1) equal to 17354(1)
+Duplicate: 6283(1) equal to 24901(1)
+Duplicate: 6283(1) equal to 30037(1)
+Duplicate: 6283(1) equal to 46347(1)
+
+Inspecting 6583
+
+Duplicate: 6583(1) equal to 20625(1)
+
+Inspecting 7131
+
+Duplicate: 7131(1) equal to 12621(1)
+
+Inspecting 7996
+
+Duplicate: 7996(1) equal to 11769(1)
+
+Inspecting 8427
+
+Duplicate: 8427(1) equal to 38908(1)
+
+Inspecting 9438
+
+Duplicate: 9438(1) equal to 641(1)
+Duplicate: 9438(1) equal to 40850(1)
+
+Inspecting 9672
+
+Duplicate: 9672(1) equal to 38261(1)
+Duplicate: 9672(1) equal to 42995(1)
+
+Inspecting 9698
+
+Duplicate: 9698(1) equal to 38645(1)
+
+Inspecting 9848
+
+Duplicate: 9848(1) equal to 28892(1)
+Duplicate: 9848(1) equal to 28918(1)
+
+Inspecting 10060
+
+Duplicate: 10060(1) equal to 8683(1)
+
+Inspecting 10575
+
+Duplicate: 10575(1) equal to 45746(1)
+Duplicate: 10575(1) equal to 56294(1)
+
+Inspecting 11415
+
+Duplicate: 11415(1) equal to 6131(1)
+Duplicate: 11415(1) equal to 28992(1)
+Duplicate: 11415(1) equal to 32951(1)
+Duplicate: 11415(1) equal to 36363(1)
+Duplicate: 11415(1) equal to 39700(1)
+Duplicate: 11415(1) equal to 40571(1)
+Duplicate: 11415(1) equal to 53640(1)
+Duplicate: 11415(1) equal to 70444(1)
+Duplicate: 11415(1) equal to 71447(1)
+
+Inspecting 12736
+
+Duplicate: 12736(1) equal to 3087(1)
+Duplicate: 12736(1) equal to 14190(1)
+Duplicate: 12736(1) equal to 44903(1)
+Duplicate: 12736(1) equal to 55435(1)
+Duplicate: 12736(1) equal to 58570(1)
+Duplicate: 12736(1) equal to 63179(1)
+Duplicate: 12736(1) equal to 69391(1)
+
+Inspecting 12940
+
+Duplicate: 12940(1) equal to 26147(1)
+
+Inspecting 13224
+
+Duplicate: 13224(1) equal to 11879(1)
+Duplicate: 13224(1) equal to 13250(1)
+Duplicate: 13224(1) equal to 21791(1)
+
+Inspecting 13451
+
+Duplicate: 13451(1) equal to 40465(1)
+
+Inspecting 13661
+
+Duplicate: 13661(1) equal to 39051(1)
+
+Inspecting 14287
+
+Duplicate: 14287(1) equal to 23101(1)
+Duplicate: 14287(1) equal to 69018(1)
+
+Inspecting 14657
+
+Duplicate: 14657(1) equal to 60612(1)
+
+Inspecting 14791
+
+Duplicate: 14791(1) equal to 64376(1)
+
+Inspecting 15397
+
+Duplicate: 15397(1) equal to 54544(1)
+
+Inspecting 15644
+
+Duplicate: 15644(1) equal to 1610(1)
+Duplicate: 15644(1) equal to 4890(1)
+Duplicate: 15644(1) equal to 13094(1)
+Duplicate: 15644(1) equal to 15335(1)
+Duplicate: 15644(1) equal to 18099(1)
+Duplicate: 15644(1) equal to 18686(1)
+Duplicate: 15644(1) equal to 31514(1)
+Duplicate: 15644(1) equal to 33657(1)
+Duplicate: 15644(1) equal to 38168(1)
+Duplicate: 15644(1) equal to 42897(1)
+Duplicate: 15644(1) equal to 43639(1)
+Duplicate: 15644(1) equal to 47172(1)
+Duplicate: 15644(1) equal to 50663(1)
+Duplicate: 15644(1) equal to 52721(1)
+Duplicate: 15644(1) equal to 57265(1)
+Duplicate: 15644(1) equal to 57640(1)
+Duplicate: 15644(1) equal to 67248(1)
+Duplicate: 15644(1) equal to 68848(1)
+
+Inspecting 15694
+
+Duplicate: 15694(1) equal to 66272(1)
+
+Inspecting 15703
+
+Duplicate: 15703(1) equal to 2775(1)
+Duplicate: 15703(1) equal to 15703(1)
+Duplicate: 15703(1) equal to 17652(1)
+Duplicate: 15703(1) equal to 17974(1)
+Duplicate: 15703(1) equal to 23076(1)
+Duplicate: 15703(1) equal to 23691(1)
+Duplicate: 15703(1) equal to 24177(1)
+Duplicate: 15703(1) equal to 27303(1)
+Duplicate: 15703(1) equal to 27874(1)
+Duplicate: 15703(1) equal to 28069(1)
+Duplicate: 15703(1) equal to 29428(1)
+Duplicate: 15703(1) equal to 39632(1)
+Duplicate: 15703(1) equal to 40961(1)
+Duplicate: 15703(1) equal to 41440(1)
+Duplicate: 15703(1) equal to 44690(1)
+Duplicate: 15703(1) equal to 52219(1)
+Duplicate: 15703(1) equal to 55582(1)
+Duplicate: 15703(1) equal to 63683(1)
+Duplicate: 15703(1) equal to 64603(1)
+Duplicate: 15703(1) equal to 66396(1)
+Duplicate: 15703(1) equal to 67300(1)
+
+Inspecting 15873
+
+Duplicate: 15873(1) equal to 15137(1)
+Duplicate: 15873(1) equal to 30490(1)
+
+Inspecting 19055
+
+Duplicate: 19055(1) equal to 6585(1)
+Duplicate: 19055(1) equal to 13511(1)
+Duplicate: 19055(1) equal to 13810(1)
+Duplicate: 19055(1) equal to 19846(1)
+Duplicate: 19055(1) equal to 20229(1)
+Duplicate: 19055(1) equal to 22292(1)
+Duplicate: 19055(1) equal to 22816(1)
+Duplicate: 19055(1) equal to 23826(1)
+Duplicate: 19055(1) equal to 28331(1)
+Duplicate: 19055(1) equal to 30525(1)
+Duplicate: 19055(1) equal to 33560(1)
+Duplicate: 19055(1) equal to 37993(1)
+Duplicate: 19055(1) equal to 38431(1)
+Duplicate: 19055(1) equal to 46238(1)
+Duplicate: 19055(1) equal to 46777(1)
+Duplicate: 19055(1) equal to 47062(1)
+Duplicate: 19055(1) equal to 50356(1)
+Duplicate: 19055(1) equal to 50962(1)
+Duplicate: 19055(1) equal to 52539(1)
+Duplicate: 19055(1) equal to 58023(1)
+Duplicate: 19055(1) equal to 59515(1)
+Duplicate: 19055(1) equal to 60911(1)
+Duplicate: 19055(1) equal to 63893(1)
+Duplicate: 19055(1) equal to 66856(1)
+
+Inspecting 19977
+
+Duplicate: 19977(1) equal to 30607(1)
+
+Inspecting 20842
+
+Duplicate: 20842(1) equal to 64603(1)
+
+Inspecting 21456
+
+Duplicate: 21456(1) equal to 1780(1)
+Duplicate: 21456(1) equal to 2677(1)
+Duplicate: 21456(1) equal to 6698(1)
+Duplicate: 21456(1) equal to 6994(1)
+Duplicate: 21456(1) equal to 7009(1)
+Duplicate: 21456(1) equal to 7365(1)
+Duplicate: 21456(1) equal to 13985(1)
+Duplicate: 21456(1) equal to 14791(1)
+Duplicate: 21456(1) equal to 21650(1)
+Duplicate: 21456(1) equal to 22506(1)
+Duplicate: 21456(1) equal to 23691(1)
+Duplicate: 21456(1) equal to 24155(1)
+Duplicate: 21456(1) equal to 25164(1)
+Duplicate: 21456(1) equal to 25436(1)
+Duplicate: 21456(1) equal to 27813(1)
+Duplicate: 21456(1) equal to 33709(1)
+Duplicate: 21456(1) equal to 56873(1)
+Duplicate: 21456(1) equal to 62896(1)
+Duplicate: 21456(1) equal to 66313(1)
+Duplicate: 21456(1) equal to 68386(1)
+Duplicate: 21456(1) equal to 68848(1)
+
+Inspecting 22152
+
+Duplicate: 22152(1) equal to 35788(1)
+
+Inspecting 22292
+
+Duplicate: 22292(1) equal to 42103(1)
+
+Inspecting 22326
+
+
+Inspecting 22387
+
+Duplicate: 22387(1) equal to 23743(1)
+Duplicate: 22387(1) equal to 25675(1)
+
+Inspecting 22619
+
+Duplicate: 22619(1) equal to 23826(1)
+
+Inspecting 22632
+
+
+Inspecting 22673
+
+Duplicate: 22673(1) equal to 1549(1)
+Duplicate: 22673(1) equal to 9082(1)
+Duplicate: 22673(1) equal to 14246(1)
+Duplicate: 22673(1) equal to 48528(1)
+Duplicate: 22673(1) equal to 66058(1)
+
+Inspecting 23285
+
+Duplicate: 23285(1) equal to 3389(1)
+Duplicate: 23285(1) equal to 3910(1)
+Duplicate: 23285(1) equal to 4484(1)
+Duplicate: 23285(1) equal to 6403(1)
+Duplicate: 23285(1) equal to 16780(1)
+Duplicate: 23285(1) equal to 17653(1)
+Duplicate: 23285(1) equal to 20631(1)
+Duplicate: 23285(1) equal to 22816(1)
+Duplicate: 23285(1) equal to 23280(1)
+Duplicate: 23285(1) equal to 23285(1)
+Duplicate: 23285(1) equal to 24301(1)
+Duplicate: 23285(1) equal to 28956(1)
+Duplicate: 23285(1) equal to 31312(1)
+Duplicate: 23285(1) equal to 32854(1)
+Duplicate: 23285(1) equal to 34159(1)
+Duplicate: 23285(1) equal to 44015(1)
+Duplicate: 23285(1) equal to 46392(1)
+Duplicate: 23285(1) equal to 50265(1)
+Duplicate: 23285(1) equal to 52404(1)
+Duplicate: 23285(1) equal to 53013(1)
+Duplicate: 23285(1) equal to 53283(1)
+Duplicate: 23285(1) equal to 59424(1)
+Duplicate: 23285(1) equal to 62278(1)
+Duplicate: 23285(1) equal to 65763(1)
+
+Inspecting 23417
+
+Duplicate: 23417(1) equal to 28178(1)
+Duplicate: 23417(1) equal to 30130(1)
+Duplicate: 23417(1) equal to 53013(1)
+Duplicate: 23417(1) equal to 53268(1)
+
+Inspecting 25007
+
+Duplicate: 25007(1) equal to 29344(1)
+
+Inspecting 25071
+
+
+Inspecting 25362
+
+Duplicate: 25362(1) equal to 14791(1)
+Duplicate: 25362(1) equal to 42380(1)
+Duplicate: 25362(1) equal to 61380(1)
+
+Inspecting 25532
+
+Duplicate: 25532(1) equal to 1034(1)
+Duplicate: 25532(1) equal to 67352(1)
+
+Inspecting 26147
+
+Duplicate: 26147(1) equal to 14588(1)
+
+Inspecting 26231
+
+Duplicate: 26231(1) equal to 7712(1)
+Duplicate: 26231(1) equal to 26246(1)
+
+Inspecting 26328
+
+Duplicate: 26328(1) equal to 12278(1)
+Duplicate: 26328(1) equal to 61767(1)
+
+Inspecting 26672
+
+Duplicate: 26672(1) equal to 11093(1)
+
+Inspecting 28201
+
+Duplicate: 28201(1) equal to 18079(1)
+Duplicate: 28201(1) equal to 25276(1)
+Duplicate: 28201(1) equal to 28954(1)
+Duplicate: 28201(1) equal to 34264(1)
+Duplicate: 28201(1) equal to 44666(1)
+Duplicate: 28201(1) equal to 46150(1)
+Duplicate: 28201(1) equal to 59051(1)
+Duplicate: 28201(1) equal to 59117(1)
+
+Inspecting 28224
+
+Duplicate: 28224(1) equal to 54024(1)
+Duplicate: 28224(1) equal to 54685(1)
+
+Inspecting 28738
+
+Duplicate: 28738(1) equal to 10174(1)
+
+Inspecting 30598
+
+Duplicate: 30598(1) equal to 2066(1)
+Duplicate: 30598(1) equal to 2573(1)
+Duplicate: 30598(1) equal to 15703(1)
+Duplicate: 30598(1) equal to 20104(1)
+Duplicate: 30598(1) equal to 28409(1)
+Duplicate: 30598(1) equal to 28482(1)
+Duplicate: 30598(1) equal to 30219(1)
+Duplicate: 30598(1) equal to 30496(1)
+Duplicate: 30598(1) equal to 30622(1)
+Duplicate: 30598(1) equal to 31395(1)
+Duplicate: 30598(1) equal to 32028(1)
+Duplicate: 30598(1) equal to 34159(1)
+Duplicate: 30598(1) equal to 43632(1)
+Duplicate: 30598(1) equal to 43742(1)
+Duplicate: 30598(1) equal to 44116(1)
+Duplicate: 30598(1) equal to 46777(1)
+Duplicate: 30598(1) equal to 46907(1)
+Duplicate: 30598(1) equal to 50705(1)
+Duplicate: 30598(1) equal to 56658(1)
+Duplicate: 30598(1) equal to 56768(1)
+
+Inspecting 30607
+
+Duplicate: 30607(1) equal to 21321(1)
+
+Inspecting 30723
+
+Duplicate: 30723(1) equal to 56260(1)
+
+Inspecting 31201
+
+Duplicate: 31201(1) equal to 35093(1)
+Duplicate: 31201(1) equal to 55709(1)
+Duplicate: 31201(1) equal to 58283(1)
+
+Inspecting 31241
+
+Duplicate: 31241(1) equal to 12940(1)
+
+Inspecting 31285
+
+Duplicate: 31285(1) equal to 64171(1)
+
+Inspecting 31374
+
+Duplicate: 31374(1) equal to 10905(1)
+
+Inspecting 31494
+
+Duplicate: 31494(1) equal to 3805(1)
+Duplicate: 31494(1) equal to 5151(1)
+Duplicate: 31494(1) equal to 5794(1)
+Duplicate: 31494(1) equal to 6282(1)
+Duplicate: 31494(1) equal to 6693(1)
+Duplicate: 31494(1) equal to 8734(1)
+Duplicate: 31494(1) equal to 11531(1)
+Duplicate: 31494(1) equal to 20385(1)
+Duplicate: 31494(1) equal to 22554(1)
+Duplicate: 31494(1) equal to 23186(1)
+Duplicate: 31494(1) equal to 31610(1)
+Duplicate: 31494(1) equal to 32854(1)
+Duplicate: 31494(1) equal to 38211(1)
+Duplicate: 31494(1) equal to 41084(1)
+Duplicate: 31494(1) equal to 44255(1)
+Duplicate: 31494(1) equal to 45085(1)
+Duplicate: 31494(1) equal to 45841(1)
+Duplicate: 31494(1) equal to 46238(1)
+Duplicate: 31494(1) equal to 47518(1)
+Duplicate: 31494(1) equal to 47850(1)
+Duplicate: 31494(1) equal to 60233(1)
+Duplicate: 31494(1) equal to 62896(1)
+
+
+Inspecting 32163
+
+Duplicate: 32163(1) equal to 312(1)
+Duplicate: 32163(1) equal to 733(1)
+Duplicate: 32163(1) equal to 774(1)
+Duplicate: 32163(1) equal to 2580(1)
+Duplicate: 32163(1) equal to 4890(1)
+Duplicate: 32163(1) equal to 9491(1)
+Duplicate: 32163(1) equal to 9925(1)
+Duplicate: 32163(1) equal to 10355(1)
+Duplicate: 32163(1) equal to 14051(1)
+Duplicate: 32163(1) equal to 20709(1)
+Duplicate: 32163(1) equal to 21008(1)
+Duplicate: 32163(1) equal to 23076(1)
+Duplicate: 32163(1) equal to 26283(1)
+Duplicate: 32163(1) equal to 27777(1)
+Duplicate: 32163(1) equal to 29213(1)
+Duplicate: 32163(1) equal to 30147(1)
+Duplicate: 32163(1) equal to 35186(1)
+Duplicate: 32163(1) equal to 39189(1)
+Duplicate: 32163(1) equal to 42380(1)
+Duplicate: 32163(1) equal to 44116(1)
+Duplicate: 32163(1) equal to 46310(1)
+Duplicate: 32163(1) equal to 51198(1)
+Duplicate: 32163(1) equal to 51553(1)
+Duplicate: 32163(1) equal to 52777(1)
+Duplicate: 32163(1) equal to 60970(1)
+Duplicate: 32163(1) equal to 61301(1)
+Duplicate: 32163(1) equal to 63634(1)
+Duplicate: 32163(1) equal to 64098(1)
+Duplicate: 32163(1) equal to 65622(1)
+
+Inspecting 32799
+
+Duplicate: 32799(1) equal to 49994(1)
+
+Inspecting 32978
+
+Duplicate: 32978(1) equal to 28992(1)
+Duplicate: 32978(1) equal to 33307(1)
+Duplicate: 32978(1) equal to 65054(1)
+
+
+Inspecting 33573
+
+Duplicate: 33573(1) equal to 11662(1)
+
+Inspecting 34211
+
+Duplicate: 34211(1) equal to 52038(1)
+
+Inspecting 35336
+
+Duplicate: 35336(1) equal to 36975(1)
+Duplicate: 35336(1) equal to 40538(1)
+
+Inspecting 35832
+
+Duplicate: 35832(1) equal to 50964(1)
+
+Inspecting 35926
+
+Duplicate: 35926(1) equal to 16263(1)
+Duplicate: 35926(1) equal to 49337(1)
+Duplicate: 35926(1) equal to 58221(1)
+
+Inspecting 36649
+
+Duplicate: 36649(1) equal to 41256(1)
+
+Inspecting 37890
+
+Duplicate: 37890(1) equal to 25186(1)
+
+Inspecting 40139
+
+Duplicate: 40139(1) equal to 16668(1)
+
+Inspecting 41084
+
+Duplicate: 41084(1) equal to 9621(1)
+Duplicate: 41084(1) equal to 10463(1)
+Duplicate: 41084(1) equal to 23167(1)
+
+Inspecting 41111
+
+Duplicate: 41111(1) equal to 51305(1)
+Duplicate: 41111(1) equal to 54184(1)
+
+Inspecting 41880
+
+Duplicate: 41880(1) equal to 44666(1)
+Duplicate: 41880(1) equal to 59515(1)
+
+Inspecting 43280
+
+Duplicate: 43280(1) equal to 2323(1)
+
+
+Inspecting 44255
+
+Duplicate: 44255(1) equal to 10474(1)
+
+Inspecting 45420
+
+Duplicate: 45420(1) equal to 23436(1)
+
+Inspecting 45841
+
+Duplicate: 45841(1) equal to 2323(1)
+Duplicate: 45841(1) equal to 19770(1)
+Duplicate: 45841(1) equal to 21828(1)
+
+Inspecting 46055
+
+Duplicate: 46055(1) equal to 569(1)
+Duplicate: 46055(1) equal to 31085(1)
+
+Inspecting 46400
+
+Duplicate: 46400(1) equal to 11204(1)
+Duplicate: 46400(1) equal to 18358(1)
+
+Inspecting 46516
+
+Duplicate: 46516(1) equal to 31395(1)
+
+Inspecting 46777
+
+Duplicate: 46777(1) equal to 34051(1)
+
+Inspecting 46909
+
+Duplicate: 46909(1) equal to 569(1)
+Duplicate: 46909(1) equal to 41880(1)
+Duplicate: 46909(1) equal to 58902(1)
+
+Inspecting 47926
+
+Duplicate: 47926(1) equal to 44729(1)
+
+Inspecting 48221
+
+Duplicate: 48221(1) equal to 32437(1)
+Duplicate: 48221(1) equal to 40909(1)
+
+Inspecting 49545
+
+Duplicate: 49545(1) equal to 830(1)
+Duplicate: 49545(1) equal to 7730(1)
+Duplicate: 49545(1) equal to 8050(1)
+Duplicate: 49545(1) equal to 26986(1)
+
+Inspecting 50006
+
+Duplicate: 50006(1) equal to 5608(1)
+Duplicate: 50006(1) equal to 6395(1)
+Duplicate: 50006(1) equal to 20326(1)
+Duplicate: 50006(1) equal to 32609(1)
+Duplicate: 50006(1) equal to 52212(1)
+Duplicate: 50006(1) equal to 61350(1)
+
+Inspecting 50964
+
+Duplicate: 50964(1) equal to 19000(1)
+
+Inspecting 51822
+
+Duplicate: 51822(1) equal to 50381(1)
+
+Inspecting 51966
+
+Duplicate: 51966(1) equal to 29153(1)
+Duplicate: 51966(1) equal to 47665(1)
+
+Inspecting 52511
+
+Duplicate: 52511(1) equal to 2262(1)
+Duplicate: 52511(1) equal to 58663(1)
+
+Inspecting 52522
+
+Duplicate: 52522(1) equal to 37969(1)
+
+Inspecting 52777
+
+Duplicate: 52777(1) equal to 36147(1)
+
+Inspecting 53283
+
+Duplicate: 53283(1) equal to 24463(1)
+Duplicate: 53283(1) equal to 64098(1)
+Duplicate: 53283(1) equal to 64177(1)
+
+Inspecting 54357
+
+Duplicate: 54357(1) equal to 17785(1)
+
+Inspecting 54800
+
+Duplicate: 54800(1) equal to 6808(1)
+
+Inspecting 55070
+
+Duplicate: 55070(1) equal to 11938(1)
+Duplicate: 55070(1) equal to 21321(1)
+Duplicate: 55070(1) equal to 56494(1)
+Duplicate: 55070(1) equal to 62751(1)
+
+Inspecting 56498
+
+Duplicate: 56498(1) equal to 22038(1)
+Duplicate: 56498(1) equal to 59566(1)
+
+
+Inspecting 58997
+
+Duplicate: 58997(1) equal to 19426(1)
+
+Inspecting 59466
+
+Duplicate: 59466(1) equal to 29972(1)
+
+Inspecting 60307
+
+Duplicate: 60307(1) equal to 5650(1)
+Duplicate: 60307(1) equal to 7936(1)
+Duplicate: 60307(1) equal to 14143(1)
+Duplicate: 60307(1) equal to 42260(1)
+
+Inspecting 62063
+
+Duplicate: 62063(1) equal to 175(1)
+Duplicate: 62063(1) equal to 301(1)
+Duplicate: 62063(1) equal to 2343(1)
+Duplicate: 62063(1) equal to 4692(1)
+Duplicate: 62063(1) equal to 5048(1)
+Duplicate: 62063(1) equal to 10355(1)
+Duplicate: 62063(1) equal to 11638(1)
+Duplicate: 62063(1) equal to 14231(1)
+Duplicate: 62063(1) equal to 21371(1)
+Duplicate: 62063(1) equal to 26161(1)
+Duplicate: 62063(1) equal to 26350(1)
+Duplicate: 62063(1) equal to 29702(1)
+Duplicate: 62063(1) equal to 30037(1)
+Duplicate: 62063(1) equal to 31312(1)
+Duplicate: 62063(1) equal to 47293(1)
+Duplicate: 62063(1) equal to 49395(1)
+Duplicate: 62063(1) equal to 53462(1)
+Duplicate: 62063(1) equal to 58738(1)
+Duplicate: 62063(1) equal to 59378(1)
+Duplicate: 62063(1) equal to 59714(1)
+
+Inspecting 62609
+
+Duplicate: 62609(1) equal to 7879(1)
+Duplicate: 62609(1) equal to 56133(1)
+
+Inspecting 62801
+
+Duplicate: 62801(1) equal to 5422(1)
+Duplicate: 62801(1) equal to 9146(1)
+Duplicate: 62801(1) equal to 32019(1)
+
+Inspecting 63664
+
+Duplicate: 63664(1) equal to 4834(1)
+
+Inspecting 63965
+
+Duplicate: 63965(1) equal to 3638(1)
+Duplicate: 63965(1) equal to 50683(1)
+
+Inspecting 64044
+
+Duplicate: 64044(1) equal to 53245(1)
+
+Inspecting 64363
+
+Duplicate: 64363(1) equal to 11417(1)
+Duplicate: 64363(1) equal to 39711(1)
+Duplicate: 64363(1) equal to 39802(1)
+Duplicate: 64363(1) equal to 40286(1)
+
+Inspecting 64682
+
+Duplicate: 64682(1) equal to 301(1)
+Duplicate: 64682(1) equal to 3441(1)
+Duplicate: 64682(1) equal to 19503(1)
+Duplicate: 64682(1) equal to 54265(1)
+
+Inspecting 64700
+
+Duplicate: 64700(1) equal to 11162(1)
+Duplicate: 64700(1) equal to 12049(1)
+Duplicate: 64700(1) equal to 15397(1)
+Duplicate: 64700(1) equal to 22659(1)
+Duplicate: 64700(1) equal to 54777(1)
+
+Inspecting 65552
+
+Duplicate: 65552(1) equal to 3424(1)
+Duplicate: 65552(1) equal to 10206(1)
+Duplicate: 65552(1) equal to 11015(1)
+Duplicate: 65552(1) equal to 11093(1)
+Duplicate: 65552(1) equal to 16806(1)
+Duplicate: 65552(1) equal to 20293(1)
+Duplicate: 65552(1) equal to 22524(1)
+Duplicate: 65552(1) equal to 27333(1)
+Duplicate: 65552(1) equal to 28224(1)
+Duplicate: 65552(1) equal to 40538(1)
+Duplicate: 65552(1) equal to 40850(1)
+Duplicate: 65552(1) equal to 41489(1)
+Duplicate: 65552(1) equal to 44869(1)
+Duplicate: 65552(1) equal to 49639(1)
+Duplicate: 65552(1) equal to 59792(1)
+
+Inspecting 66058
+
+Duplicate: 66058(1) equal to 25752(1)
+Duplicate: 66058(1) equal to 56260(1)
+
+Inspecting 66230
+
+Duplicate: 66230(1) equal to 11465(1)
+Duplicate: 66230(1) equal to 19746(1)
+Duplicate: 66230(1) equal to 25675(1)
+Duplicate: 66230(1) equal to 26167(1)
+Duplicate: 66230(1) equal to 26774(1)
+Duplicate: 66230(1) equal to 31724(1)
+Duplicate: 66230(1) equal to 35978(1)
+Duplicate: 66230(1) equal to 39942(1)
+Duplicate: 66230(1) equal to 44666(1)
+Duplicate: 66230(1) equal to 47014(1)
+Duplicate: 66230(1) equal to 49050(1)
+Duplicate: 66230(1) equal to 51251(1)
+Duplicate: 66230(1) equal to 52404(1)
+Duplicate: 66230(1) equal to 57471(1)
+Duplicate: 66230(1) equal to 60515(1)
+
+Inspecting 67734
+
+Duplicate: 67734(1) equal to 3866(1)
+Duplicate: 67734(1) equal to 29485(1)
+Duplicate: 67734(1) equal to 44058(1)
+Duplicate: 67734(1) equal to 49717(1)
+
+Inspecting 67835
+
+Duplicate: 67835(1) equal to 3168(1)
+Duplicate: 67835(1) equal to 60372(1)
+
+Inspecting 68143
+
+Duplicate: 68143(1) equal to 24326(1)
+Duplicate: 68143(1) equal to 31872(1)
+Duplicate: 68143(1) equal to 47869(1)
+
+Inspecting 68294
+
+Duplicate: 68294(1) equal to 16757(1)
+Duplicate: 68294(1) equal to 60205(1)
+
+Inspecting 69433
+
+Duplicate: 69433(1) equal to 25730(1)
+
+Inspecting 69491
+
+Duplicate: 69491(1) equal to 27059(1)
+Duplicate: 69491(1) equal to 28896(1)
+Duplicate: 69491(1) equal to 42988(1)
+
+Inspecting 70765
+
+Duplicate: 70765(1) equal to 13224(1)
+
+Inspecting 71264
+
+Duplicate: 71264(1) equal to 9582(1)
+Duplicate: 71264(1) equal to 11204(1)
+Duplicate: 71264(1) equal to 11516(1)
+Duplicate: 71264(1) equal to 11912(1)
+Duplicate: 71264(1) equal to 13905(1)
+Duplicate: 71264(1) equal to 21828(1)
+Duplicate: 71264(1) equal to 23822(1)
+Duplicate: 71264(1) equal to 24814(1)
+Duplicate: 71264(1) equal to 27590(1)
+Duplicate: 71264(1) equal to 28405(1)
+Duplicate: 71264(1) equal to 28586(1)
+Duplicate: 71264(1) equal to 40571(1)
+Duplicate: 71264(1) equal to 47310(1)
+Duplicate: 71264(1) equal to 55523(1)
+Duplicate: 71264(1) equal to 56526(1)
+Duplicate: 71264(1) equal to 56814(1)
+Duplicate: 71264(1) equal to 58175(1)
+Duplicate: 71264(1) equal to 59340(1)
+
+Inspecting 71380
+
+Duplicate: 71380(1) equal to 37341(1)
+
+Inspecting 71835
+
+Duplicate: 71835(1) equal to 15703(1)
+
+Inspecting 72280
+
+Duplicate: 72280(1) equal to 164(1)
+Duplicate: 72280(1) equal to 181(1)
+Duplicate: 72280(1) equal to 2338(1)
+Duplicate: 72280(1) equal to 4425(1)
+Duplicate: 72280(1) equal to 4759(1)
+Duplicate: 72280(1) equal to 5616(1)
+Duplicate: 72280(1) equal to 9996(1)
+Duplicate: 72280(1) equal to 10358(1)
+Duplicate: 72280(1) equal to 10941(1)
+Duplicate: 72280(1) equal to 16435(1)
+Duplicate: 72280(1) equal to 18161(1)
+Duplicate: 72280(1) equal to 18527(1)
+Duplicate: 72280(1) equal to 24531(1)
+Duplicate: 72280(1) equal to 25194(1)
+Duplicate: 72280(1) equal to 31787(1)
+Duplicate: 72280(1) equal to 36651(1)
+Duplicate: 72280(1) equal to 38139(1)
+Duplicate: 72280(1) equal to 40083(1)
+Duplicate: 72280(1) equal to 49211(1)
+Duplicate: 72280(1) equal to 52480(1)
+Duplicate: 72280(1) equal to 55070(1)
+Duplicate: 72280(1) equal to 56997(1)
+Duplicate: 72280(1) equal to 57654(1)
+Duplicate: 72280(1) equal to 59291(1)
+Duplicate: 72280(1) equal to 59353(1)
+
+Inspecting 73004
+
+Duplicate: 73004(1) equal to 164(1)
+Duplicate: 73004(1) equal to 181(1)
+Duplicate: 73004(1) equal to 2323(1)
+Duplicate: 73004(1) equal to 6994(1)
+Duplicate: 73004(1) equal to 7390(1)
+Duplicate: 73004(1) equal to 10014(1)
+Duplicate: 73004(1) equal to 27053(1)
+Duplicate: 73004(1) equal to 27084(1)
+Duplicate: 73004(1) equal to 28918(1)
+Duplicate: 73004(1) equal to 41694(1)
+Duplicate: 73004(1) equal to 44255(1)
+Duplicate: 73004(1) equal to 44903(1)
+Duplicate: 73004(1) equal to 51084(1)
+Duplicate: 73004(1) equal to 56834(1)
+Duplicate: 73004(1) equal to 57265(1)
+Duplicate: 73004(1) equal to 58837(1)
+
+Inspecting 73162
+
+Duplicate: 73162(1) equal to 164(1)
+Duplicate: 73162(1) equal to 181(1)
+Duplicate: 73162(1) equal to 1971(1)
+Duplicate: 73162(1) equal to 5343(1)
+Duplicate: 73162(1) equal to 6257(1)
+Duplicate: 73162(1) equal to 6403(1)
+Duplicate: 73162(1) equal to 10223(1)
+Duplicate: 73162(1) equal to 11453(1)
+Duplicate: 73162(1) equal to 12274(1)
+Duplicate: 73162(1) equal to 12504(1)
+Duplicate: 73162(1) equal to 14764(1)
+Duplicate: 73162(1) equal to 17831(1)
+Duplicate: 73162(1) equal to 23822(1)
+Duplicate: 73162(1) equal to 24762(1)
+Duplicate: 73162(1) equal to 26907(1)
+Duplicate: 73162(1) equal to 26918(1)
+Duplicate: 73162(1) equal to 28201(1)
+Duplicate: 73162(1) equal to 35832(1)
+Duplicate: 73162(1) equal to 36260(1)
+Duplicate: 73162(1) equal to 38758(1)
+Duplicate: 73162(1) equal to 39328(1)
+Duplicate: 73162(1) equal to 39431(1)
+Duplicate: 73162(1) equal to 44600(1)
+Duplicate: 73162(1) equal to 48175(1)
+Duplicate: 73162(1) equal to 49205(1)
+Duplicate: 73162(1) equal to 49474(1)
+Duplicate: 73162(1) equal to 50705(1)
+Duplicate: 73162(1) equal to 54156(1)
+Duplicate: 73162(1) equal to 54167(1)
+Duplicate: 73162(1) equal to 58527(1)
+
+Inspecting 73649
+
+Duplicate: 73649(1) equal to 54681(1)
+
+Inspecting 73811
+
+Duplicate: 73811(1) equal to 12191(1)
+Duplicate: 73811(1) equal to 50979(1)
+
+Inspecting 74138
+
+Duplicate: 74138(1) equal to 164(1)
+Duplicate: 74138(1) equal to 181(1)
+Duplicate: 74138(1) equal to 9590(1)
+Duplicate: 74138(1) equal to 10624(1)
+Duplicate: 74138(1) equal to 12244(1)
+Duplicate: 74138(1) equal to 13355(1)
+Duplicate: 74138(1) equal to 21015(1)
+Duplicate: 74138(1) equal to 21371(1)
+Duplicate: 74138(1) equal to 23456(1)
+Duplicate: 74138(1) equal to 25967(1)
+Duplicate: 74138(1) equal to 28069(1)
+Duplicate: 74138(1) equal to 30622(1)
+Duplicate: 74138(1) equal to 30651(1)
+Duplicate: 74138(1) equal to 32693(1)
+Duplicate: 74138(1) equal to 34122(1)
+Duplicate: 74138(1) equal to 39265(1)
+Duplicate: 74138(1) equal to 40408(1)
+Duplicate: 74138(1) equal to 43453(1)
+Duplicate: 74138(1) equal to 44058(1)
+Duplicate: 74138(1) equal to 46524(1)
+Duplicate: 74138(1) equal to 47829(1)
+Duplicate: 74138(1) equal to 52539(1)
+Duplicate: 74138(1) equal to 55709(1)
+Duplicate: 74138(1) equal to 56299(1)
+
+Inspecting 75498
+
+Duplicate: 75498(1) equal to 13810(1)
+
+Inspecting 75679
+
+Duplicate: 75679(1) equal to 26063(1)
+
