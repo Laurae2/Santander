@@ -54,7 +54,7 @@ for (i in temp_i) {
       }
       #setTxtProgressBar(prog_bar, j/NROW(temp_j))
     }
-    tempScript <- paste(tempScript, ifelse(24*temp_negatives < temp_positives, tempList2, tempList1), "), ]\n", sep = "")
+    tempScript <- paste(tempScript, ifelse(temp_negatives/24 < temp_positives, tempList2, tempList1), "), ]\n", sep = "")
     cat(tempStr, sep = "")
     #close(prog_bar)
   }
