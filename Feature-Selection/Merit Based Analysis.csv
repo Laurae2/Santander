@@ -1,5 +1,15 @@
 ~~~~~~~~~~~~~~~~~~~~ 5-fold stratified CV
 
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval -P 1 -E 1
+Search:       weka.attributeSelection.GreedyStepwise -R -T -1.7976931348623157E308 -N -1 -num-slots 1 -D
+Relation:     train-weka.filters.unsupervised.attribute.NumericToNominal-Rlast
+Instances:    76020
+Attributes:   371
+              [list of attributes omitted]
+Evaluation mode:    5-fold cross-validation
+
 Using subsetting in greedy stepwise + ranking forward
 
 average merit      average rank  attribute
@@ -374,7 +384,19 @@ average merit      average rank  attribute
  0.002 +- 0          354.2 +-21.9      277 num_var22_hace3
  0.002 +- 0          354.4 +-22.67     275 num_ent_var16_ult1
 
+
+
 Using symmetric uncertainty + ranking forward
+
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.SymmetricalUncertAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     train-weka.filters.unsupervised.attribute.NumericToNominal-Rlast
+Instances:    76020
+Attributes:   371
+              [list of attributes omitted]
+Evaluation mode:    5-fold cross-validation
 
 average merit      average rank  attribute
  0.026 +- 0.001        1   +- 0         65 ind_var30
