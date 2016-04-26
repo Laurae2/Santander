@@ -185,7 +185,7 @@ for (i in colnames(train_temp)) {
       #rewrite the current line
       cat("\r", rep(" ", nchar(tempText)), sep = "")
       #cat("\r[", ( (which(i == colnames(train_temp)) - 1) * ncol(train_temp) ) + ( which(j == colnames(train_temp))) , "/", ncol(train_temp)*ncol(train_temp), "]: ", i, ":", j, " analysis led to: ", length(tempRows_train), "|", length(tempRows_test), " (", length(scored_rows[scored_rows[1:nrow(train_temp)] == 0]), "|", length(scored_rows[scored_rows[(nrow(train_temp)+1):(nrow(train_temp)+nrow(test_temp))] == 0]), ")", sep = "")
-      cat("\r[", Count , "/", MaxCounter, "]: ", i, ":", j, " analysis led to: ", length(tempRows_train), "|", length(tempRows_test), " (", length(scored_rows[scored_rows[1:nrow(train_temp)] == 0]), "|", length(scored_rows[scored_rows[(nrow(train_temp)+1):(nrow(train_temp)+nrow(test_temp))] == 0]), ")", sep = "")
+      cat("\r[", Counter , "/", MaxCounter, "]: ", i, ":", j, " analysis led to: ", length(tempRows_train), "|", length(tempRows_test), " (", length(scored_rows[scored_rows[1:nrow(train_temp)] == 0]), "|", length(scored_rows[scored_rows[(nrow(train_temp)+1):(nrow(train_temp)+nrow(test_temp))] == 0]), ")", sep = "")
       
       if (tempInt == 0) {
         
