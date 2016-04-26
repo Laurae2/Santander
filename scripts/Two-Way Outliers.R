@@ -126,6 +126,7 @@ cat("\n-----\nSummary:\nTrain rows soft-ruled: ", nrow(train) - sum(data_scores_
 
 # THIS IS FOR BIVARIATE
 
+
 scored_rows <- rep(1, nrow(train_temp)+nrow(test_temp))
 minimal_score <- 25 #don't accept any node under the allowed score
 minimal_node <- 25 #don't accept any node containing under that specific amount of samples
@@ -157,13 +158,27 @@ for (i in colnames(train_temp)) {
     tempCol <- data.frame(v1 = c(train_temp[[i]], test_temp[[i]]), v2 = c(train_temp[[j]], test_temp[[j]]), check.names = FALSE, stringsAsFactors = FALSE)
     
     #compute Mahalonobis distance (df, m, sx) with near-zero tolerance to avoid unexpected interruptions
-    tryCatch(tempCol <- mahalanobis(tempCol, colMeans(tempCol), cov(tempCol), tol=1e-30))
+    if (sum(cor(tempCol)) > 3.999999) {
+      
+      #give up computing the inverse matrix and Mahalonobis distance due to singularity/ill-conditioned matrix
+      
+    } else {
+      
+      #try compute inverse matrix and Mahalonobis distance
+      tryCatch(tempCol <- mahalanobis(tempCol, colMeans(tempCol), cov(tempCol), tol=1e-30))
+      
+    }
     
     if (class(tempCol) == "data.frame") {
       
       #computation failed, ignore what to do
       MaxChar <- nchar(tempText)
       cat("\r", rep(" ", MaxChar), sep = "")
+      CurrentTime <- System$currentTimeMillis()
+      SpentTime <- (CurrentTime - StartTime) / 1000
+      tempText <- paste("\r[", sprintf(Paster, Counter) , "/", MaxCounter, " | CPU = ", round(SpentTime, digits = 2), "s | ETA = ", round((MaxCounter - Counter) * SpentTime / Counter, 2), "s]: ", i, ":", j, " is singular.\n", sep = "")
+      cat(tempText, sep = "")
+      
       
     } else {
       
