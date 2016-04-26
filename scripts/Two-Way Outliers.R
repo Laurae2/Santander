@@ -215,12 +215,12 @@ for (i in colnames(train_temp)) {
         if (tempInt == 0) {
           
           #if it added nothing to our test set
-          cat(" - No effect on test set.\n", sep = "")
+          cat(" - No improvement.\n", sep = "")
           
         } else {
           
           #if it added something to our test set
-          cat(" | improved slightly our score! (+", tempInt, ")\n", sep = "")
+          cat(" | improved slightly! (+", tempInt, ")\n", sep = "")
           
         }
         
