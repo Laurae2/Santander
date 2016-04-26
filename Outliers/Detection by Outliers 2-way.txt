@@ -1,0 +1,910 @@
+[00409/93942 | CPU = 23.36s | ETA = 5341.53s]: var15:num_op_var41_ult3 analysis led to: 63|59 (63|59) | improved slightly! (+59)
+[00413/93942 | CPU = 23.55s | ETA = 5333.73s]: var15:num_op_var39_ult3 analysis led to: 63|58 (63|59) - No improvement.
+[00612/93942 | CPU = 33.22s | ETA = 5066.04s]: var15:n0 analysis led to: 27|35 (90|93) | improved slightly! (+34)
+[01061/93942 | CPU = 57.42s | ETA = 5026.46s]: imp_op_var39_comer_ult1:saldo_var30 analysis led to: 93|91 (182|184) | improved slightly! (+91)
+[01530/93942 | CPU = 81.74s | ETA = 4937.21s]: imp_op_var39_comer_ult3:n0 analysis led to: 37|31 (219|214) | improved slightly! (+30)
+[03203/93942 | CPU = 178.55s | ETA = 5058.08s]: imp_op_var41_comer_ult1:saldo_var30 analysis led to: 92|87 (225|219) | improved slightly! (+5)
+[03435/93942 | CPU = 190.6s | ETA = 5022.05s]: imp_op_var41_comer_ult3:num_var4 analysis led to: 94|90 (299|292) | improved slightly! (+73)
+[04047/93942 | CPU = 224.29s | ETA = 4982.09s]: imp_op_var41_efect_ult3:num_var4 analysis led to: 25|23 (324|315) | improved slightly! (+23)
+[04085/93942 | CPU = 225.94s | ETA = 4970s]: imp_op_var41_efect_ult3:num_op_var39_ult3 analysis led to: 25|34 (346|348) | improved slightly! (+33)
+[04094/93942 | CPU = 226.38s | ETA = 4968.1s]: imp_op_var41_efect_ult3:num_var35 analysis led to: 25|23 (346|348) - No improvement.
+[04965/93942 | CPU = 272.4s | ETA = 4881.57s]: imp_op_var39_efect_ult3:num_var4 analysis led to: 25|23 (346|348) - No improvement.
+[05003/93942 | CPU = 274.83s | ETA = 4885.64s]: imp_op_var39_efect_ult3:num_op_var39_ult3 analysis led to: 25|34 (346|348) - No improvement.
+[05012/93942 | CPU = 275.33s | ETA = 4885.23s]: imp_op_var39_efect_ult3:num_var35 analysis led to: 25|23 (346|348) - No improvement.
+[05946/93942 | CPU = 328.76s | ETA = 4865.31s]: ind_var1_0:saldo_var13_corto analysis led to: 142|140 (485|488) | improved slightly! (+140)
+[06095/93942 | CPU = 339.14s | ETA = 4887.95s]: ind_var1_0:saldo_medio_var13_corto_ult1 analysis led to: 168|167 (516|522) | improved slightly! (+34)
+[06096/93942 | CPU = 340.58s | ETA = 4907.89s]: ind_var1_0:saldo_medio_var13_corto_ult3 analysis led to: 193|176 (552|537) | improved slightly! (+15)
+[06252/93942 | CPU = 352.11s | ETA = 4938.68s]: ind_var1:saldo_var13_corto analysis led to: 254|230 (632|614) | improved slightly! (+77)
+[06286/93942 | CPU = 354.79s | ETA = 4947.43s]: ind_var1:delta_imp_venta_var44_1y3 analysis led to: 43|31 (674|644) | improved slightly! (+30)
+[06291/93942 | CPU = 354.17s | ETA = 4934.61s]: ind_var1:delta_num_venta_var44_1y3 analysis led to: 43|31 (674|644) - No improvement.
+[06401/93942 | CPU = 362.52s | ETA = 4957.9s]: ind_var1:saldo_medio_var13_corto_ult1 analysis led to: 292|277 (683|658) | improved slightly! (+14)
+[06402/93942 | CPU = 363.01s | ETA = 4963.76s]: ind_var1:saldo_medio_var13_corto_ult3 analysis led to: 160|150 (683|658) - No improvement.
+[06558/93942 | CPU = 374.05s | ETA = 4984.19s]: ind_var5_0:saldo_var13_corto analysis led to: 135|135 (683|659) | improved slightly! (+1)
+[06561/93942 | CPU = 374.6s | ETA = 4989.02s]: ind_var5_0:saldo_var13 analysis led to: 173|137 (691|667) | improved slightly! (+8)
+[06707/93942 | CPU = 385.28s | ETA = 5011.22s]: ind_var5_0:saldo_medio_var13_corto_ult1 analysis led to: 164|166 (691|667) - No improvement.
+[06708/93942 | CPU = 385.61s | ETA = 5014.66s]: ind_var5_0:saldo_medio_var13_corto_ult3 analysis led to: 191|179 (694|671) | improved slightly! (+4)
+[06864/93942 | CPU = 395.67s | ETA = 5019.57s]: ind_var5:saldo_var13_corto analysis led to: 43|38 (732|703) | improved slightly! (+32)
+[06867/93942 | CPU = 396.99s | ETA = 5033.92s]: ind_var5:saldo_var13 analysis led to: 119|99 (733|704) | improved slightly! (+1)
+[07013/93942 | CPU = 405.71s | ETA = 5028.92s]: ind_var5:saldo_medio_var13_corto_ult1 analysis led to: 39|37 (733|704) - No improvement.
+[07014/93942 | CPU = 406.57s | ETA = 5038.85s]: ind_var5:saldo_medio_var13_corto_ult3 analysis led to: 124|117 (733|704) - No improvement.
+[07110/93942 | CPU = 411.95s | ETA = 5031.06s]: ind_var6_0:num_var6_0 is singular.             
+[07212/93942 | CPU = 417.9s | ETA = 5025.53s]: ind_var6_0:imp_aport_var13_hace3 analysis led to: 30|38 (743|710) | improved slightly! (+6)
+[07417/93942 | CPU = 431s | ETA = 5027.93s]: ind_var6:num_var6 is singular.                      
+[07782/93942 | CPU = 454.6s | ETA = 5033.22s]: ind_var8_0:saldo_var13_corto analysis led to: 135|134 (743|710) - No improvement.
+[07931/93942 | CPU = 465.22s | ETA = 5045.26s]: ind_var8_0:saldo_medio_var13_corto_ult1 analysis led to: 166|169 (743|710) - No improvement.
+[07932/93942 | CPU = 466.8s | ETA = 5061.72s]: ind_var8_0:saldo_medio_var13_corto_ult3 analysis led to: 190|178 (743|710) - No improvement.
+[08031/93942 | CPU = 473.57s | ETA = 5065.93s]: ind_var8:num_var8 is singular.                   
+[08088/93942 | CPU = 477.44s | ETA = 5068.02s]: ind_var8:saldo_var13_corto analysis led to: 135|135 (743|710) - No improvement.
+[08237/93942 | CPU = 488.77s | ETA = 5085.64s]: ind_var8:saldo_medio_var13_corto_ult1 analysis led to: 166|170 (743|710) - No improvement.
+[08238/93942 | CPU = 490.24s | ETA = 5100.25s]: ind_var8:saldo_medio_var13_corto_ult3 analysis led to: 191|178 (743|710) - No improvement.
+[08394/93942 | CPU = 500.3s | ETA = 5098.86s]: ind_var12_0:saldo_var13_corto analysis led to: 60|56 (757|724) | improved slightly! (+14)
+[08397/93942 | CPU = 501.13s | ETA = 5105.26s]: ind_var12_0:saldo_var13 analysis led to: 87|78 (757|725) | improved slightly! (+1)
+[08541/93942 | CPU = 509.81s | ETA = 5097.59s]: ind_var12_0:saldo_medio_var13_corto_hace2 analysis led to: 26|16 (757|726) | improved slightly! (+1)
+[08543/93942 | CPU = 509.97s | ETA = 5097.82s]: ind_var12_0:saldo_medio_var13_corto_ult1 analysis led to: 40|34 (757|726) - No improvement.
+[08700/93942 | CPU = 521.25s | ETA = 5107.16s]: ind_var12:saldo_var13_corto analysis led to: 118|113 (763|726) - No improvement.
+[08703/93942 | CPU = 521.95s | ETA = 5112.06s]: ind_var12:saldo_var13 analysis led to: 142|113 (764|726) - No improvement.
+[08723/93942 | CPU = 523.72s | ETA = 5116.51s]: ind_var12:delta_imp_aport_var13_1y3 analysis led to: 40|37 (796|757) | improved slightly! (+31)
+[08735/93942 | CPU = 524.73s | ETA = 5118.54s]: ind_var12:delta_num_aport_var13_1y3 analysis led to: 42|42 (799|762) | improved slightly! (+5)
+[08847/93942 | CPU = 532.41s | ETA = 5120.97s]: ind_var12:saldo_medio_var13_corto_hace2 analysis led to: 224|252 (870|855) | improved slightly! (+93)
+[08849/93942 | CPU = 532.95s | ETA = 5124.87s]: ind_var12:saldo_medio_var13_corto_ult1 analysis led to: 132|135 (870|855) - No improvement.
+[08850/93942 | CPU = 534.35s | ETA = 5137.71s]: ind_var12:saldo_medio_var13_corto_ult3 analysis led to: 157|146 (870|855) - No improvement.
+[09335/93942 | CPU = 565.77s | ETA = 5127.85s]: ind_var13_corto_0:delta_imp_aport_var13_1y3 analysis led to: 88|68 (944|911) | improved slightly! (+56)
+[09347/93942 | CPU = 567.01s | ETA = 5131.72s]: ind_var13_corto_0:delta_num_aport_var13_1y3 analysis led to: 88|70 (944|911) - No improvement.
+[09641/93942 | CPU = 586.58s | ETA = 5129.06s]: ind_var13_corto:delta_imp_aport_var13_1y3 analysis led to: 89|69 (944|911) - No improvement.
+[09653/93942 | CPU = 587.4s | ETA = 5129.08s]: ind_var13_corto:delta_num_aport_var13_1y3 analysis led to: 89|72 (944|911) - No improvement.
+[09924/93942 | CPU = 605.79s | ETA = 5128.67s]: ind_var13_largo_0:saldo_var13_corto analysis led to: 139|134 (944|911) - No improvement.
+[09927/93942 | CPU = 606.36s | ETA = 5131.77s]: ind_var13_largo_0:saldo_var13 analysis led to: 136|129 (944|911) - No improvement.
+[09958/93942 | CPU = 608.02s | ETA = 5127.89s]: ind_var13_largo_0:delta_imp_venta_var44_1y3 analysis led to: 43|31 (944|911) - No improvement.
+[09963/93942 | CPU = 608.37s | ETA = 5128.02s]: ind_var13_largo_0:delta_num_venta_var44_1y3 analysis led to: 43|31 (944|911) - No improvement.
+[10073/93942 | CPU = 617s | ETA = 5137.24s]: ind_var13_largo_0:saldo_medio_var13_corto_ult1 analysis led to: 167|162 (944|911) - No improvement.
+[10074/93942 | CPU = 618.4s | ETA = 5148.32s]: ind_var13_largo_0:saldo_medio_var13_corto_ult3 analysis led to: 224|195 (946|911) - No improvement.
+[10230/93942 | CPU = 629.12s | ETA = 5148.11s]: ind_var13_largo:saldo_var13_corto analysis led to: 139|134 (946|911) - No improvement.
+[10233/93942 | CPU = 629.81s | ETA = 5152s]: ind_var13_largo:saldo_var13 analysis led to: 136|129 (946|911) - No improvement.
+[10264/93942 | CPU = 631.24s | ETA = 5146.19s]: ind_var13_largo:delta_imp_venta_var44_1y3 analysis led to: 43|31 (946|911) - No improvement.
+[10269/93942 | CPU = 631.62s | ETA = 5146.53s]: ind_var13_largo:delta_num_venta_var44_1y3 analysis led to: 43|31 (946|911) - No improvement.
+[10379/93942 | CPU = 640.17s | ETA = 5154.1s]: ind_var13_largo:saldo_medio_var13_corto_ult1 analysis led to: 167|162 (946|911) - No improvement.
+[10380/93942 | CPU = 641.68s | ETA = 5165.67s]: ind_var13_largo:saldo_medio_var13_corto_ult3 analysis led to: 225|199 (946|911) - No improvement.
+[10633/93942 | CPU = 658.86s | ETA = 5162.14s]: ind_var13_medio_0:num_meses_var13_medio_ult3 is singular.
+[11148/93942 | CPU = 692.58s | ETA = 5143.69s]: ind_var14_0:saldo_var13_corto analysis led to: 80|67 (947|911) - No improvement.
+[11151/93942 | CPU = 693.37s | ETA = 5147.91s]: ind_var14_0:saldo_var13 analysis led to: 97|91 (947|911) - No improvement.
+[11295/93942 | CPU = 702.93s | ETA = 5143.44s]: ind_var14_0:saldo_medio_var13_corto_hace2 analysis led to: 30|15 (947|911) - No improvement.
+[11297/93942 | CPU = 703.05s | ETA = 5143.29s]: ind_var14_0:saldo_medio_var13_corto_ult1 analysis led to: 49|36 (947|911) - No improvement.
+[11454/93942 | CPU = 713.63s | ETA = 5139.32s]: ind_var14:saldo_var13_corto analysis led to: 190|157 (947|911) - No improvement.
+[11603/93942 | CPU = 724.11s | ETA = 5138.57s]: ind_var14:saldo_medio_var13_corto_ult1 analysis led to: 228|199 (947|911) - No improvement.
+[11604/93942 | CPU = 725.59s | ETA = 5148.57s]: ind_var14:saldo_medio_var13_corto_ult3 analysis led to: 231|218 (947|911) - No improvement.
+[11794/93942 | CPU = 738.32s | ETA = 5142.56s]: ind_var17_0:delta_imp_venta_var44_1y3 analysis led to: 43|31 (947|911) - No improvement.
+[11799/93942 | CPU = 738.67s | ETA = 5142.54s]: ind_var17_0:delta_num_venta_var44_1y3 analysis led to: 43|31 (947|911) - No improvement.
+[12100/93942 | CPU = 758.28s | ETA = 5128.83s]: ind_var17:delta_imp_venta_var44_1y3 analysis led to: 43|31 (947|911) - No improvement.
+[12105/93942 | CPU = 758.58s | ETA = 5128.49s]: ind_var17:delta_num_venta_var44_1y3 analysis led to: 43|31 (947|911) - No improvement.
+[12329/93942 | CPU = 773.53s | ETA = 5120.47s]: ind_var18_0:num_var18_0 is singular.            
+[12393/93942 | CPU = 777.49s | ETA = 5116.08s]: ind_var18_0:delta_imp_amort_var18_1y3 is singular.
+[12678/93942 | CPU = 797.95s | ETA = 5114.72s]: ind_var19:saldo_var13_corto analysis led to: 217|182 (948|911) - No improvement.
+[12827/93942 | CPU = 808.37s | ETA = 5111.95s]: ind_var19:saldo_medio_var13_corto_ult1 analysis led to: 284|268 (948|911) - No improvement.
+[12828/93942 | CPU = 809.84s | ETA = 5120.81s]: ind_var19:saldo_medio_var13_corto_ult3 analysis led to: 236|217 (948|911) - No improvement.
+[12942/93942 | CPU = 817.82s | ETA = 5118.49s]: ind_var20_0:num_var20_0 is singular.            
+[12984/93942 | CPU = 820.2s | ETA = 5114.12s]: ind_var20_0:saldo_var13_corto analysis led to: 277|260 (1224|1170) | improved slightly! (+259)
+[13007/93942 | CPU = 822.1s | ETA = 5115.48s]: ind_var20_0:delta_imp_aport_var13_1y3 analysis led to: 277|259 (1224|1170) - No improvement.
+[13018/93942 | CPU = 822.05s | ETA = 5110.11s]: ind_var20_0:delta_imp_venta_var44_1y3 analysis led to: 43|31 (1224|1170) - No improvement.
+[13019/93942 | CPU = 822.13s | ETA = 5110.17s]: ind_var20_0:delta_num_aport_var13_1y3 analysis led to: 279|264 (1224|1170) - No improvement.
+[13023/93942 | CPU = 822.49s | ETA = 5110.56s]: ind_var20_0:delta_num_venta_var44_1y3 analysis led to: 43|31 (1224|1170) - No improvement.
+[13131/93942 | CPU = 829.69s | ETA = 5106.08s]: ind_var20_0:saldo_medio_var13_corto_hace2 analysis led to: 45|30 (1231|1177) | improved slightly! (+7)
+[13133/93942 | CPU = 829.83s | ETA = 5106.06s]: ind_var20_0:saldo_medio_var13_corto_ult1 analysis led to: 277|259 (1231|1177) - No improvement.
+[13134/93942 | CPU = 830.43s | ETA = 5109.26s]: ind_var20_0:saldo_medio_var13_corto_ult3 analysis led to: 200|184 (1231|1177) - No improvement.
+[13249/93942 | CPU = 837.93s | ETA = 5103.43s]: ind_var20:num_var20 is singular.                  
+[13290/93942 | CPU = 841.35s | ETA = 5105.84s]: ind_var20:saldo_var13_corto analysis led to: 206|186 (1231|1177) - No improvement.
+[13313/93942 | CPU = 842.1s | ETA = 5100.1s]: ind_var20:delta_imp_aport_var13_1y3 analysis led to: 206|185 (1231|1177) - No improvement.
+[13324/93942 | CPU = 843.29s | ETA = 5102.39s]: ind_var20:delta_imp_venta_var44_1y3 analysis led to: 43|31 (1231|1177) - No improvement.
+[13325/93942 | CPU = 843.35s | ETA = 5102.29s]: ind_var20:delta_num_aport_var13_1y3 analysis led to: 208|190 (1231|1177) - No improvement.
+[13329/93942 | CPU = 843.57s | ETA = 5101.85s]: ind_var20:delta_num_venta_var44_1y3 analysis led to: 43|31 (1231|1177) - No improvement.
+[13437/93942 | CPU = 850.63s | ETA = 5096.4s]: ind_var20:saldo_medio_var13_corto_hace2 analysis led to: 206|186 (1231|1177) - No improvement.
+[13439/93942 | CPU = 850.75s | ETA = 5096.22s]: ind_var20:saldo_medio_var13_corto_ult1 analysis led to: 206|185 (1231|1177) - No improvement.
+[13440/93942 | CPU = 850.83s | ETA = 5096.22s]: ind_var20:saldo_medio_var13_corto_ult3 analysis led to: 206|186 (1231|1177) - No improvement.
+[13596/93942 | CPU = 862.31s | ETA = 5095.87s]: ind_var24_0:saldo_var13_corto analysis led to: 130|128 (1231|1177) - No improvement.
+[13599/93942 | CPU = 863.16s | ETA = 5099.53s]: ind_var24_0:saldo_var13 analysis led to: 160|130 (1231|1177) - No improvement.
+[13619/93942 | CPU = 863.8s | ETA = 5094.57s]: ind_var24_0:delta_imp_aport_var13_1y3 analysis led to: 30|20 (1234|1180) | improved slightly! (+3)
+[13631/93942 | CPU = 864.87s | ETA = 5095.63s]: ind_var24_0:delta_num_aport_var13_1y3 analysis led to: 32|25 (1234|1180) - No improvement.
+[13743/93942 | CPU = 873.66s | ETA = 5098.38s]: ind_var24_0:saldo_medio_var13_corto_hace2 analysis led to: 244|263 (1240|1190) | improved slightly! (+10)
+[13745/93942 | CPU = 874.9s | ETA = 5104.73s]: ind_var24_0:saldo_medio_var13_corto_ult1 analysis led to: 151|155 (1240|1190) - No improvement.
+[13746/93942 | CPU = 875.33s | ETA = 5106.82s]: ind_var24_0:saldo_medio_var13_corto_ult3 analysis led to: 175|163 (1240|1190) - No improvement.
+[13902/93942 | CPU = 887.59s | ETA = 5110.23s]: ind_var24:saldo_var13_corto analysis led to: 130|129 (1240|1190) - No improvement.
+[13905/93942 | CPU = 887.34s | ETA = 5107.54s]: ind_var24:saldo_var13 analysis led to: 162|130 (1240|1190) - No improvement.
+[14049/93942 | CPU = 898.63s | ETA = 5110.25s]: ind_var24:saldo_medio_var13_corto_hace2 analysis led to: 245|264 (1240|1190) - No improvement.
+[14051/93942 | CPU = 899.02s | ETA = 5111.66s]: ind_var24:saldo_medio_var13_corto_ult1 analysis led to: 154|155 (1240|1190) - No improvement.
+[14052/93942 | CPU = 900.43s | ETA = 5119.21s]: ind_var24:saldo_medio_var13_corto_ult3 analysis led to: 176|164 (1240|1190) - No improvement.
+[14208/93942 | CPU = 912.13s | ETA = 5118.76s]: ind_var25_cte:saldo_var13_corto analysis led to: 195|162 (1240|1190) - No improvement.
+[14357/93942 | CPU = 922.67s | ETA = 5114.65s]: ind_var25_cte:saldo_medio_var13_corto_ult1 analysis led to: 144|145 (1240|1190) - No improvement.
+[14358/93942 | CPU = 923.84s | ETA = 5120.7s]: ind_var25_cte:saldo_medio_var13_corto_ult3 analysis led to: 194|178 (1240|1190) - No improvement.
+[14514/93942 | CPU = 935.26s | ETA = 5118.21s]: ind_var26_0:saldo_var13_corto analysis led to: 197|162 (1240|1190) - No improvement.
+[14663/93942 | CPU = 946.75s | ETA = 5118.85s]: ind_var26_0:saldo_medio_var13_corto_ult1 analysis led to: 161|159 (1240|1190) - No improvement.
+[14664/93942 | CPU = 947.07s | ETA = 5120.14s]: ind_var26_0:saldo_medio_var13_corto_ult3 analysis led to: 194|177 (1240|1190) - No improvement.
+[14820/93942 | CPU = 958.38s | ETA = 5116.66s]: ind_var26_cte:saldo_var13_corto analysis led to: 135|136 (1240|1190) - No improvement.
+[14969/93942 | CPU = 969.26s | ETA = 5113.61s]: ind_var26_cte:saldo_medio_var13_corto_ult1 analysis led to: 167|169 (1240|1190) - No improvement.
+[14970/93942 | CPU = 970.88s | ETA = 5121.74s]: ind_var26_cte:saldo_medio_var13_corto_ult3 analysis led to: 194|177 (1240|1190) - No improvement.
+[15126/93942 | CPU = 982.12s | ETA = 5117.46s]: ind_var25_0:saldo_var13_corto analysis led to: 197|163 (1240|1190) - No improvement.
+[15275/93942 | CPU = 993.75s | ETA = 5117.86s]: ind_var25_0:saldo_medio_var13_corto_ult1 analysis led to: 161|159 (1240|1190) - No improvement.
+[15276/93942 | CPU = 994.31s | ETA = 5120.33s]: ind_var25_0:saldo_medio_var13_corto_ult3 analysis led to: 194|178 (1240|1190) - No improvement.
+[15579/93942 | CPU = 1014.57s | ETA = 5103.3s]: ind_var30_0:saldo_medio_var13_corto_hace2 analysis led to: 45|31 (1240|1190) - No improvement.
+[15582/93942 | CPU = 1015.11s | ETA = 5104.85s]: ind_var30_0:saldo_medio_var13_corto_ult3 analysis led to: 200|184 (1240|1190) - No improvement.
+[15738/93942 | CPU = 1025.22s | ETA = 5094.43s]: ind_var30:saldo_var13_corto analysis led to: 81|68 (1245|1198) | improved slightly! (+8)
+[15741/93942 | CPU = 1025.38s | ETA = 5094.09s]: ind_var30:saldo_var13 analysis led to: 63|31 (1245|1198) - No improvement.
+[15780/93942 | CPU = 1028.52s | ETA = 5094.51s]: ind_var30:imp_aport_var13_hace3 analysis led to: 67|84 (1247|1200) | improved slightly! (+2)
+[15885/93942 | CPU = 1034.94s | ETA = 5085.56s]: ind_var30:saldo_medio_var13_corto_hace2 analysis led to: 45|30 (1247|1200) - No improvement.
+[15887/93942 | CPU = 1035.06s | ETA = 5085.37s]: ind_var30:saldo_medio_var13_corto_ult1 analysis led to: 74|62 (1247|1200) - No improvement.
+[15888/93942 | CPU = 1035.53s | ETA = 5087.3s]: ind_var30:saldo_medio_var13_corto_ult3 analysis led to: 199|171 (1254|1204) | improved slightly! (+4)
+[16044/93942 | CPU = 1046.54s | ETA = 5081.24s]: ind_var31_0:saldo_var13_corto analysis led to: 224|184 (1254|1204) - No improvement.
+[16193/93942 | CPU = 1056.57s | ETA = 5073.01s]: ind_var31_0:saldo_medio_var13_corto_ult1 analysis led to: 291|270 (1254|1204) - No improvement.
+[16194/93942 | CPU = 1057.34s | ETA = 5076.35s]: ind_var31_0:saldo_medio_var13_corto_ult3 analysis led to: 166|153 (1254|1204) - No improvement.
+[16350/93942 | CPU = 1068.77s | ETA = 5072.05s]: ind_var31:saldo_var13_corto analysis led to: 256|229 (1254|1204) - No improvement.
+[16499/93942 | CPU = 1079.69s | ETA = 5067.84s]: ind_var31:saldo_medio_var13_corto_ult1 analysis led to: 293|275 (1254|1204) - No improvement.
+[16500/93942 | CPU = 1080.04s | ETA = 5069.11s]: ind_var31:saldo_medio_var13_corto_ult3 analysis led to: 170|158 (1254|1204) - No improvement.
+[16690/93942 | CPU = 1092.57s | ETA = 5057.09s]: ind_var32_cte:delta_imp_venta_var44_1y3 analysis led to: 43|31 (1254|1204) - No improvement.
+[16695/93942 | CPU = 1092.89s | ETA = 5056.75s]: ind_var32_cte:delta_num_venta_var44_1y3 analysis led to: 43|31 (1254|1204) - No improvement.
+[16996/93942 | CPU = 1113.98s | ETA = 5043.33s]: ind_var32_0:delta_imp_venta_var44_1y3 analysis led to: 43|31 (1254|1204) - No improvement.
+[17001/93942 | CPU = 1114.63s | ETA = 5044.44s]: ind_var32_0:delta_num_venta_var44_1y3 analysis led to: 43|31 (1254|1204) - No improvement.
+[17310/93942 | CPU = 1134.7s | ETA = 5023.38s]: ind_var33_0:imp_aport_var13_hace3 analysis led to: 79|99 (1308|1266) | improved slightly! (+62)
+[17438/93942 | CPU = 1143.68s | ETA = 5017.56s]: ind_var33_0:saldo_medio_var44_hace3 analysis led to: 58|76 (1308|1273) | improved slightly! (+7)
+[17597/93942 | CPU = 1154.03s | ETA = 5006.78s]: ind_var33:delta_imp_aport_var13_1y3 analysis led to: 49|58 (1308|1273) - No improvement.
+[17609/93942 | CPU = 1155.12s | ETA = 5007.33s]: ind_var33:delta_num_aport_var13_1y3 analysis led to: 51|63 (1308|1273) - No improvement.
+[17616/93942 | CPU = 1155.81s | ETA = 5007.85s]: ind_var33:imp_aport_var13_hace3 analysis led to: 70|90 (1308|1273) - No improvement.
+[17744/93942 | CPU = 1164.33s | ETA = 4999.98s]: ind_var33:saldo_medio_var44_hace3 analysis led to: 49|68 (1308|1273) - No improvement.
+[17863/93942 | CPU = 1171.52s | ETA = 4989.52s]: ind_var34_0:num_var34_0 is singular.        
+[17902/93942 | CPU = 1174.44s | ETA = 4988.5s]: ind_var34_0:delta_imp_amort_var34_1y3 is singular.
+[18186/93942 | CPU = 1193.59s | ETA = 4972.04s]: ind_var37_cte:saldo_var13_corto analysis led to: 165|138 (1308|1273) - No improvement.
+[18335/93942 | CPU = 1204.07s | ETA = 4965.17s]: ind_var37_cte:saldo_medio_var13_corto_ult1 analysis led to: 158|157 (1308|1273) - No improvement.
+[18336/93942 | CPU = 1204.35s | ETA = 4965.97s]: ind_var37_cte:saldo_medio_var13_corto_ult3 analysis led to: 186|173 (1308|1273) - No improvement.
+[18492/93942 | CPU = 1215.02s | ETA = 4957.45s]: ind_var37_0:saldo_var13_corto analysis led to: 114|114 (1308|1273) - No improvement.
+[18641/93942 | CPU = 1224.89s | ETA = 4947.97s]: ind_var37_0:saldo_medio_var13_corto_ult1 analysis led to: 159|160 (1308|1273) - No improvement.
+[18642/93942 | CPU = 1225.87s | ETA = 4951.61s]: ind_var37_0:saldo_medio_var13_corto_ult3 analysis led to: 187|176 (1308|1273) - No improvement.
+[18798/93942 | CPU = 1236.17s | ETA = 4941.53s]: ind_var39_0:saldo_var13_corto analysis led to: 181|149 (1308|1273) - No improvement.
+[18947/93942 | CPU = 1246.82s | ETA = 4935.1s]: ind_var39_0:saldo_medio_var13_corto_ult1 analysis led to: 204|184 (1308|1273) - No improvement.
+[18948/93942 | CPU = 1246.5s | ETA = 4933.49s]: ind_var39_0:saldo_medio_var13_corto_ult3 analysis led to: 197|181 (1308|1273) - No improvement.
+[19104/93942 | CPU = 1258.01s | ETA = 4928.15s]: ind_var40_0:saldo_var13_corto analysis led to: 142|140 (1308|1273) - No improvement.
+[19253/93942 | CPU = 1268.8s | ETA = 4922.12s]: ind_var40_0:saldo_medio_var13_corto_ult1 analysis led to: 168|167 (1308|1273) - No improvement.
+[19254/93942 | CPU = 1269.41s | ETA = 4924.14s]: ind_var40_0:saldo_medio_var13_corto_ult3 analysis led to: 193|176 (1308|1273) - No improvement.
+[19399/93942 | CPU = 1279.06s | ETA = 4914.94s]: ind_var40:num_var40 is singular.                  
+[19410/93942 | CPU = 1281.13s | ETA = 4919.38s]: ind_var40:saldo_var13_corto analysis led to: 254|231 (1308|1273) - No improvement.
+[19444/93942 | CPU = 1284s | ETA = 4919.52s]: ind_var40:delta_imp_venta_var44_1y3 analysis led to: 43|31 (1308|1273) - No improvement.
+[19449/93942 | CPU = 1283.34s | ETA = 4915.4s]: ind_var40:delta_num_venta_var44_1y3 analysis led to: 43|31 (1308|1273) - No improvement.
+[19559/93942 | CPU = 1292.04s | ETA = 4913.63s]: ind_var40:saldo_medio_var13_corto_ult1 analysis led to: 292|277 (1308|1273) - No improvement.
+[19560/93942 | CPU = 1292.62s | ETA = 4915.53s]: ind_var40:saldo_medio_var13_corto_ult3 analysis led to: 160|150 (1308|1273) - No improvement.
+[19716/93942 | CPU = 1302.97s | ETA = 4905.36s]: ind_var41_0:saldo_var13_corto analysis led to: 181|149 (1308|1273) - No improvement.
+[19865/93942 | CPU = 1313.42s | ETA = 4897.77s]: ind_var41_0:saldo_medio_var13_corto_ult1 analysis led to: 204|183 (1308|1273) - No improvement.
+[19866/93942 | CPU = 1313.87s | ETA = 4899.13s]: ind_var41_0:saldo_medio_var13_corto_ult3 analysis led to: 196|180 (1308|1273) - No improvement.
+[20940/93942 | CPU = 1385.95s | ETA = 4831.75s]: num_var1:saldo_var13_corto analysis led to: 208|172 (1309|1274) | improved slightly! (+1)
+[20974/93942 | CPU = 1387.71s | ETA = 4827.8s]: num_var1:delta_imp_venta_var44_1y3 analysis led to: 43|31 (1309|1274) - No improvement.
+[20979/93942 | CPU = 1388.06s | ETA = 4827.54s]: num_var1:delta_num_venta_var44_1y3 analysis led to: 43|31 (1309|1274) - No improvement.
+[21089/93942 | CPU = 1395.66s | ETA = 4821.36s]: num_var1:saldo_medio_var13_corto_ult1 analysis led to: 239|210 (1309|1274) - No improvement.
+[21090/93942 | CPU = 1396.29s | ETA = 4823.25s]: num_var1:saldo_medio_var13_corto_ult3 analysis led to: 211|189 (1309|1274) - No improvement.
+[21126/93942 | CPU = 1398.31s | ETA = 4819.62s]: num_var4:imp_op_var41_comer_ult3 analysis led to: 94|90 (1309|1274) - No improvement.
+[21128/93942 | CPU = 1398.48s | ETA = 4819.62s]: num_var4:imp_op_var41_efect_ult3 analysis led to: 25|23 (1309|1274) - No improvement.
+[21131/93942 | CPU = 1398.76s | ETA = 4819.71s]: num_var4:imp_op_var39_efect_ult3 analysis led to: 25|23 (1309|1274) - No improvement.
+[21246/93942 | CPU = 1406.75s | ETA = 4813.37s]: num_var4:saldo_var13_corto analysis led to: 32|34 (1309|1274) - No improvement.
+[21249/93942 | CPU = 1407.27s | ETA = 4814.28s]: num_var4:saldo_var13 analysis led to: 115|94 (1319|1276) | improved slightly! (+2)
+[21393/93942 | CPU = 1416.57s | ETA = 4803.94s]: num_var4:saldo_medio_var13_corto_hace2 analysis led to: 127|125 (1323|1278) | improved slightly! (+2)
+[21395/93942 | CPU = 1416.66s | ETA = 4803.65s]: num_var4:saldo_medio_var13_corto_ult1 analysis led to: 32|33 (1323|1278) - No improvement.
+[21396/93942 | CPU = 1417.87s | ETA = 4807.47s]: num_var4:saldo_medio_var13_corto_ult3 analysis led to: 64|63 (1323|1278) - No improvement.
+[21552/93942 | CPU = 1430.1s | ETA = 4803.49s]: num_var5_0:saldo_var13_corto analysis led to: 203|163 (1325|1278) - No improvement.
+[21555/93942 | CPU = 1430.62s | ETA = 4804.37s]: num_var5_0:saldo_var13 analysis led to: 171|135 (1325|1278) - No improvement.
+[21701/93942 | CPU = 1441.27s | ETA = 4797.87s]: num_var5_0:saldo_medio_var13_corto_ult1 analysis led to: 230|197 (1325|1278) - No improvement.
+[21702/93942 | CPU = 1441.62s | ETA = 4798.75s]: num_var5_0:saldo_medio_var13_corto_ult3 analysis led to: 204|180 (1325|1278) - No improvement.
+[21858/93942 | CPU = 1451.94s | ETA = 4788.26s]: num_var5:saldo_var13_corto analysis led to: 43|38 (1325|1278) - No improvement.
+[21861/93942 | CPU = 1453.58s | ETA = 4792.79s]: num_var5:saldo_var13 analysis led to: 119|98 (1325|1278) - No improvement.
+[22007/93942 | CPU = 1462.92s | ETA = 4781.89s]: num_var5:saldo_medio_var13_corto_ult1 analysis led to: 39|37 (1325|1278) - No improvement.
+[22008/93942 | CPU = 1462.93s | ETA = 4781.65s]: num_var5:saldo_medio_var13_corto_ult3 analysis led to: 124|117 (1325|1278) - No improvement.
+[22056/93942 | CPU = 1466.79s | ETA = 4780.64s]: num_var6_0:ind_var6_0 is singular.             
+[22206/93942 | CPU = 1476.21s | ETA = 4768.88s]: num_var6_0:imp_aport_var13_hace3 analysis led to: 30|38 (1325|1278) - No improvement.
+[22363/93942 | CPU = 1487.01s | ETA = 4759.6s]: num_var6:ind_var6 is singular.                    
+[22776/93942 | CPU = 1514.86s | ETA = 4733.33s]: num_var8_0:saldo_var13_corto analysis led to: 135|134 (1325|1278) - No improvement.
+[22925/93942 | CPU = 1525.42s | ETA = 4725.44s]: num_var8_0:saldo_medio_var13_corto_ult1 analysis led to: 166|169 (1325|1278) - No improvement.
+[22926/93942 | CPU = 1526.74s | ETA = 4729.27s]: num_var8_0:saldo_medio_var13_corto_ult3 analysis led to: 190|178 (1325|1278) - No improvement.
+[22977/93942 | CPU = 1529.66s | ETA = 4724.38s]: num_var8:ind_var8 is singular.                   
+[23082/93942 | CPU = 1538.02s | ETA = 4721.61s]: num_var8:saldo_var13_corto analysis led to: 135|135 (1325|1278) - No improvement.
+[23231/93942 | CPU = 1548.73s | ETA = 4714.05s]: num_var8:saldo_medio_var13_corto_ult1 analysis led to: 166|170 (1325|1278) - No improvement.
+[23232/93942 | CPU = 1550.14s | ETA = 4718.07s]: num_var8:saldo_medio_var13_corto_ult3 analysis led to: 191|178 (1325|1278) - No improvement.
+[23694/93942 | CPU = 1581.21s | ETA = 4687.96s]: num_var12:saldo_var13_corto analysis led to: 107|109 (1326|1278) - No improvement.
+[23697/93942 | CPU = 1582.11s | ETA = 4689.83s]: num_var12:saldo_var13 analysis led to: 142|113 (1326|1278) - No improvement.
+[23841/93942 | CPU = 1591.14s | ETA = 4678.53s]: num_var12:saldo_medio_var13_corto_hace2 analysis led to: 166|191 (1326|1278) - No improvement.
+[23843/93942 | CPU = 1591.66s | ETA = 4679.53s]: num_var12:saldo_medio_var13_corto_ult1 analysis led to: 129|133 (1326|1278) - No improvement.
+[23844/93942 | CPU = 1593.05s | ETA = 4683.33s]: num_var12:saldo_medio_var13_corto_ult3 analysis led to: 139|135 (1326|1278) - No improvement.
+[24635/93942 | CPU = 1645.64s | ETA = 4629.76s]: num_var13_corto:delta_imp_aport_var13_1y3 analysis led to: 89|69 (1326|1278) - No improvement.
+[24647/93942 | CPU = 1646.66s | ETA = 4629.57s]: num_var13_corto:delta_num_aport_var13_1y3 analysis led to: 89|72 (1326|1278) - No improvement.
+[24759/93942 | CPU = 1653.88s | ETA = 4621.37s]: num_var13_corto:saldo_medio_var13_corto_hace2 analysis led to: 45|30 (1327|1278) - No improvement.
+[24918/93942 | CPU = 1664.89s | ETA = 4611.84s]: num_var13_largo_0:saldo_var13_corto analysis led to: 136|133 (1328|1281) | improved slightly! (+3)
+[24952/93942 | CPU = 1666.96s | ETA = 4608.99s]: num_var13_largo_0:delta_imp_venta_var44_1y3 analysis led to: 43|33 (1328|1281) - No improvement.
+[24957/93942 | CPU = 1667.25s | ETA = 4608.52s]: num_var13_largo_0:delta_num_venta_var44_1y3 analysis led to: 43|33 (1328|1281) - No improvement.
+[25067/93942 | CPU = 1675.12s | ETA = 4602.62s]: num_var13_largo_0:saldo_medio_var13_corto_ult1 analysis led to: 164|159 (1328|1281) - No improvement.
+[25068/93942 | CPU = 1674.89s | ETA = 4601.75s]: num_var13_largo_0:saldo_medio_var13_corto_ult3 analysis led to: 176|161 (1328|1281) - No improvement.
+[25224/93942 | CPU = 1686.52s | ETA = 4594.61s]: num_var13_largo:saldo_var13_corto analysis led to: 138|134 (1328|1281) - No improvement.
+[25373/93942 | CPU = 1696.47s | ETA = 4584.6s]: num_var13_largo:saldo_medio_var13_corto_ult1 analysis led to: 169|164 (1328|1281) - No improvement.
+[25374/93942 | CPU = 1696.83s | ETA = 4585.33s]: num_var13_largo:saldo_medio_var13_corto_ult3 analysis led to: 187|166 (1328|1281) - No improvement.
+[26448/93942 | CPU = 1768.31s | ETA = 4512.63s]: num_var14:saldo_var13_corto analysis led to: 186|151 (1328|1281) - No improvement.
+[26597/93942 | CPU = 1778.27s | ETA = 4502.66s]: num_var14:saldo_medio_var13_corto_ult1 analysis led to: 165|163 (1328|1281) - No improvement.
+[26598/93942 | CPU = 1778.88s | ETA = 4503.99s]: num_var14:saldo_medio_var13_corto_ult3 analysis led to: 187|167 (1328|1281) - No improvement.
+[27275/93942 | CPU = 1823.32s | ETA = 4456.66s]: num_var18_0:ind_var18_0 is singular.              
+[27387/93942 | CPU = 1831.07s | ETA = 4449.8s]: num_var18_0:delta_imp_amort_var18_1y3 is singular.
+[27583/93942 | CPU = 1844.22s | ETA = 4436.82s]: num_var20_0:ind_var20_0 is singular.              
+[27672/93942 | CPU = 1850.08s | ETA = 4430.64s]: num_var20_0:saldo_var13_corto analysis led to: 277|260 (1328|1281) - No improvement.
+[27695/93942 | CPU = 1851.92s | ETA = 4429.83s]: num_var20_0:delta_imp_aport_var13_1y3 analysis led to: 277|259 (1328|1281) - No improvement.
+[27706/93942 | CPU = 1851.87s | ETA = 4427.22s]: num_var20_0:delta_imp_venta_var44_1y3 analysis led to: 43|31 (1328|1281) - No improvement.
+[27707/93942 | CPU = 1851.94s | ETA = 4427.15s]: num_var20_0:delta_num_aport_var13_1y3 analysis led to: 279|264 (1328|1281) - No improvement.
+[27711/93942 | CPU = 1852.22s | ETA = 4426.92s]: num_var20_0:delta_num_venta_var44_1y3 analysis led to: 43|31 (1328|1281) - No improvement.
+[27819/93942 | CPU = 1859.35s | ETA = 4419.48s]: num_var20_0:saldo_medio_var13_corto_hace2 analysis led to: 45|30 (1328|1281) - No improvement.
+[27821/93942 | CPU = 1859.73s | ETA = 4419.93s]: num_var20_0:saldo_medio_var13_corto_ult1 analysis led to: 277|259 (1328|1281) - No improvement.
+[27822/93942 | CPU = 1860.07s | ETA = 4420.52s]: num_var20_0:saldo_medio_var13_corto_ult3 analysis led to: 200|184 (1328|1281) - No improvement.
+[27890/93942 | CPU = 1864.37s | ETA = 4415.39s]: num_var20:ind_var20 is singular.                  
+[27978/93942 | CPU = 1870.04s | ETA = 4409s]: num_var20:saldo_var13_corto analysis led to: 206|186 (1328|1281) - No improvement.
+[28001/93942 | CPU = 1871.7s | ETA = 4407.77s]: num_var20:delta_imp_aport_var13_1y3 analysis led to: 206|185 (1328|1281) - No improvement.
+[28012/93942 | CPU = 1872.69s | ETA = 4407.62s]: num_var20:delta_imp_venta_var44_1y3 analysis led to: 43|31 (1328|1281) - No improvement.
+[28013/93942 | CPU = 1872.77s | ETA = 4407.58s]: num_var20:delta_num_aport_var13_1y3 analysis led to: 208|190 (1328|1281) - No improvement.
+[28017/93942 | CPU = 1873.05s | ETA = 4407.35s]: num_var20:delta_num_venta_var44_1y3 analysis led to: 43|31 (1328|1281) - No improvement.
+[28125/93942 | CPU = 1880.38s | ETA = 4400.39s]: num_var20:saldo_medio_var13_corto_hace2 analysis led to: 206|186 (1328|1281) - No improvement.
+[28127/93942 | CPU = 1880.56s | ETA = 4400.36s]: num_var20:saldo_medio_var13_corto_ult1 analysis led to: 206|185 (1328|1281) - No improvement.
+[28128/93942 | CPU = 1880.64s | ETA = 4400.33s]: num_var20:saldo_medio_var13_corto_ult3 analysis led to: 206|186 (1328|1281) - No improvement.
+[28284/93942 | CPU = 1892.01s | ETA = 4392.08s]: num_var24_0:saldo_var13_corto analysis led to: 119|125 (1329|1281) - No improvement.
+[28287/93942 | CPU = 1892.56s | ETA = 4392.68s]: num_var24_0:saldo_var13 analysis led to: 160|130 (1329|1281) - No improvement.
+[28307/93942 | CPU = 1893.15s | ETA = 4389.62s]: num_var24_0:delta_imp_aport_var13_1y3 analysis led to: 30|20 (1329|1281) - No improvement.
+[28319/93942 | CPU = 1894.1s | ETA = 4389.16s]: num_var24_0:delta_num_aport_var13_1y3 analysis led to: 32|25 (1329|1281) - No improvement.
+[28431/93942 | CPU = 1902.69s | ETA = 4384.2s]: num_var24_0:saldo_medio_var13_corto_hace2 analysis led to: 243|263 (1329|1281) - No improvement.
+[28433/93942 | CPU = 1904.27s | ETA = 4387.4s]: num_var24_0:saldo_medio_var13_corto_ult1 analysis led to: 151|155 (1329|1281) - No improvement.
+[28434/93942 | CPU = 1905.51s | ETA = 4390.03s]: num_var24_0:saldo_medio_var13_corto_ult3 analysis led to: 175|163 (1329|1281) - No improvement.
+[28590/93942 | CPU = 1916.11s | ETA = 4379.92s]: num_var24:saldo_var13_corto analysis led to: 130|129 (1329|1281) - No improvement.
+[28593/93942 | CPU = 1916.64s | ETA = 4380.45s]: num_var24:saldo_var13 analysis led to: 162|130 (1329|1281) - No improvement.
+[28737/93942 | CPU = 1927.66s | ETA = 4373.91s]: num_var24:saldo_medio_var13_corto_hace2 analysis led to: 245|264 (1329|1281) - No improvement.
+[28739/93942 | CPU = 1928.1s | ETA = 4374.47s]: num_var24:saldo_medio_var13_corto_ult1 analysis led to: 154|155 (1329|1281) - No improvement.
+[28740/93942 | CPU = 1929.47s | ETA = 4377.37s]: num_var24:saldo_medio_var13_corto_ult3 analysis led to: 176|164 (1329|1281) - No improvement.
+[28896/93942 | CPU = 1940.35s | ETA = 4367.79s]: num_var26_0:saldo_var13_corto analysis led to: 198|161 (1330|1281) - No improvement.
+[29045/93942 | CPU = 1950.38s | ETA = 4357.85s]: num_var26_0:saldo_medio_var13_corto_ult1 analysis led to: 167|170 (1330|1281) - No improvement.
+[29046/93942 | CPU = 1950.95s | ETA = 4358.92s]: num_var26_0:saldo_medio_var13_corto_ult3 analysis led to: 190|174 (1330|1281) - No improvement.
+[29202/93942 | CPU = 1961.58s | ETA = 4348.76s]: num_var25_0:saldo_var13_corto analysis led to: 198|163 (1330|1281) - No improvement.
+[29351/93942 | CPU = 1972.46s | ETA = 4340.67s]: num_var25_0:saldo_medio_var13_corto_ult1 analysis led to: 174|174 (1330|1281) - No improvement.
+[29352/93942 | CPU = 1973.05s | ETA = 4341.75s]: num_var25_0:saldo_medio_var13_corto_ult3 analysis led to: 196|179 (1330|1281) - No improvement.
+[30732/93942 | CPU = 2065.28s | ETA = 4247.89s]: num_op_var41_hace2:saldo_var13_corto analysis led to: 105|106 (1331|1281) - No improvement.
+[30881/93942 | CPU = 2074.5s | ETA = 4236.27s]: num_op_var41_hace2:saldo_medio_var13_corto_ult1 analysis led to: 120|131 (1331|1281) - No improvement.
+[30882/93942 | CPU = 2075.03s | ETA = 4237.13s]: num_op_var41_hace2:saldo_medio_var13_corto_ult3 analysis led to: 120|117 (1331|1281) - No improvement.
+[31520/93942 | CPU = 2113.53s | ETA = 4185.62s]: num_op_var41_ult3:var15 analysis led to: 63|59 (1331|1281) - No improvement.
+[32744/93942 | CPU = 2185.36s | ETA = 4084.4s]: num_op_var39_ult3:var15 analysis led to: 63|58 (1331|1281) - No improvement.
+[32756/93942 | CPU = 2186.1s | ETA = 4083.48s]: num_op_var39_ult3:imp_op_var41_efect_ult3 analysis led to: 25|34 (1331|1281) - No improvement.
+[32759/93942 | CPU = 2186.31s | ETA = 4083.3s]: num_op_var39_ult3:imp_op_var39_efect_ult3 analysis led to: 25|34 (1331|1281) - No improvement.
+[33485/93942 | CPU = 2230.85s | ETA = 4027.79s]: num_var30:saldo_var12 analysis led to: 172|157 (1418|1363) | improved slightly! (+82)
+[33486/93942 | CPU = 2232.04s | ETA = 4029.74s]: num_var30:saldo_var13_corto analysis led to: 106|92 (1430|1386) | improved slightly! (+23)
+[33489/93942 | CPU = 2232.58s | ETA = 4030.16s]: num_var30:saldo_var13 analysis led to: 157|147 (1472|1430) | improved slightly! (+44)
+[33494/93942 | CPU = 2233.12s | ETA = 4030.2s]: num_var30:saldo_var24 analysis led to: 84|74 (1475|1430) - No improvement.
+[33633/93942 | CPU = 2241.53s | ETA = 4019.41s]: num_var30:saldo_medio_var13_corto_hace2 analysis led to: 91|82 (1484|1441) | improved slightly! (+11)
+[33635/93942 | CPU = 2243s | ETA = 4021.66s]: num_var30:saldo_medio_var13_corto_ult1 analysis led to: 119|102 (1488|1448) | improved slightly! (+7)
+[33636/93942 | CPU = 2243.94s | ETA = 4023.16s]: num_var30:saldo_medio_var13_corto_ult3 analysis led to: 118|100 (1488|1448) - No improvement.
+[35058/93942 | CPU = 2338.29s | ETA = 3927.43s]: num_var33:imp_aport_var13_hace3 analysis led to: 27|35 (1488|1448) - No improvement.
+[35249/93942 | CPU = 2350.82s | ETA = 3914.34s]: num_var34_0:ind_var34_0 is singular.            
+[35344/93942 | CPU = 2356.64s | ETA = 3907.16s]: num_var34_0:delta_imp_amort_var34_1y3 is singular.
+[35510/93942 | CPU = 2367.15s | ETA = 3895.16s]: num_var35:imp_op_var41_efect_ult3 analysis led to: 25|23 (1488|1448) - No improvement.
+[35513/93942 | CPU = 2367.35s | ETA = 3894.96s]: num_var35:imp_op_var39_efect_ult3 analysis led to: 25|23 (1488|1448) - No improvement.
+[35628/93942 | CPU = 2374.79s | ETA = 3886.93s]: num_var35:saldo_var13_corto analysis led to: 32|32 (1488|1448) - No improvement.
+[35631/93942 | CPU = 2376.28s | ETA = 3888.84s]: num_var35:saldo_var13 analysis led to: 60|43 (1488|1448) - No improvement.
+[35775/93942 | CPU = 2385.96s | ETA = 3879.35s]: num_var35:saldo_medio_var13_corto_hace2 analysis led to: 124|125 (1488|1448) - No improvement.
+[35777/93942 | CPU = 2386.35s | ETA = 3879.64s]: num_var35:saldo_medio_var13_corto_ult1 analysis led to: 32|31 (1488|1448) - No improvement.
+[35778/93942 | CPU = 2386.3s | ETA = 3879.38s]: num_var35:saldo_medio_var13_corto_ult3 analysis led to: 64|62 (1488|1448) - No improvement.
+[36240/93942 | CPU = 2417.56s | ETA = 3849.29s]: num_var37_0:saldo_var13_corto analysis led to: 187|157 (1489|1448) - No improvement.
+[36389/93942 | CPU = 2427.43s | ETA = 3839.24s]: num_var37_0:saldo_medio_var13_corto_ult1 analysis led to: 160|164 (1489|1448) - No improvement.
+[36390/93942 | CPU = 2428.02s | ETA = 3839.99s]: num_var37_0:saldo_medio_var13_corto_ult3 analysis led to: 180|171 (1489|1448) - No improvement.
+[36546/93942 | CPU = 2438.12s | ETA = 3829.1s]: num_var39_0:saldo_var13_corto analysis led to: 113|114 (1490|1450) | improved slightly! (+2)
+[36695/93942 | CPU = 2447.62s | ETA = 3818.47s]: num_var39_0:saldo_medio_var13_corto_ult1 analysis led to: 214|191 (1490|1450) - No improvement.
+[36696/93942 | CPU = 2447.89s | ETA = 3818.73s]: num_var39_0:saldo_medio_var13_corto_ult3 analysis led to: 182|173 (1490|1450) - No improvement.
+[37090/93942 | CPU = 2471.04s | ETA = 3787.64s]: num_var40:ind_var40 is singular.                  
+[37158/93942 | CPU = 2475.94s | ETA = 3783.68s]: num_var40:saldo_var13_corto analysis led to: 254|231 (1490|1450) - No improvement.
+[37192/93942 | CPU = 2477.15s | ETA = 3779.8s]: num_var40:delta_imp_venta_var44_1y3 analysis led to: 43|31 (1490|1450) - No improvement.
+[37197/93942 | CPU = 2477.48s | ETA = 3779.46s]: num_var40:delta_num_venta_var44_1y3 analysis led to: 43|31 (1490|1450) - No improvement.
+[37307/93942 | CPU = 2485.28s | ETA = 3772.85s]: num_var40:saldo_medio_var13_corto_ult1 analysis led to: 292|277 (1490|1450) - No improvement.
+[37308/93942 | CPU = 2485.78s | ETA = 3773.44s]: num_var40:saldo_medio_var13_corto_ult3 analysis led to: 160|150 (1490|1450) - No improvement.
+[37464/93942 | CPU = 2494.38s | ETA = 3760.35s]: num_var41_0:saldo_var13_corto analysis led to: 174|148 (1490|1450) - No improvement.
+[37613/93942 | CPU = 2503.26s | ETA = 3748.87s]: num_var41_0:saldo_medio_var13_corto_ult1 analysis led to: 144|151 (1490|1450) - No improvement.
+[37614/93942 | CPU = 2503.71s | ETA = 3749.37s]: num_var41_0:saldo_medio_var13_corto_ult3 analysis led to: 168|154 (1490|1450) - No improvement.
+[38076/93942 | CPU = 2533.67s | ETA = 3717.45s]: num_var42:saldo_var13_corto analysis led to: 75|77 (1490|1450) - No improvement.
+[38079/93942 | CPU = 2533.41s | ETA = 3716.58s]: num_var42:saldo_var13 analysis led to: 97|82 (1490|1450) - No improvement.
+[38223/93942 | CPU = 2542.93s | ETA = 3706.92s]: num_var42:saldo_medio_var13_corto_hace2 analysis led to: 135|159 (1491|1453) | improved slightly! (+3)
+[38225/93942 | CPU = 2543.41s | ETA = 3707.28s]: num_var42:saldo_medio_var13_corto_ult1 analysis led to: 88|90 (1491|1453) - No improvement.
+[38226/93942 | CPU = 2544.76s | ETA = 3709.09s]: num_var42:saldo_medio_var13_corto_ult3 analysis led to: 109|98 (1491|1453) - No improvement.
+[40196/93942 | CPU = 2661.12s | ETA = 3558.18s]: saldo_var12:num_var30 analysis led to: 172|157 (1491|1453) - No improvement.
+[40238/93942 | CPU = 2664.36s | ETA = 3556.01s]: saldo_var12:var36 analysis led to: 49|34 (1514|1464) | improved slightly! (+11)
+[40412/93942 | CPU = 2674.35s | ETA = 3542.46s]: saldo_var13_corto:ind_var1_0 analysis led to: 142|140 (1514|1464) - No improvement.
+[40413/93942 | CPU = 2675.62s | ETA = 3544s]: saldo_var13_corto:ind_var1 analysis led to: 254|230 (1514|1464) - No improvement.
+[40414/93942 | CPU = 2676.16s | ETA = 3544.55s]: saldo_var13_corto:ind_var5_0 analysis led to: 135|135 (1514|1464) - No improvement.
+[40415/93942 | CPU = 2676.23s | ETA = 3544.49s]: saldo_var13_corto:ind_var5 analysis led to: 43|38 (1514|1464) - No improvement.
+[40418/93942 | CPU = 2676.81s | ETA = 3544.79s]: saldo_var13_corto:ind_var8_0 analysis led to: 135|134 (1514|1464) - No improvement.
+[40419/93942 | CPU = 2678.18s | ETA = 3546.45s]: saldo_var13_corto:ind_var8 analysis led to: 135|135 (1514|1464) - No improvement.
+[40420/93942 | CPU = 2678.26s | ETA = 3546.41s]: saldo_var13_corto:ind_var12_0 analysis led to: 60|56 (1514|1464) - No improvement.
+[40421/93942 | CPU = 2678.63s | ETA = 3546.74s]: saldo_var13_corto:ind_var12 analysis led to: 118|113 (1514|1464) - No improvement.
+[40425/93942 | CPU = 2679.45s | ETA = 3547.21s]: saldo_var13_corto:ind_var13_largo_0 analysis led to: 139|134 (1514|1464) - No improvement.
+[40426/93942 | CPU = 2679.88s | ETA = 3547.63s]: saldo_var13_corto:ind_var13_largo analysis led to: 139|134 (1514|1464) - No improvement.
+[40429/93942 | CPU = 2680.18s | ETA = 3547.57s]: saldo_var13_corto:ind_var14_0 analysis led to: 80|67 (1514|1464) - No improvement.
+[40430/93942 | CPU = 2680.68s | ETA = 3548.08s]: saldo_var13_corto:ind_var14 analysis led to: 190|157 (1514|1464) - No improvement.
+[40434/93942 | CPU = 2681.35s | ETA = 3548.35s]: saldo_var13_corto:ind_var19 analysis led to: 217|182 (1514|1464) - No improvement.
+[40435/93942 | CPU = 2681.42s | ETA = 3548.28s]: saldo_var13_corto:ind_var20_0 analysis led to: 277|260 (1514|1464) - No improvement.
+[40436/93942 | CPU = 2681.5s | ETA = 3548.23s]: saldo_var13_corto:ind_var20 analysis led to: 206|186 (1514|1464) - No improvement.
+[40437/93942 | CPU = 2682.82s | ETA = 3549.83s]: saldo_var13_corto:ind_var24_0 analysis led to: 130|128 (1514|1464) - No improvement.
+[40438/93942 | CPU = 2684.1s | ETA = 3551.36s]: saldo_var13_corto:ind_var24 analysis led to: 130|129 (1514|1464) - No improvement.
+[40439/93942 | CPU = 2685.45s | ETA = 3553s]: saldo_var13_corto:ind_var25_cte analysis led to: 195|162 (1514|1464) - No improvement.
+[40440/93942 | CPU = 2685.99s | ETA = 3553.56s]: saldo_var13_corto:ind_var26_0 analysis led to: 197|162 (1514|1464) - No improvement.
+[40441/93942 | CPU = 2687.1s | ETA = 3554.87s]: saldo_var13_corto:ind_var26_cte analysis led to: 135|136 (1514|1464) - No improvement.
+[40442/93942 | CPU = 2688.56s | ETA = 3556.65s]: saldo_var13_corto:ind_var25_0 analysis led to: 197|163 (1514|1464) - No improvement.
+[40444/93942 | CPU = 2688.7s | ETA = 3556.52s]: saldo_var13_corto:ind_var30 analysis led to: 81|68 (1514|1464) - No improvement.
+[40445/93942 | CPU = 2689.98s | ETA = 3558.07s]: saldo_var13_corto:ind_var31_0 analysis led to: 224|184 (1514|1464) - No improvement.
+[40446/93942 | CPU = 2690.46s | ETA = 3558.54s]: saldo_var13_corto:ind_var31 analysis led to: 256|229 (1514|1464) - No improvement.
+[40452/93942 | CPU = 2691.31s | ETA = 3558.74s]: saldo_var13_corto:ind_var37_cte analysis led to: 165|138 (1514|1464) - No improvement.
+[40453/93942 | CPU = 2691.92s | ETA = 3559.39s]: saldo_var13_corto:ind_var37_0 analysis led to: 114|114 (1514|1464) - No improvement.
+[40454/93942 | CPU = 2692.26s | ETA = 3559.69s]: saldo_var13_corto:ind_var39_0 analysis led to: 181|149 (1514|1464) - No improvement.
+[40455/93942 | CPU = 2692.72s | ETA = 3560.14s]: saldo_var13_corto:ind_var40_0 analysis led to: 142|140 (1514|1464) - No improvement.
+[40456/93942 | CPU = 2693.32s | ETA = 3560.78s]: saldo_var13_corto:ind_var40 analysis led to: 254|231 (1514|1464) - No improvement.
+[40457/93942 | CPU = 2693.67s | ETA = 3561.09s]: saldo_var13_corto:ind_var41_0 analysis led to: 181|149 (1514|1464) - No improvement.
+[40461/93942 | CPU = 2694.32s | ETA = 3561.33s]: saldo_var13_corto:num_var1 analysis led to: 208|172 (1514|1464) - No improvement.
+[40462/93942 | CPU = 2694.41s | ETA = 3561.29s]: saldo_var13_corto:num_var4 analysis led to: 32|34 (1514|1464) - No improvement.
+[40463/93942 | CPU = 2695.82s | ETA = 3563s]: saldo_var13_corto:num_var5_0 analysis led to: 203|163 (1514|1464) - No improvement.
+[40464/93942 | CPU = 2695.88s | ETA = 3562.93s]: saldo_var13_corto:num_var5 analysis led to: 43|38 (1514|1464) - No improvement.
+[40467/93942 | CPU = 2696.48s | ETA = 3563.25s]: saldo_var13_corto:num_var8_0 analysis led to: 135|134 (1514|1464) - No improvement.
+[40468/93942 | CPU = 2697.88s | ETA = 3564.95s]: saldo_var13_corto:num_var8 analysis led to: 135|135 (1514|1464) - No improvement.
+[40470/93942 | CPU = 2698.35s | ETA = 3565.26s]: saldo_var13_corto:num_var12 analysis led to: 107|109 (1514|1464) - No improvement.
+[40474/93942 | CPU = 2698.17s | ETA = 3564.41s]: saldo_var13_corto:num_var13_largo_0 analysis led to: 136|133 (1514|1464) - No improvement.
+[40475/93942 | CPU = 2698.83s | ETA = 3565.12s]: saldo_var13_corto:num_var13_largo analysis led to: 138|134 (1514|1464) - No improvement.
+[40479/93942 | CPU = 2699.59s | ETA = 3565.5s]: saldo_var13_corto:num_var14 analysis led to: 186|151 (1514|1464) - No improvement.
+[40483/93942 | CPU = 2699.87s | ETA = 3565.25s]: saldo_var13_corto:num_var20_0 analysis led to: 277|260 (1514|1464) - No improvement.
+[40484/93942 | CPU = 2699.93s | ETA = 3565.19s]: saldo_var13_corto:num_var20 analysis led to: 206|186 (1514|1464) - No improvement.
+[40485/93942 | CPU = 2701.34s | ETA = 3566.9s]: saldo_var13_corto:num_var24_0 analysis led to: 119|125 (1514|1464) - No improvement.
+[40486/93942 | CPU = 2701.68s | ETA = 3567.18s]: saldo_var13_corto:num_var24 analysis led to: 130|129 (1514|1464) - No improvement.
+[40487/93942 | CPU = 2702.3s | ETA = 3567.84s]: saldo_var13_corto:num_var26_0 analysis led to: 198|161 (1514|1464) - No improvement.
+[40488/93942 | CPU = 2702.89s | ETA = 3568.47s]: saldo_var13_corto:num_var25_0 analysis led to: 198|163 (1514|1464) - No improvement.
+[40493/93942 | CPU = 2703.66s | ETA = 3568.71s]: saldo_var13_corto:num_op_var41_hace2 analysis led to: 105|106 (1514|1464) - No improvement.
+[40502/93942 | CPU = 2705.51s | ETA = 3569.76s]: saldo_var13_corto:num_var30 analysis led to: 106|92 (1514|1464) - No improvement.
+[40509/93942 | CPU = 2705.08s | ETA = 3568.1s]: saldo_var13_corto:num_var35 analysis led to: 32|32 (1514|1464) - No improvement.
+[40511/93942 | CPU = 2705.79s | ETA = 3568.74s]: saldo_var13_corto:num_var37_0 analysis led to: 187|157 (1514|1464) - No improvement.
+[40512/93942 | CPU = 2706.19s | ETA = 3569.11s]: saldo_var13_corto:num_var39_0 analysis led to: 113|114 (1514|1464) - No improvement.
+[40514/93942 | CPU = 2707.84s | ETA = 3570.98s]: saldo_var13_corto:num_var40 analysis led to: 254|231 (1514|1464) - No improvement.
+[40515/93942 | CPU = 2708.19s | ETA = 3571.28s]: saldo_var13_corto:num_var41_0 analysis led to: 174|148 (1514|1464) - No improvement.
+[40517/93942 | CPU = 2709.56s | ETA = 3572.77s]: saldo_var13_corto:num_var42 analysis led to: 75|77 (1514|1464) - No improvement.
+[40544/93942 | CPU = 2710.4s | ETA = 3569.71s]: saldo_var13_corto:var36 analysis led to: 37|27 (1514|1464) - No improvement.
+[40547/93942 | CPU = 2711.23s | ETA = 3570.33s]: saldo_var13_corto:delta_imp_aport_var13_1y3 analysis led to: 139|140 (1514|1464) - No improvement.
+[40559/93942 | CPU = 2712.31s | ETA = 3569.9s]: saldo_var13_corto:delta_num_aport_var13_1y3 analysis led to: 139|140 (1514|1464) - No improvement.
+[40591/93942 | CPU = 2713.88s | ETA = 3567.01s]: saldo_var13_corto:ind_var7_recib_ult1 analysis led to: 138|138 (1514|1464) - No improvement.
+[40592/93942 | CPU = 2714.56s | ETA = 3567.74s]: saldo_var13_corto:ind_var10_ult1 analysis led to: 167|137 (1514|1464) - No improvement.
+[40593/93942 | CPU = 2714.82s | ETA = 3567.93s]: saldo_var13_corto:ind_var10cte_ult1 analysis led to: 111|109 (1514|1464) - No improvement.
+[40594/93942 | CPU = 2715.28s | ETA = 3568.38s]: saldo_var13_corto:ind_var9_cte_ult1 analysis led to: 116|110 (1514|1464) - No improvement.
+[40595/93942 | CPU = 2715.74s | ETA = 3568.82s]: saldo_var13_corto:ind_var9_ult1 analysis led to: 118|115 (1514|1464) - No improvement.
+[40596/93942 | CPU = 2716.2s | ETA = 3569.28s]: saldo_var13_corto:ind_var43_emit_ult1 analysis led to: 115|125 (1514|1464) - No improvement.
+[40597/93942 | CPU = 2716.74s | ETA = 3569.84s]: saldo_var13_corto:ind_var43_recib_ult1 analysis led to: 105|106 (1514|1464) - No improvement.
+[40612/93942 | CPU = 2718.03s | ETA = 3569.2s]: saldo_var13_corto:num_var22_ult1 analysis led to: 120|122 (1514|1464) - No improvement.
+[40615/93942 | CPU = 2718.58s | ETA = 3569.47s]: saldo_var13_corto:num_med_var45_ult3 analysis led to: 25|23 (1514|1466) | improved slightly! (+2)
+[40616/93942 | CPU = 2720.07s | ETA = 3571.26s]: saldo_var13_corto:num_meses_var5_ult3 analysis led to: 44|35 (1514|1466) - No improvement.
+[40617/93942 | CPU = 2721.19s | ETA = 3572.58s]: saldo_var13_corto:num_meses_var8_ult3 analysis led to: 135|134 (1514|1466) - No improvement.
+[40618/93942 | CPU = 2722.59s | ETA = 3574.27s]: saldo_var13_corto:num_meses_var12_ult3 analysis led to: 111|111 (1514|1466) - No improvement.
+[40620/93942 | CPU = 2722.19s | ETA = 3573.42s]: saldo_var13_corto:num_meses_var13_largo_ult3 analysis led to: 136|135 (1515|1466) - No improvement.
+[40624/93942 | CPU = 2722.47s | ETA = 3573.18s]: saldo_var13_corto:num_meses_var33_ult3 analysis led to: 25|21 (1515|1466) - No improvement.
+[40625/93942 | CPU = 2722.86s | ETA = 3573.53s]: saldo_var13_corto:num_meses_var39_vig_ult3 analysis led to: 135|125 (1515|1466) - No improvement.
+[40635/93942 | CPU = 2724.91s | ETA = 3574.68s]: saldo_var13_corto:num_op_var41_efect_ult1 analysis led to: 187|150 (1516|1466) - No improvement.
+[40636/93942 | CPU = 2725.48s | ETA = 3575.26s]: saldo_var13_corto:num_op_var41_efect_ult3 analysis led to: 177|143 (1516|1467) | improved slightly! (+1)
+[40637/93942 | CPU = 2726.94s | ETA = 3577.02s]: saldo_var13_corto:num_op_var39_efect_ult1 analysis led to: 186|150 (1516|1467) - No improvement.
+[40638/93942 | CPU = 2728.27s | ETA = 3578.61s]: saldo_var13_corto:num_op_var39_efect_ult3 analysis led to: 177|143 (1516|1467) - No improvement.
+[40656/93942 | CPU = 2729.07s | ETA = 3576.87s]: saldo_var13_corto:num_var45_hace3 analysis led to: 42|34 (1517|1467) - No improvement.
+[40657/93942 | CPU = 2730.23s | ETA = 3578.23s]: saldo_var13_corto:num_var45_ult1 analysis led to: 75|61 (1518|1467) - No improvement.
+[40671/93942 | CPU = 2731.7s | ETA = 3577.99s]: saldo_var13_corto:saldo_medio_var13_corto_hace2 analysis led to: 99|105 (1518|1469) | improved slightly! (+2)
+[41332/93942 | CPU = 2772.44s | ETA = 3528.93s]: saldo_var13:ind_var5_0 analysis led to: 173|137 (1518|1469) - No improvement.
+[41333/93942 | CPU = 2773.82s | ETA = 3530.54s]: saldo_var13:ind_var5 analysis led to: 119|99 (1518|1469) - No improvement.
+[41338/93942 | CPU = 2774.81s | ETA = 3531.04s]: saldo_var13:ind_var12_0 analysis led to: 87|78 (1518|1469) - No improvement.
+[41339/93942 | CPU = 2775.29s | ETA = 3531.5s]: saldo_var13:ind_var12 analysis led to: 142|113 (1518|1469) - No improvement.
+[41343/93942 | CPU = 2776.08s | ETA = 3531.9s]: saldo_var13:ind_var13_largo_0 analysis led to: 136|129 (1518|1469) - No improvement.
+[41344/93942 | CPU = 2775.88s | ETA = 3531.48s]: saldo_var13:ind_var13_largo analysis led to: 136|129 (1518|1469) - No improvement.
+[41347/93942 | CPU = 2776.48s | ETA = 3531.79s]: saldo_var13:ind_var14_0 analysis led to: 97|91 (1518|1469) - No improvement.
+[41355/93942 | CPU = 2777.53s | ETA = 3531.91s]: saldo_var13:ind_var24_0 analysis led to: 160|130 (1518|1469) - No improvement.
+[41356/93942 | CPU = 2778.17s | ETA = 3532.57s]: saldo_var13:ind_var24 analysis led to: 162|130 (1518|1469) - No improvement.
+[41362/93942 | CPU = 2778.49s | ETA = 3532.06s]: saldo_var13:ind_var30 analysis led to: 63|31 (1518|1469) - No improvement.
+[41380/93942 | CPU = 2779.9s | ETA = 3531.1s]: saldo_var13:num_var4 analysis led to: 115|94 (1518|1469) - No improvement.
+[41381/93942 | CPU = 2780.49s | ETA = 3531.7s]: saldo_var13:num_var5_0 analysis led to: 171|135 (1518|1469) - No improvement.
+[41382/93942 | CPU = 2781.95s | ETA = 3533.41s]: saldo_var13:num_var5 analysis led to: 119|98 (1518|1469) - No improvement.
+[41388/93942 | CPU = 2782.75s | ETA = 3533.5s]: saldo_var13:num_var12 analysis led to: 142|113 (1518|1469) - No improvement.
+[41403/93942 | CPU = 2783.27s | ETA = 3531.88s]: saldo_var13:num_var24_0 analysis led to: 160|130 (1518|1469) - No improvement.
+[41404/93942 | CPU = 2783.77s | ETA = 3532.35s]: saldo_var13:num_var24 analysis led to: 162|130 (1518|1469) - No improvement.
+[41420/93942 | CPU = 2786.54s | ETA = 3533.42s]: saldo_var13:num_var30 analysis led to: 157|147 (1518|1469) - No improvement.
+[41427/93942 | CPU = 2788.37s | ETA = 3534.68s]: saldo_var13:num_var35 analysis led to: 60|43 (1518|1469) - No improvement.
+[41435/93942 | CPU = 2788.46s | ETA = 3533.57s]: saldo_var13:num_var42 analysis led to: 97|82 (1518|1469) - No improvement.
+[41462/93942 | CPU = 2791.29s | ETA = 3533.04s]: saldo_var13:var36 analysis led to: 64|47 (1532|1479) | improved slightly! (+10)
+[41514/93942 | CPU = 2794.23s | ETA = 3528.83s]: saldo_var13:ind_var43_emit_ult1 analysis led to: 111|85 (1532|1479) - No improvement.
+[41515/93942 | CPU = 2794.72s | ETA = 3529.3s]: saldo_var13:ind_var43_recib_ult1 analysis led to: 100|71 (1532|1479) - No improvement.
+[41528/93942 | CPU = 2796.2s | ETA = 3529.19s]: saldo_var13:num_var22_hace2 analysis led to: 72|78 (1532|1479) - No improvement.
+[41532/93942 | CPU = 2796.93s | ETA = 3529.5s]: saldo_var13:num_med_var22_ult3 analysis led to: 79|80 (1532|1479) - No improvement.
+[41533/93942 | CPU = 2797.33s | ETA = 3529.86s]: saldo_var13:num_med_var45_ult3 analysis led to: 66|59 (1536|1480) | improved slightly! (+1)
+[41534/93942 | CPU = 2798.34s | ETA = 3530.98s]: saldo_var13:num_meses_var5_ult3 analysis led to: 79|55 (1538|1483) | improved slightly! (+3)
+[41536/93942 | CPU = 2798.98s | ETA = 3531.48s]: saldo_var13:num_meses_var12_ult3 analysis led to: 142|113 (1538|1483) - No improvement.
+[41538/93942 | CPU = 2799.7s | ETA = 3532.07s]: saldo_var13:num_meses_var13_largo_ult3 analysis led to: 180|144 (1538|1483) - No improvement.
+[41573/93942 | CPU = 2802.11s | ETA = 3529.79s]: saldo_var13:num_var45_hace2 analysis led to: 42|28 (1538|1484) | improved slightly! (+1)
+[41574/93942 | CPU = 2802.66s | ETA = 3530.32s]: saldo_var13:num_var45_hace3 analysis led to: 30|20 (1538|1484) - No improvement.
+[41576/93942 | CPU = 2804.11s | ETA = 3531.84s]: saldo_var13:num_var45_ult3 analysis led to: 26|23 (1538|1484) - No improvement.
+[41589/93942 | CPU = 2804.7s | ETA = 3530.61s]: saldo_var13:saldo_medio_var13_corto_hace2 analysis led to: 127|119 (1538|1484) - No improvement.
+[41590/93942 | CPU = 2805.19s | ETA = 3531.07s]: saldo_var13:saldo_medio_var13_corto_hace3 analysis led to: 107|96 (1538|1484) - No improvement.
+[41591/93942 | CPU = 2805.8s | ETA = 3531.69s]: saldo_var13:saldo_medio_var13_corto_ult1 analysis led to: 93|88 (1538|1484) - No improvement.
+[41592/93942 | CPU = 2806.44s | ETA = 3532.34s]: saldo_var13:saldo_medio_var13_corto_ult3 analysis led to: 241|214 (1538|1484) - No improvement.
+[42950/93942 | CPU = 2889.26s | ETA = 3430.25s]: saldo_var24:num_var30 analysis led to: 84|74 (1538|1484) - No improvement.
+[42992/93942 | CPU = 2891.88s | ETA = 3427.18s]: saldo_var24:var36 analysis led to: 31|17 (1538|1484) - No improvement.
+[43762/93942 | CPU = 2937.11s | ETA = 3367.86s]: saldo_var30:imp_op_var39_comer_ult1 analysis led to: 93|91 (1538|1484) - No improvement.
+[43769/93942 | CPU = 2938.01s | ETA = 3367.88s]: saldo_var30:imp_op_var41_comer_ult1 analysis led to: 92|87 (1538|1484) - No improvement.
+[46644/93942 | CPU = 3110.06s | ETA = 3153.66s]: var36:saldo_var12 analysis led to: 49|34 (1538|1484) - No improvement.
+[46645/93942 | CPU = 3110.15s | ETA = 3153.62s]: var36:saldo_var13_corto analysis led to: 37|27 (1538|1484) - No improvement.
+[46648/93942 | CPU = 3111.42s | ETA = 3154.51s]: var36:saldo_var13 analysis led to: 64|47 (1538|1484) - No improvement.
+[46653/93942 | CPU = 3112.25s | ETA = 3154.68s]: var36:saldo_var24 analysis led to: 31|17 (1538|1484) - No improvement.
+[46686/93942 | CPU = 3114.93s | ETA = 3152.97s]: var36:imp_aport_var13_hace3 analysis led to: 31|42 (1538|1484) - No improvement.
+[46789/93942 | CPU = 3121.64s | ETA = 3145.92s]: var36:saldo_medio_var12_ult1 analysis led to: 51|38 (1538|1486) | improved slightly! (+2)
+[46790/93942 | CPU = 3122.09s | ETA = 3146.24s]: var36:saldo_medio_var12_ult3 analysis led to: 52|33 (1540|1488) | improved slightly! (+2)
+[46791/93942 | CPU = 3122.16s | ETA = 3146.18s]: var36:saldo_medio_var13_corto_hace2 analysis led to: 39|34 (1540|1488) - No improvement.
+[46793/93942 | CPU = 3122.28s | ETA = 3146.03s]: var36:saldo_medio_var13_corto_ult1 analysis led to: 37|27 (1540|1488) - No improvement.
+[46794/93942 | CPU = 3123.6s | ETA = 3147.24s]: var36:saldo_medio_var13_corto_ult3 analysis led to: 136|106 (1540|1488) - No improvement.
+[46818/93942 | CPU = 3124.13s | ETA = 3144.55s]: var36:n0 analysis led to: 130|118 (1656|1592) | improved slightly! (+104)
+[46859/93942 | CPU = 3127.36s | ETA = 3142.31s]: delta_imp_amort_var18_1y3:ind_var18_0 is singular.        
+[46908/93942 | CPU = 3130.49s | ETA = 3138.9s]: delta_imp_amort_var18_1y3:num_var18_0 is singular.   
+[47183/93942 | CPU = 3148.81s | ETA = 3120.52s]: delta_imp_amort_var34_1y3:ind_var34_0 is singular.              
+[47240/93942 | CPU = 3153.87s | ETA = 3117.95s]: delta_imp_amort_var34_1y3:num_var34_0 is singular.   
+[47459/93942 | CPU = 3171.34s | ETA = 3106.12s]: delta_imp_aport_var13_1y3:ind_var12 analysis led to: 40|37 (1656|1592) - No improvement.
+[47461/93942 | CPU = 3171.46s | ETA = 3105.97s]: delta_imp_aport_var13_1y3:ind_var13_corto_0 analysis led to: 88|68 (1656|1592) - No improvement.
+[47462/93942 | CPU = 3171.54s | ETA = 3105.92s]: delta_imp_aport_var13_1y3:ind_var13_corto analysis led to: 89|69 (1656|1592) - No improvement.
+[47473/93942 | CPU = 3172.37s | ETA = 3105.28s]: delta_imp_aport_var13_1y3:ind_var20_0 analysis led to: 277|259 (1656|1592) - No improvement.
+[47474/93942 | CPU = 3172.45s | ETA = 3105.23s]: delta_imp_aport_var13_1y3:ind_var20 analysis led to: 206|185 (1656|1592) - No improvement.
+[47475/93942 | CPU = 3172.55s | ETA = 3105.19s]: delta_imp_aport_var13_1y3:ind_var24_0 analysis led to: 30|20 (1656|1592) - No improvement.
+[47488/93942 | CPU = 3173.64s | ETA = 3104.54s]: delta_imp_aport_var13_1y3:ind_var33 analysis led to: 49|58 (1656|1592) - No improvement.
+[47511/93942 | CPU = 3175.43s | ETA = 3103.25s]: delta_imp_aport_var13_1y3:num_var13_corto analysis led to: 89|69 (1656|1592) - No improvement.
+[47521/93942 | CPU = 3175.43s | ETA = 3101.92s]: delta_imp_aport_var13_1y3:num_var20_0 analysis led to: 277|259 (1656|1592) - No improvement.
+[47522/93942 | CPU = 3175.47s | ETA = 3101.84s]: delta_imp_aport_var13_1y3:num_var20 analysis led to: 206|185 (1656|1592) - No improvement.
+[47523/93942 | CPU = 3175.55s | ETA = 3101.78s]: delta_imp_aport_var13_1y3:num_var24_0 analysis led to: 30|20 (1656|1592) - No improvement.
+[47563/93942 | CPU = 3178.83s | ETA = 3099.7s]: delta_imp_aport_var13_1y3:saldo_var13_corto analysis led to: 139|140 (1656|1592) - No improvement.
+[47596/93942 | CPU = 3180.38s | ETA = 3096.86s]: delta_imp_aport_var13_1y3:delta_imp_venta_var44_1y3 analysis led to: 43|31 (1656|1592) - No improvement.
+[47597/93942 | CPU = 3180.4s | ETA = 3096.74s]: delta_imp_aport_var13_1y3:delta_num_aport_var13_1y3 is singular.
+[47601/93942 | CPU = 3180.66s | ETA = 3096.47s]: delta_imp_aport_var13_1y3:delta_num_venta_var44_1y3 analysis led to: 43|31 (1656|1592) - No improvement.
+[47631/93942 | CPU = 3182.75s | ETA = 3094.54s]: delta_imp_aport_var13_1y3:ind_var10cte_ult1 analysis led to: 33|20 (1664|1596) | improved slightly! (+4)
+[47632/93942 | CPU = 3182.87s | ETA = 3094.53s]: delta_imp_aport_var13_1y3:ind_var9_cte_ult1 analysis led to: 42|33 (1668|1602) | improved slightly! (+6)
+[47633/93942 | CPU = 3182.94s | ETA = 3094.47s]: delta_imp_aport_var13_1y3:ind_var9_ult1 analysis led to: 33|31 (1668|1602) - No improvement.
+[47634/93942 | CPU = 3183.02s | ETA = 3094.41s]: delta_imp_aport_var13_1y3:ind_var43_emit_ult1 analysis led to: 65|65 (1683|1618) | improved slightly! (+16)
+[47635/93942 | CPU = 3183.11s | ETA = 3094.37s]: delta_imp_aport_var13_1y3:ind_var43_recib_ult1 analysis led to: 145|148 (1764|1703) | improved slightly! (+85)
+[47662/93942 | CPU = 3184.17s | ETA = 3091.85s]: delta_imp_aport_var13_1y3:num_meses_var33_ult3 analysis led to: 25|20 (1764|1703) - No improvement.
+[47664/93942 | CPU = 3184.47s | ETA = 3091.87s]: delta_imp_aport_var13_1y3:num_meses_var44_ult3 analysis led to: 32|26 (1784|1714) | improved slightly! (+11)
+[47709/93942 | CPU = 3188.24s | ETA = 3089.6s]: delta_imp_aport_var13_1y3:saldo_medio_var13_corto_hace2 analysis led to: 42|30 (1784|1714) - No improvement.
+[47711/93942 | CPU = 3188.72s | ETA = 3089.8s]: delta_imp_aport_var13_1y3:saldo_medio_var13_corto_ult1 analysis led to: 142|141 (1784|1714) - No improvement.
+[47712/93942 | CPU = 3189.81s | ETA = 3090.73s]: delta_imp_aport_var13_1y3:saldo_medio_var13_corto_ult3 analysis led to: 212|207 (1784|1714) - No improvement.
+[47902/93942 | CPU = 3202.01s | ETA = 3077.55s]: delta_imp_aport_var17_1y3:delta_imp_venta_var44_1y3 analysis led to: 43|31 (1784|1714) - No improvement.
+[47904/93942 | CPU = 3202.11s | ETA = 3077.38s]: delta_imp_aport_var17_1y3:delta_num_aport_var17_1y3 is singular.
+[47907/93942 | CPU = 3202.35s | ETA = 3077.21s]: delta_imp_aport_var17_1y3:delta_num_venta_var44_1y3 analysis led to: 43|31 (1784|1714) - No improvement.
+[48211/93942 | CPU = 3222.31s | ETA = 3056.55s]: delta_imp_aport_var33_1y3:delta_num_aport_var33_1y3 is singular.
+[48518/93942 | CPU = 3241.08s | ETA = 3034.4s]: delta_imp_compra_var44_1y3:delta_num_compra_var44_1y3 is singular.
+[48580/93942 | CPU = 3244.63s | ETA = 3029.7s]: delta_imp_compra_var44_1y3:num_meses_var33_ult3 analysis led to: 25|20 (1784|1714) - No improvement.
+[48901/93942 | CPU = 3266.05s | ETA = 3008.25s]: delta_imp_reemb_var13_1y3:num_reemb_var13_ult1 is singular.      
+[49453/93942 | CPU = 3304.2s | ETA = 2972.53s]: delta_imp_reemb_var33_1y3:imp_reemb_var33_ult1 is singular.      
+[49516/93942 | CPU = 3308.88s | ETA = 2968.75s]: delta_imp_reemb_var33_1y3:num_reemb_var33_ult1 is singular.  
+[49746/93942 | CPU = 3324.8s | ETA = 2953.87s]: delta_imp_trasp_var17_in_1y3:imp_aport_var13_hace3 analysis led to: 26|39 (1788|1720) | improved slightly! (+6)
+[50052/93942 | CPU = 3345.07s | ETA = 2933.25s]: delta_imp_trasp_var17_out_1y3:imp_aport_var13_hace3 analysis led to: 26|31 (1792|1720) - No improvement.
+[50135/93942 | CPU = 3351.68s | ETA = 2928.64s]: delta_imp_trasp_var17_out_1y3:num_trasp_var17_out_ult1 is singular.
+[50358/93942 | CPU = 3366.39s | ETA = 2913.55s]: delta_imp_trasp_var33_in_1y3:imp_aport_var13_hace3 analysis led to: 27|43 (1792|1720) - No improvement.
+[50750/93942 | CPU = 3393.19s | ETA = 2887.86s]: delta_imp_trasp_var33_out_1y3:num_trasp_var33_out_ult1 is singular. 
+[50817/93942 | CPU = 3397.43s | ETA = 2883.17s]: delta_imp_venta_var44_1y3:ind_var1 analysis led to: 43|31 (1792|1720) - No improvement.
+[50829/93942 | CPU = 3398.31s | ETA = 2882.44s]: delta_imp_venta_var44_1y3:ind_var13_largo_0 analysis led to: 43|31 (1792|1720) - No improvement.
+[50830/93942 | CPU = 3398.41s | ETA = 2882.39s]: delta_imp_venta_var44_1y3:ind_var13_largo analysis led to: 43|31 (1792|1720) - No improvement.
+[50835/93942 | CPU = 3398.95s | ETA = 2882.24s]: delta_imp_venta_var44_1y3:ind_var17_0 analysis led to: 43|31 (1792|1720) - No improvement.
+[50836/93942 | CPU = 3399s | ETA = 2882.15s]: delta_imp_venta_var44_1y3:ind_var17 analysis led to: 43|31 (1792|1720) - No improvement.
+[50839/93942 | CPU = 3399.17s | ETA = 2881.93s]: delta_imp_venta_var44_1y3:ind_var20_0 analysis led to: 43|31 (1792|1720) - No improvement.
+[50840/93942 | CPU = 3399.26s | ETA = 2881.89s]: delta_imp_venta_var44_1y3:ind_var20 analysis led to: 43|31 (1792|1720) - No improvement.
+[50851/93942 | CPU = 3399.99s | ETA = 2881.15s]: delta_imp_venta_var44_1y3:ind_var32_cte analysis led to: 43|31 (1792|1720) - No improvement.
+[50852/93942 | CPU = 3399.08s | ETA = 2880.25s]: delta_imp_venta_var44_1y3:ind_var32_0 analysis led to: 43|31 (1792|1720) - No improvement.
+[50860/93942 | CPU = 3399.71s | ETA = 2879.79s]: delta_imp_venta_var44_1y3:ind_var40 analysis led to: 43|31 (1792|1720) - No improvement.
+[50865/93942 | CPU = 3400.34s | ETA = 2879.71s]: delta_imp_venta_var44_1y3:num_var1 analysis led to: 43|31 (1792|1720) - No improvement.
+[50878/93942 | CPU = 3401.13s | ETA = 2878.78s]: delta_imp_venta_var44_1y3:num_var13_largo_0 analysis led to: 43|33 (1792|1720) - No improvement.
+[50887/93942 | CPU = 3401.74s | ETA = 2878.18s]: delta_imp_venta_var44_1y3:num_var20_0 analysis led to: 43|31 (1792|1720) - No improvement.
+[50888/93942 | CPU = 3401.84s | ETA = 2878.14s]: delta_imp_venta_var44_1y3:num_var20 analysis led to: 43|31 (1792|1720) - No improvement.
+[50918/93942 | CPU = 3404.01s | ETA = 2876.28s]: delta_imp_venta_var44_1y3:num_var40 analysis led to: 43|31 (1792|1720) - No improvement.
+[50952/93942 | CPU = 3405.69s | ETA = 2873.5s]: delta_imp_venta_var44_1y3:delta_imp_aport_var13_1y3 analysis led to: 43|31 (1792|1720) - No improvement.
+[50953/93942 | CPU = 3405.76s | ETA = 2873.44s]: delta_imp_venta_var44_1y3:delta_imp_aport_var17_1y3 analysis led to: 43|31 (1792|1720) - No improvement.
+[50963/93942 | CPU = 3406.77s | ETA = 2873.06s]: delta_imp_venta_var44_1y3:delta_num_aport_var13_1y3 analysis led to: 43|31 (1792|1720) - No improvement.
+[50964/93942 | CPU = 3406.84s | ETA = 2872.99s]: delta_imp_venta_var44_1y3:delta_num_aport_var17_1y3 analysis led to: 43|31 (1792|1720) - No improvement.
+[50967/93942 | CPU = 3407.04s | ETA = 2872.79s]: delta_imp_venta_var44_1y3:delta_num_venta_var44_1y3 is singular.
+[50971/93942 | CPU = 3407.31s | ETA = 2872.53s]: delta_imp_venta_var44_1y3:imp_aport_var13_ult1 analysis led to: 44|32 (1792|1720) - No improvement.
+[50975/93942 | CPU = 3407.55s | ETA = 2872.23s]: delta_imp_venta_var44_1y3:imp_aport_var33_ult1 analysis led to: 43|34 (1792|1720) - No improvement.
+[51024/93942 | CPU = 3410.15s | ETA = 2868.39s]: delta_imp_venta_var44_1y3:num_meses_var13_largo_ult3 analysis led to: 43|31 (1792|1720) - No improvement.
+[51026/93942 | CPU = 3410.25s | ETA = 2868.23s]: delta_imp_venta_var44_1y3:num_meses_var17_ult3 analysis led to: 43|31 (1792|1720) - No improvement.
+[51131/93942 | CPU = 3416.49s | ETA = 2860.56s]: delta_num_aport_var13_1y3:ind_var12 analysis led to: 42|42 (1792|1720) - No improvement.
+[51133/93942 | CPU = 3416.62s | ETA = 2860.43s]: delta_num_aport_var13_1y3:ind_var13_corto_0 analysis led to: 88|70 (1792|1720) - No improvement.
+[51134/93942 | CPU = 3416.71s | ETA = 2860.38s]: delta_num_aport_var13_1y3:ind_var13_corto analysis led to: 89|72 (1792|1720) - No improvement.
+[51145/93942 | CPU = 3417.51s | ETA = 2859.7s]: delta_num_aport_var13_1y3:ind_var20_0 analysis led to: 279|264 (1792|1720) - No improvement.
+[51146/93942 | CPU = 3417.62s | ETA = 2859.66s]: delta_num_aport_var13_1y3:ind_var20 analysis led to: 208|190 (1792|1720) - No improvement.
+[51147/93942 | CPU = 3417.67s | ETA = 2859.59s]: delta_num_aport_var13_1y3:ind_var24_0 analysis led to: 32|25 (1792|1720) - No improvement.
+[51160/93942 | CPU = 3417.63s | ETA = 2857.96s]: delta_num_aport_var13_1y3:ind_var33 analysis led to: 51|63 (1792|1720) - No improvement.
+[51183/93942 | CPU = 3419.38s | ETA = 2856.6s]: delta_num_aport_var13_1y3:num_var13_corto analysis led to: 89|72 (1792|1720) - No improvement.
+[51193/93942 | CPU = 3419.97s | ETA = 2855.87s]: delta_num_aport_var13_1y3:num_var20_0 analysis led to: 279|264 (1792|1720) - No improvement.
+[51194/93942 | CPU = 3420.04s | ETA = 2855.8s]: delta_num_aport_var13_1y3:num_var20 analysis led to: 208|190 (1792|1720) - No improvement.
+[51195/93942 | CPU = 3420.13s | ETA = 2855.75s]: delta_num_aport_var13_1y3:num_var24_0 analysis led to: 32|25 (1792|1720) - No improvement.
+[51235/93942 | CPU = 3423.14s | ETA = 2853.36s]: delta_num_aport_var13_1y3:saldo_var13_corto analysis led to: 139|140 (1792|1720) - No improvement.
+[51258/93942 | CPU = 3423.84s | ETA = 2851.13s]: delta_num_aport_var13_1y3:delta_imp_aport_var13_1y3 is singular.
+[51269/93942 | CPU = 3424.56s | ETA = 2850.39s]: delta_num_aport_var13_1y3:delta_imp_venta_var44_1y3 analysis led to: 43|31 (1792|1720) - No improvement.
+[51273/93942 | CPU = 3424.94s | ETA = 2850.21s]: delta_num_aport_var13_1y3:delta_num_venta_var44_1y3 analysis led to: 43|31 (1792|1720) - No improvement.
+[51302/93942 | CPU = 3427.02s | ETA = 2848.39s]: delta_num_aport_var13_1y3:ind_var10_ult1 analysis led to: 26|22 (1792|1720) - No improvement.
+[51303/93942 | CPU = 3427.1s | ETA = 2848.34s]: delta_num_aport_var13_1y3:ind_var10cte_ult1 analysis led to: 33|24 (1792|1720) - No improvement.
+[51304/93942 | CPU = 3427.17s | ETA = 2848.27s]: delta_num_aport_var13_1y3:ind_var9_cte_ult1 analysis led to: 42|37 (1792|1720) - No improvement.
+[51305/93942 | CPU = 3427.27s | ETA = 2848.23s]: delta_num_aport_var13_1y3:ind_var9_ult1 analysis led to: 35|35 (1792|1720) - No improvement.
+[51306/93942 | CPU = 3427.33s | ETA = 2848.16s]: delta_num_aport_var13_1y3:ind_var43_emit_ult1 analysis led to: 67|68 (1792|1720) - No improvement.
+[51307/93942 | CPU = 3427.4s | ETA = 2848.1s]: delta_num_aport_var13_1y3:ind_var43_recib_ult1 analysis led to: 146|151 (1792|1720) - No improvement.
+[51334/93942 | CPU = 3428.39s | ETA = 2845.61s]: delta_num_aport_var13_1y3:num_meses_var33_ult3 analysis led to: 27|25 (1792|1720) - No improvement.
+[51336/93942 | CPU = 3428.66s | ETA = 2845.6s]: delta_num_aport_var13_1y3:num_meses_var44_ult3 analysis led to: 34|31 (1792|1720) - No improvement.
+[51381/93942 | CPU = 3431.86s | ETA = 2842.75s]: delta_num_aport_var13_1y3:saldo_medio_var13_corto_hace2 analysis led to: 42|30 (1792|1720) - No improvement.
+[51383/93942 | CPU = 3432.4s | ETA = 2842.95s]: delta_num_aport_var13_1y3:saldo_medio_var13_corto_ult1 analysis led to: 142|141 (1792|1720) - No improvement.
+[51384/93942 | CPU = 3432.94s | ETA = 2843.28s]: delta_num_aport_var13_1y3:saldo_medio_var13_corto_ult3 analysis led to: 212|207 (1792|1720) - No improvement.
+[51565/93942 | CPU = 3443.96s | ETA = 2830.3s]: delta_num_aport_var17_1y3:delta_imp_aport_var17_1y3 is singular. 
+[51575/93942 | CPU = 3443.64s | ETA = 2828.83s]: delta_num_aport_var17_1y3:delta_imp_venta_var44_1y3 analysis led to: 43|31 (1792|1720) - No improvement.
+[51579/93942 | CPU = 3443.91s | ETA = 2828.56s]: delta_num_aport_var17_1y3:delta_num_venta_var44_1y3 analysis led to: 43|31 (1792|1720) - No improvement.
+[51872/93942 | CPU = 3463s | ETA = 2808.61s]: delta_num_aport_var33_1y3:delta_imp_aport_var33_1y3 is singular.   
+[52179/93942 | CPU = 3481.75s | ETA = 2786.72s]: delta_num_compra_var44_1y3:delta_imp_compra_var44_1y3 is singular.
+[52252/93942 | CPU = 3486.77s | ETA = 2781.97s]: delta_num_compra_var44_1y3:num_meses_var33_ult3 analysis led to: 26|21 (1792|1720) - No improvement.
+[52347/93942 | CPU = 3491.58s | ETA = 2774.42s]: delta_num_venta_var44_1y3:ind_var1 analysis led to: 43|31 (1792|1720) - No improvement.
+[52359/93942 | CPU = 3492.36s | ETA = 2773.6s]: delta_num_venta_var44_1y3:ind_var13_largo_0 analysis led to: 43|31 (1792|1720) - No improvement.
+[52360/93942 | CPU = 3492.45s | ETA = 2773.55s]: delta_num_venta_var44_1y3:ind_var13_largo analysis led to: 43|31 (1792|1720) - No improvement.
+[52365/93942 | CPU = 3492.86s | ETA = 2773.27s]: delta_num_venta_var44_1y3:ind_var17_0 analysis led to: 43|31 (1792|1720) - No improvement.
+[52366/93942 | CPU = 3492.93s | ETA = 2773.22s]: delta_num_venta_var44_1y3:ind_var17 analysis led to: 43|31 (1792|1720) - No improvement.
+[52369/93942 | CPU = 3493.19s | ETA = 2773.06s]: delta_num_venta_var44_1y3:ind_var20_0 analysis led to: 43|31 (1792|1720) - No improvement.
+[52370/93942 | CPU = 3493.5s | ETA = 2773.19s]: delta_num_venta_var44_1y3:ind_var20 analysis led to: 43|31 (1792|1720) - No improvement.
+[52381/93942 | CPU = 3494.2s | ETA = 2772.42s]: delta_num_venta_var44_1y3:ind_var32_cte analysis led to: 43|31 (1792|1720) - No improvement.
+[52382/93942 | CPU = 3494.3s | ETA = 2772.38s]: delta_num_venta_var44_1y3:ind_var32_0 analysis led to: 43|31 (1792|1720) - No improvement.
+[52390/93942 | CPU = 3494.85s | ETA = 2771.87s]: delta_num_venta_var44_1y3:ind_var40 analysis led to: 43|31 (1792|1720) - No improvement.
+[52395/93942 | CPU = 3495.29s | ETA = 2771.62s]: delta_num_venta_var44_1y3:num_var1 analysis led to: 43|31 (1792|1720) - No improvement.
+[52408/93942 | CPU = 3495.34s | ETA = 2770.1s]: delta_num_venta_var44_1y3:num_var13_largo_0 analysis led to: 43|33 (1792|1720) - No improvement.
+[52417/93942 | CPU = 3495.91s | ETA = 2769.48s]: delta_num_venta_var44_1y3:num_var20_0 analysis led to: 43|31 (1792|1720) - No improvement.
+[52418/93942 | CPU = 3496s | ETA = 2769.43s]: delta_num_venta_var44_1y3:num_var20 analysis led to: 43|31 (1792|1720) - No improvement.
+[52448/93942 | CPU = 3498.27s | ETA = 2767.64s]: delta_num_venta_var44_1y3:num_var40 analysis led to: 43|31 (1792|1720) - No improvement.
+[52482/93942 | CPU = 3499.88s | ETA = 2764.85s]: delta_num_venta_var44_1y3:delta_imp_aport_var13_1y3 analysis led to: 43|31 (1792|1720) - No improvement.
+[52483/93942 | CPU = 3499.93s | ETA = 2764.77s]: delta_num_venta_var44_1y3:delta_imp_aport_var17_1y3 analysis led to: 43|31 (1792|1720) - No improvement.
+[52493/93942 | CPU = 3500.64s | ETA = 2764.14s]: delta_num_venta_var44_1y3:delta_imp_venta_var44_1y3 is singular.
+[52494/93942 | CPU = 3500.98s | ETA = 2764.29s]: delta_num_venta_var44_1y3:delta_num_aport_var13_1y3 analysis led to: 43|31 (1792|1720) - No improvement.
+[52495/93942 | CPU = 3501.05s | ETA = 2764.23s]: delta_num_venta_var44_1y3:delta_num_aport_var17_1y3 analysis led to: 43|31 (1792|1720) - No improvement.
+[52501/93942 | CPU = 3501.37s | ETA = 2763.76s]: delta_num_venta_var44_1y3:imp_aport_var13_ult1 analysis led to: 44|32 (1792|1720) - No improvement.
+[52505/93942 | CPU = 3501.62s | ETA = 2763.48s]: delta_num_venta_var44_1y3:imp_aport_var33_ult1 analysis led to: 43|34 (1792|1720) - No improvement.
+[52554/93942 | CPU = 3504.29s | ETA = 2759.75s]: delta_num_venta_var44_1y3:num_meses_var13_largo_ult3 analysis led to: 43|31 (1792|1720) - No improvement.
+[52556/93942 | CPU = 3504.45s | ETA = 2759.63s]: delta_num_venta_var44_1y3:num_meses_var17_ult3 analysis led to: 43|31 (1792|1720) - No improvement.
+[53268/93942 | CPU = 3553.14s | ETA = 2713.08s]: imp_aport_var13_hace3:ind_var6_0 analysis led to: 30|38 (1792|1720) - No improvement.
+[53296/93942 | CPU = 3555.47s | ETA = 2711.57s]: imp_aport_var13_hace3:ind_var30 analysis led to: 67|84 (1792|1720) - No improvement.
+[53301/93942 | CPU = 3555.88s | ETA = 2711.29s]: imp_aport_var13_hace3:ind_var33_0 analysis led to: 79|99 (1792|1720) - No improvement.
+[53302/93942 | CPU = 3555.96s | ETA = 2711.23s]: imp_aport_var13_hace3:ind_var33 analysis led to: 70|90 (1792|1720) - No improvement.
+[53317/93942 | CPU = 3557.07s | ETA = 2710.32s]: imp_aport_var13_hace3:num_var6_0 analysis led to: 30|38 (1792|1720) - No improvement.
+[53359/93942 | CPU = 3559.09s | ETA = 2706.92s]: imp_aport_var13_hace3:num_var33 analysis led to: 27|35 (1792|1720) - No improvement.
+[53397/93942 | CPU = 3562.06s | ETA = 2704.72s]: imp_aport_var13_hace3:var36 analysis led to: 31|42 (1792|1720) - No improvement.
+[53407/93942 | CPU = 3562.72s | ETA = 2704.05s]: imp_aport_var13_hace3:delta_imp_trasp_var17_in_1y3 analysis led to: 26|39 (1792|1720) - No improvement.
+[53408/93942 | CPU = 3562.8s | ETA = 2703.99s]: imp_aport_var13_hace3:delta_imp_trasp_var17_out_1y3 analysis led to: 26|31 (1792|1720) - No improvement.
+[53409/93942 | CPU = 3562.86s | ETA = 2703.92s]: imp_aport_var13_hace3:delta_imp_trasp_var33_in_1y3 analysis led to: 27|43 (1792|1720) - No improvement.
+[53419/93942 | CPU = 3563.89s | ETA = 2703.52s]: imp_aport_var13_hace3:imp_aport_var13_ult1 analysis led to: 27|38 (1792|1720) - No improvement.
+[53475/93942 | CPU = 3566.55s | ETA = 2698.97s]: imp_aport_var13_hace3:num_meses_var29_ult3 analysis led to: 25|33 (1792|1720) - No improvement.
+[53476/93942 | CPU = 3566.61s | ETA = 2698.9s]: imp_aport_var13_hace3:num_meses_var33_ult3 analysis led to: 46|51 (1792|1720) - No improvement.
+[53477/93942 | CPU = 3567.36s | ETA = 2699.35s]: imp_aport_var13_hace3:num_meses_var39_vig_ult3 analysis led to: 47|62 (1792|1720) - No improvement.
+[53500/93942 | CPU = 3568.7s | ETA = 2697.67s]: imp_aport_var13_hace3:num_trasp_var17_in_ult1 analysis led to: 26|39 (1792|1720) - No improvement.
+[53501/93942 | CPU = 3568.79s | ETA = 2697.62s]: imp_aport_var13_hace3:num_trasp_var17_out_ult1 analysis led to: 26|31 (1792|1720) - No improvement.
+[53502/93942 | CPU = 3568.84s | ETA = 2697.54s]: imp_aport_var13_hace3:num_trasp_var33_in_hace3 analysis led to: 28|38 (1792|1720) - No improvement.
+[53526/93942 | CPU = 3571.01s | ETA = 2696.37s]: imp_aport_var13_hace3:saldo_medio_var13_corto_ult3 analysis led to: 87|92 (1792|1720) - No improvement.
+[53717/93942 | CPU = 3581.36s | ETA = 2681.83s]: imp_aport_var13_ult1:delta_imp_venta_var44_1y3 analysis led to: 44|32 (1792|1720) - No improvement.
+[53722/93942 | CPU = 3581.71s | ETA = 2681.52s]: imp_aport_var13_ult1:delta_num_venta_var44_1y3 analysis led to: 44|32 (1792|1720) - No improvement.
+[53725/93942 | CPU = 3581.94s | ETA = 2681.34s]: imp_aport_var13_ult1:imp_aport_var13_hace3 analysis led to: 27|38 (1792|1720) - No improvement.
+[53782/93942 | CPU = 3585.13s | ETA = 2677.08s]: imp_aport_var13_ult1:num_meses_var33_ult3 analysis led to: 26|21 (1792|1720) - No improvement.
+[54941/93942 | CPU = 3663.94s | ETA = 2600.92s]: imp_aport_var33_ult1:delta_imp_venta_var44_1y3 analysis led to: 43|34 (1792|1720) - No improvement.
+[54946/93942 | CPU = 3664.29s | ETA = 2600.6s]: imp_aport_var33_ult1:delta_num_venta_var44_1y3 analysis led to: 43|34 (1792|1720) - No improvement.
+[56858/93942 | CPU = 3785.75s | ETA = 2469.15s]: imp_reemb_var17_hace3:num_reemb_var17_hace3 is singular.     
+[57384/93942 | CPU = 3822.16s | ETA = 2435.01s]: imp_reemb_var33_ult1:delta_imp_reemb_var33_1y3 is singular. 
+[57472/93942 | CPU = 3828.05s | ETA = 2429.17s]: imp_reemb_var33_ult1:num_reemb_var33_ult1 is singular.     
+[61027/93942 | CPU = 4091.95s | ETA = 2207s]: ind_var7_recib_ult1:saldo_var13_corto analysis led to: 138|138 (1792|1720) - No improvement.
+[61175/93942 | CPU = 4102.23s | ETA = 2197.26s]: ind_var7_recib_ult1:saldo_medio_var13_corto_ult1 analysis led to: 164|164 (1792|1720) - No improvement.
+[61176/93942 | CPU = 4102.7s | ETA = 2197.41s]: ind_var7_recib_ult1:saldo_medio_var13_corto_ult3 analysis led to: 167|157 (1792|1720) - No improvement.
+[61333/93942 | CPU = 4113.76s | ETA = 2187.17s]: ind_var10_ult1:saldo_var13_corto analysis led to: 167|137 (1792|1720) - No improvement.
+[61368/93942 | CPU = 4116.68s | ETA = 2185.13s]: ind_var10_ult1:delta_num_aport_var13_1y3 analysis led to: 26|22 (1792|1720) - No improvement.
+[61481/93942 | CPU = 4123.78s | ETA = 2177.29s]: ind_var10_ult1:saldo_medio_var13_corto_ult1 analysis led to: 158|157 (1792|1720) - No improvement.
+[61482/93942 | CPU = 4124.12s | ETA = 2177.37s]: ind_var10_ult1:saldo_medio_var13_corto_ult3 analysis led to: 186|171 (1792|1720) - No improvement.
+[61639/93942 | CPU = 4135.25s | ETA = 2167.15s]: ind_var10cte_ult1:saldo_var13_corto analysis led to: 111|109 (1792|1720) - No improvement.
+[61662/93942 | CPU = 4137.24s | ETA = 2165.84s]: ind_var10cte_ult1:delta_imp_aport_var13_1y3 analysis led to: 33|20 (1792|1720) - No improvement.
+[61674/93942 | CPU = 4138.26s | ETA = 2165.15s]: ind_var10cte_ult1:delta_num_aport_var13_1y3 analysis led to: 33|24 (1792|1720) - No improvement.
+[61787/93942 | CPU = 4145.57s | ETA = 2157.42s]: ind_var10cte_ult1:saldo_medio_var13_corto_ult1 analysis led to: 137|137 (1792|1720) - No improvement.
+[61788/93942 | CPU = 4145.98s | ETA = 2157.54s]: ind_var10cte_ult1:saldo_medio_var13_corto_ult3 analysis led to: 183|165 (1792|1720) - No improvement.
+[61945/93942 | CPU = 4157.75s | ETA = 2147.64s]: ind_var9_cte_ult1:saldo_var13_corto analysis led to: 116|110 (1792|1720) - No improvement.
+[61968/93942 | CPU = 4158.68s | ETA = 2145.78s]: ind_var9_cte_ult1:delta_imp_aport_var13_1y3 analysis led to: 42|33 (1792|1720) - No improvement.
+[61980/93942 | CPU = 4159.65s | ETA = 2145.06s]: ind_var9_cte_ult1:delta_num_aport_var13_1y3 analysis led to: 42|37 (1792|1720) - No improvement.
+[62093/93942 | CPU = 4167.91s | ETA = 2137.82s]: ind_var9_cte_ult1:saldo_medio_var13_corto_ult1 analysis led to: 157|147 (1792|1720) - No improvement.
+[62094/93942 | CPU = 4169.03s | ETA = 2138.29s]: ind_var9_cte_ult1:saldo_medio_var13_corto_ult3 analysis led to: 175|163 (1792|1720) - No improvement.
+[62251/93942 | CPU = 4180.26s | ETA = 2128.1s]: ind_var9_ult1:saldo_var13_corto analysis led to: 118|115 (1792|1720) - No improvement.
+[62274/93942 | CPU = 4182.21s | ETA = 2126.77s]: ind_var9_ult1:delta_imp_aport_var13_1y3 analysis led to: 33|31 (1792|1720) - No improvement.
+[62286/93942 | CPU = 4182.26s | ETA = 2125.58s]: ind_var9_ult1:delta_num_aport_var13_1y3 analysis led to: 35|35 (1792|1720) - No improvement.
+[62399/93942 | CPU = 4190.21s | ETA = 2118.17s]: ind_var9_ult1:saldo_medio_var13_corto_ult1 analysis led to: 161|153 (1792|1720) - No improvement.
+[62400/93942 | CPU = 4191.53s | ETA = 2118.74s]: ind_var9_ult1:saldo_medio_var13_corto_ult3 analysis led to: 178|169 (1792|1720) - No improvement.
+[62557/93942 | CPU = 4202.98s | ETA = 2108.64s]: ind_var43_emit_ult1:saldo_var13_corto analysis led to: 115|125 (1792|1720) - No improvement.
+[62560/93942 | CPU = 4203.51s | ETA = 2108.61s]: ind_var43_emit_ult1:saldo_var13 analysis led to: 111|85 (1792|1720) - No improvement.
+[62580/93942 | CPU = 4205.4s | ETA = 2107.54s]: ind_var43_emit_ult1:delta_imp_aport_var13_1y3 analysis led to: 65|65 (1792|1720) - No improvement.
+[62592/93942 | CPU = 4205.19s | ETA = 2106.22s]: ind_var43_emit_ult1:delta_num_aport_var13_1y3 analysis led to: 67|68 (1792|1720) - No improvement.
+[62705/93942 | CPU = 4213.28s | ETA = 2098.88s]: ind_var43_emit_ult1:saldo_medio_var13_corto_ult1 analysis led to: 135|145 (1792|1720) - No improvement.
+[62706/93942 | CPU = 4214.68s | ETA = 2099.47s]: ind_var43_emit_ult1:saldo_medio_var13_corto_ult3 analysis led to: 156|158 (1792|1720) - No improvement.
+[62863/93942 | CPU = 4225.89s | ETA = 2089.25s]: ind_var43_recib_ult1:saldo_var13_corto analysis led to: 105|106 (1792|1720) - No improvement.
+[62866/93942 | CPU = 4226.81s | ETA = 2089.4s]: ind_var43_recib_ult1:saldo_var13 analysis led to: 100|71 (1792|1720) - No improvement.
+[62886/93942 | CPU = 4228.02s | ETA = 2087.99s]: ind_var43_recib_ult1:delta_imp_aport_var13_1y3 analysis led to: 145|148 (1792|1720) - No improvement.
+[62898/93942 | CPU = 4229.27s | ETA = 2087.4s]: ind_var43_recib_ult1:delta_num_aport_var13_1y3 analysis led to: 146|151 (1792|1720) - No improvement.
+[63011/93942 | CPU = 4237.05s | ETA = 2079.89s]: ind_var43_recib_ult1:saldo_medio_var13_corto_ult1 analysis led to: 110|108 (1792|1720) - No improvement.
+[63012/93942 | CPU = 4238.44s | ETA = 2080.47s]: ind_var43_recib_ult1:saldo_medio_var13_corto_ult3 analysis led to: 134|125 (1792|1720) - No improvement.
+[66844/93942 | CPU = 4501.97s | ETA = 1825.06s]: num_var22_hace2:saldo_var13 analysis led to: 72|78 (1792|1720) - No improvement.
+[67453/93942 | CPU = 4542.15s | ETA = 1783.72s]: num_var22_ult1:saldo_var13_corto analysis led to: 120|122 (1792|1720) - No improvement.
+[67601/93942 | CPU = 4552.74s | ETA = 1773.99s]: num_var22_ult1:saldo_medio_var13_corto_ult1 analysis led to: 119|122 (1792|1720) - No improvement.
+[67602/93942 | CPU = 4554.21s | ETA = 1774.47s]: num_var22_ult1:saldo_medio_var13_corto_ult3 analysis led to: 141|131 (1792|1720) - No improvement.
+[67905/93942 | CPU = 4571.49s | ETA = 1752.86s]: num_var22_ult3:saldo_medio_var13_corto_hace2 analysis led to: 34|44 (1792|1722) | improved slightly! (+2)
+[67907/93942 | CPU = 4572.67s | ETA = 1753.12s]: num_var22_ult3:saldo_medio_var13_corto_ult1 analysis led to: 56|59 (1792|1722) - No improvement.
+[67908/93942 | CPU = 4574.12s | ETA = 1753.59s]: num_var22_ult3:saldo_medio_var13_corto_ult3 analysis led to: 27|32 (1792|1722) - No improvement.
+[68068/93942 | CPU = 4584.4s | ETA = 1742.62s]: num_med_var22_ult3:saldo_var13 analysis led to: 79|80 (1792|1722) - No improvement.
+[68371/93942 | CPU = 4602.83s | ETA = 1721.48s]: num_med_var45_ult3:saldo_var13_corto analysis led to: 25|23 (1792|1722) - No improvement.
+[68374/93942 | CPU = 4604.07s | ETA = 1721.66s]: num_med_var45_ult3:saldo_var13 analysis led to: 66|59 (1792|1722) - No improvement.
+[68519/93942 | CPU = 4612.15s | ETA = 1711.27s]: num_med_var45_ult3:saldo_medio_var13_corto_ult1 analysis led to: 28|35 (1792|1722) - No improvement.
+[68520/93942 | CPU = 4612.4s | ETA = 1711.27s]: num_med_var45_ult3:saldo_medio_var13_corto_ult3 analysis led to: 32|37 (1792|1722) - No improvement.
+[68677/93942 | CPU = 4622.2s | ETA = 1700.42s]: num_meses_var5_ult3:saldo_var13_corto analysis led to: 44|35 (1792|1722) - No improvement.
+[68680/93942 | CPU = 4623.36s | ETA = 1700.57s]: num_meses_var5_ult3:saldo_var13 analysis led to: 79|55 (1792|1722) - No improvement.
+[68823/93942 | CPU = 4632.18s | ETA = 1690.65s]: num_meses_var5_ult3:saldo_medio_var13_corto_hace2 analysis led to: 104|100 (1806|1727) | improved slightly! (+5)
+[68825/93942 | CPU = 4632.88s | ETA = 1690.72s]: num_meses_var5_ult3:saldo_medio_var13_corto_ult1 analysis led to: 53|42 (1806|1727) - No improvement.
+[68826/93942 | CPU = 4633.84s | ETA = 1690.98s]: num_meses_var5_ult3:saldo_medio_var13_corto_ult3 analysis led to: 56|47 (1806|1727) - No improvement.
+[68983/93942 | CPU = 4645.68s | ETA = 1680.87s]: num_meses_var8_ult3:saldo_var13_corto analysis led to: 135|134 (1806|1727) - No improvement.
+[69131/93942 | CPU = 4656.73s | ETA = 1671.29s]: num_meses_var8_ult3:saldo_medio_var13_corto_ult1 analysis led to: 163|162 (1806|1727) - No improvement.
+[69132/93942 | CPU = 4658.17s | ETA = 1671.72s]: num_meses_var8_ult3:saldo_medio_var13_corto_ult3 analysis led to: 195|178 (1806|1727) - No improvement.
+[69289/93942 | CPU = 4669.54s | ETA = 1661.42s]: num_meses_var12_ult3:saldo_var13_corto analysis led to: 111|111 (1806|1727) - No improvement.
+[69292/93942 | CPU = 4670.35s | ETA = 1661.44s]: num_meses_var12_ult3:saldo_var13 analysis led to: 142|113 (1806|1727) - No improvement.
+[69435/93942 | CPU = 4681.8s | ETA = 1652.44s]: num_meses_var12_ult3:saldo_medio_var13_corto_hace2 analysis led to: 224|255 (1806|1727) - No improvement.
+[69437/93942 | CPU = 4682.24s | ETA = 1652.41s]: num_meses_var12_ult3:saldo_medio_var13_corto_ult1 analysis led to: 132|132 (1806|1727) - No improvement.
+[69438/93942 | CPU = 4683.61s | ETA = 1652.8s]: num_meses_var12_ult3:saldo_medio_var13_corto_ult3 analysis led to: 159|145 (1806|1727) - No improvement.
+[69901/93942 | CPU = 4717.04s | ETA = 1622.33s]: num_meses_var13_largo_ult3:saldo_var13_corto analysis led to: 136|135 (1806|1727) - No improvement.
+[69904/93942 | CPU = 4717.64s | ETA = 1622.26s]: num_meses_var13_largo_ult3:saldo_var13 analysis led to: 180|144 (1806|1727) - No improvement.
+[69935/93942 | CPU = 4719.26s | ETA = 1620.01s]: num_meses_var13_largo_ult3:delta_imp_venta_var44_1y3 analysis led to: 43|31 (1806|1727) - No improvement.
+[69940/93942 | CPU = 4719.7s | ETA = 1619.71s]: num_meses_var13_largo_ult3:delta_num_venta_var44_1y3 analysis led to: 43|31 (1806|1727) - No improvement.
+[70049/93942 | CPU = 4727.63s | ETA = 1612.55s]: num_meses_var13_largo_ult3:saldo_medio_var13_corto_ult1 analysis led to: 167|165 (1806|1727) - No improvement.
+[70050/93942 | CPU = 4728.1s | ETA = 1612.62s]: num_meses_var13_largo_ult3:saldo_medio_var13_corto_ult3 analysis led to: 197|178 (1806|1727) - No improvement.
+[70109/93942 | CPU = 4732.28s | ETA = 1608.7s]: num_meses_var13_medio_ult3:ind_var13_medio_0 is singular.         
+[70547/93942 | CPU = 4762.48s | ETA = 1579.35s]: num_meses_var17_ult3:delta_imp_venta_var44_1y3 analysis led to: 43|31 (1806|1727) - No improvement.
+[70552/93942 | CPU = 4762.83s | ETA = 1579.01s]: num_meses_var17_ult3:delta_num_venta_var44_1y3 analysis led to: 43|31 (1806|1727) - No improvement.
+[70861/93942 | CPU = 4784.32s | ETA = 1558.36s]: num_meses_var29_ult3:imp_aport_var13_hace3 analysis led to: 25|33 (1806|1727) - No improvement.
+[71125/93942 | CPU = 4802.3s | ETA = 1540.59s]: num_meses_var33_ult3:saldo_var13_corto analysis led to: 25|21 (1806|1727) - No improvement.
+[71148/93942 | CPU = 4804.21s | ETA = 1539.15s]: num_meses_var33_ult3:delta_imp_aport_var13_1y3 analysis led to: 25|20 (1806|1727) - No improvement.
+[71151/93942 | CPU = 4804.42s | ETA = 1538.95s]: num_meses_var33_ult3:delta_imp_compra_var44_1y3 analysis led to: 25|20 (1806|1727) - No improvement.
+[71160/93942 | CPU = 4804.3s | ETA = 1538.11s]: num_meses_var33_ult3:delta_num_aport_var13_1y3 analysis led to: 27|25 (1806|1727) - No improvement.
+[71163/93942 | CPU = 4804.52s | ETA = 1537.91s]: num_meses_var33_ult3:delta_num_compra_var44_1y3 analysis led to: 26|21 (1806|1727) - No improvement.
+[71167/93942 | CPU = 4804.85s | ETA = 1537.66s]: num_meses_var33_ult3:imp_aport_var13_hace3 analysis led to: 46|51 (1806|1727) - No improvement.
+[71168/93942 | CPU = 4804.93s | ETA = 1537.59s]: num_meses_var33_ult3:imp_aport_var13_ult1 analysis led to: 26|21 (1806|1727) - No improvement.
+[71271/93942 | CPU = 4811.95s | ETA = 1530.66s]: num_meses_var33_ult3:saldo_medio_var13_corto_hace2 analysis led to: 25|21 (1806|1727) - No improvement.
+[71272/93942 | CPU = 4812.07s | ETA = 1530.61s]: num_meses_var33_ult3:saldo_medio_var13_corto_hace3 analysis led to: 25|20 (1806|1727) - No improvement.
+[71273/93942 | CPU = 4812.11s | ETA = 1530.53s]: num_meses_var33_ult3:saldo_medio_var13_corto_ult1 analysis led to: 25|20 (1806|1727) - No improvement.
+[71274/93942 | CPU = 4812.2s | ETA = 1530.47s]: num_meses_var33_ult3:saldo_medio_var13_corto_ult3 analysis led to: 25|20 (1806|1727) - No improvement.
+[71294/93942 | CPU = 4814.02s | ETA = 1529.27s]: num_meses_var33_ult3:saldo_medio_var44_hace3 analysis led to: 25|28 (1806|1727) - No improvement.
+[71431/93942 | CPU = 4823.17s | ETA = 1519.99s]: num_meses_var39_vig_ult3:saldo_var13_corto analysis led to: 135|125 (1806|1727) - No improvement.
+[71473/93942 | CPU = 4826.62s | ETA = 1517.35s]: num_meses_var39_vig_ult3:imp_aport_var13_hace3 analysis led to: 47|62 (1806|1727) - No improvement.
+[71579/93942 | CPU = 4832.54s | ETA = 1509.8s]: num_meses_var39_vig_ult3:saldo_medio_var13_corto_ult1 analysis led to: 149|145 (1806|1727) - No improvement.
+[71580/93942 | CPU = 4832.94s | ETA = 1509.84s]: num_meses_var39_vig_ult3:saldo_medio_var13_corto_ult3 analysis led to: 150|148 (1806|1727) - No improvement.
+[71760/93942 | CPU = 4844.97s | ETA = 1497.65s]: num_meses_var44_ult3:delta_imp_aport_var13_1y3 analysis led to: 32|26 (1806|1727) - No improvement.
+[71772/93942 | CPU = 4846.35s | ETA = 1497.01s]: num_meses_var44_ult3:delta_num_aport_var13_1y3 analysis led to: 34|31 (1806|1727) - No improvement.
+[74491/93942 | CPU = 5016.2s | ETA = 1309.82s]: num_op_var41_efect_ult1:saldo_var13_corto analysis led to: 187|150 (1806|1727) - No improvement.
+[74639/93942 | CPU = 5027.14s | ETA = 1300.11s]: num_op_var41_efect_ult1:saldo_medio_var13_corto_ult1 analysis led to: 156|151 (1806|1727) - No improvement.
+[74640/93942 | CPU = 5027.52s | ETA = 1300.12s]: num_op_var41_efect_ult1:saldo_medio_var13_corto_ult3 analysis led to: 163|152 (1806|1727) - No improvement.
+[74797/93942 | CPU = 5039.48s | ETA = 1289.9s]: num_op_var41_efect_ult3:saldo_var13_corto analysis led to: 177|143 (1806|1727) - No improvement.
+[74945/93942 | CPU = 5050.21s | ETA = 1280.12s]: num_op_var41_efect_ult3:saldo_medio_var13_corto_ult1 analysis led to: 154|153 (1806|1727) - No improvement.
+[74946/93942 | CPU = 5051.69s | ETA = 1280.41s]: num_op_var41_efect_ult3:saldo_medio_var13_corto_ult3 analysis led to: 169|162 (1806|1727) - No improvement.
+[75103/93942 | CPU = 5063.16s | ETA = 1270.06s]: num_op_var39_efect_ult1:saldo_var13_corto analysis led to: 186|150 (1806|1727) - No improvement.
+[75251/93942 | CPU = 5074s | ETA = 1260.29s]: num_op_var39_efect_ult1:saldo_medio_var13_corto_ult1 analysis led to: 212|184 (1806|1727) - No improvement.
+[75252/93942 | CPU = 5074.45s | ETA = 1260.32s]: num_op_var39_efect_ult1:saldo_medio_var13_corto_ult3 analysis led to: 188|170 (1806|1727) - No improvement.
+[75409/93942 | CPU = 5086.93s | ETA = 1250.2s]: num_op_var39_efect_ult3:saldo_var13_corto analysis led to: 177|143 (1806|1727) - No improvement.
+[75557/93942 | CPU = 5097.69s | ETA = 1240.4s]: num_op_var39_efect_ult3:saldo_medio_var13_corto_ult1 analysis led to: 153|153 (1806|1727) - No improvement.
+[75558/93942 | CPU = 5099.16s | ETA = 1240.68s]: num_op_var39_efect_ult3:saldo_medio_var13_corto_ult3 analysis led to: 169|161 (1806|1727) - No improvement.
+[75742/93942 | CPU = 5111s | ETA = 1228.12s]: num_reemb_var13_ult1:delta_imp_reemb_var13_1y3 is singular.      
+[76074/93942 | CPU = 5133.5s | ETA = 1205.74s]: num_reemb_var17_hace3:imp_reemb_var17_hace3 is singular.     
+[76662/93942 | CPU = 5173.01s | ETA = 1166.02s]: num_reemb_var33_ult1:delta_imp_reemb_var33_1y3 is singular. 
+[76688/93942 | CPU = 5174.1s | ETA = 1164.12s]: num_reemb_var33_ult1:imp_reemb_var33_ult1 is singular.      
+[78511/93942 | CPU = 5295.33s | ETA = 1040.77s]: num_trasp_var17_in_ult1:imp_aport_var13_hace3 analysis led to: 26|39 (1806|1727) - No improvement.
+[78806/93942 | CPU = 5314.8s | ETA = 1020.8s]: num_trasp_var17_out_ult1:delta_imp_trasp_var17_out_1y3 is singular.
+[78817/93942 | CPU = 5315.76s | ETA = 1020.1s]: num_trasp_var17_out_ult1:imp_aport_var13_hace3 analysis led to: 26|31 (1806|1727) - No improvement.
+[79123/93942 | CPU = 5336.2s | ETA = 999.42s]: num_trasp_var33_in_hace3:imp_aport_var13_hace3 analysis led to: 28|38 (1806|1727) - No improvement.
+[79726/93942 | CPU = 5376.78s | ETA = 958.74s]: num_trasp_var33_out_ult1:delta_imp_trasp_var33_out_1y3 is singular.
+[80614/93942 | CPU = 5436.66s | ETA = 898.85s]: num_var45_hace2:saldo_var13 analysis led to: 42|28 (1806|1727) - No improvement.
+[80917/93942 | CPU = 5453.63s | ETA = 877.86s]: num_var45_hace3:saldo_var13_corto analysis led to: 42|34 (1806|1727) - No improvement.
+[80920/93942 | CPU = 5454.44s | ETA = 877.75s]: num_var45_hace3:saldo_var13 analysis led to: 30|20 (1806|1727) - No improvement.
+[81065/93942 | CPU = 5463.26s | ETA = 867.83s]: num_var45_hace3:saldo_medio_var13_corto_ult1 analysis led to: 39|35 (1806|1727) - No improvement.
+[81066/93942 | CPU = 5463.77s | ETA = 867.83s]: num_var45_hace3:saldo_medio_var13_corto_ult3 analysis led to: 42|36 (1806|1727) - No improvement.
+[81223/93942 | CPU = 5473.6s | ETA = 857.13s]: num_var45_ult1:saldo_var13_corto analysis led to: 75|61 (1806|1727) - No improvement.
+[81369/93942 | CPU = 5482.09s | ETA = 847.08s]: num_var45_ult1:saldo_medio_var13_corto_hace2 analysis led to: 52|54 (1807|1728) | improved slightly! (+1)
+[81371/93942 | CPU = 5483.42s | ETA = 847.13s]: num_var45_ult1:saldo_medio_var13_corto_ult1 analysis led to: 77|65 (1807|1728) - No improvement.
+[81372/93942 | CPU = 5484.57s | ETA = 847.23s]: num_var45_ult1:saldo_medio_var13_corto_ult3 analysis led to: 72|66 (1807|1728) - No improvement.
+[81532/93942 | CPU = 5493.66s | ETA = 836.19s]: num_var45_ult3:saldo_var13 analysis led to: 26|23 (1807|1728) - No improvement.
+[81678/93942 | CPU = 5502.81s | ETA = 826.25s]: num_var45_ult3:saldo_medio_var13_corto_ult3 analysis led to: 25|29 (1807|1728) - No improvement.
+[84915/93942 | CPU = 5690.79s | ETA = 604.97s]: saldo_medio_var12_ult1:var36 analysis led to: 51|38 (1807|1728) - No improvement.
+[85221/93942 | CPU = 5708.88s | ETA = 584.21s]: saldo_medio_var12_ult3:var36 analysis led to: 52|33 (1807|1728) - No improvement.
+[85402/93942 | CPU = 5719.52s | ETA = 571.94s]: saldo_medio_var13_corto_hace2:ind_var12_0 analysis led to: 26|16 (1807|1728) - No improvement.
+[85403/93942 | CPU = 5719.93s | ETA = 571.91s]: saldo_medio_var13_corto_hace2:ind_var12 analysis led to: 224|252 (1807|1728) - No improvement.
+[85411/93942 | CPU = 5720.58s | ETA = 571.38s]: saldo_medio_var13_corto_hace2:ind_var14_0 analysis led to: 30|15 (1807|1728) - No improvement.
+[85417/93942 | CPU = 5721.08s | ETA = 570.99s]: saldo_medio_var13_corto_hace2:ind_var20_0 analysis led to: 45|30 (1807|1728) - No improvement.
+[85418/93942 | CPU = 5721.17s | ETA = 570.92s]: saldo_medio_var13_corto_hace2:ind_var20 analysis led to: 206|186 (1807|1728) - No improvement.
+[85419/93942 | CPU = 5722.61s | ETA = 570.99s]: saldo_medio_var13_corto_hace2:ind_var24_0 analysis led to: 244|263 (1807|1728) - No improvement.
+[85420/93942 | CPU = 5723.24s | ETA = 570.98s]: saldo_medio_var13_corto_hace2:ind_var24 analysis led to: 245|264 (1807|1728) - No improvement.
+[85425/93942 | CPU = 5723.47s | ETA = 570.64s]: saldo_medio_var13_corto_hace2:ind_var30_0 analysis led to: 45|31 (1807|1728) - No improvement.
+[85426/93942 | CPU = 5723.54s | ETA = 570.57s]: saldo_medio_var13_corto_hace2:ind_var30 analysis led to: 45|30 (1807|1728) - No improvement.
+[85444/93942 | CPU = 5725.93s | ETA = 569.48s]: saldo_medio_var13_corto_hace2:num_var4 analysis led to: 127|125 (1807|1728) - No improvement.
+[85452/93942 | CPU = 5726.89s | ETA = 568.99s]: saldo_medio_var13_corto_hace2:num_var12 analysis led to: 166|191 (1807|1728) - No improvement.
+[85455/93942 | CPU = 5727.16s | ETA = 568.8s]: saldo_medio_var13_corto_hace2:num_var13_corto analysis led to: 45|30 (1807|1728) - No improvement.
+[85465/93942 | CPU = 5727.12s | ETA = 568.05s]: saldo_medio_var13_corto_hace2:num_var20_0 analysis led to: 45|30 (1807|1728) - No improvement.
+[85466/93942 | CPU = 5727.18s | ETA = 567.99s]: saldo_medio_var13_corto_hace2:num_var20 analysis led to: 206|186 (1807|1728) - No improvement.
+[85467/93942 | CPU = 5728.45s | ETA = 568.04s]: saldo_medio_var13_corto_hace2:num_var24_0 analysis led to: 243|263 (1807|1728) - No improvement.
+[85468/93942 | CPU = 5729.98s | ETA = 568.12s]: saldo_medio_var13_corto_hace2:num_var24 analysis led to: 245|264 (1807|1728) - No improvement.
+[85484/93942 | CPU = 5731.71s | ETA = 567.11s]: saldo_medio_var13_corto_hace2:num_var30 analysis led to: 91|82 (1807|1728) - No improvement.
+[85491/93942 | CPU = 5733.34s | ETA = 566.76s]: saldo_medio_var13_corto_hace2:num_var35 analysis led to: 124|125 (1807|1728) - No improvement.
+[85499/93942 | CPU = 5735.28s | ETA = 566.36s]: saldo_medio_var13_corto_hace2:num_var42 analysis led to: 135|159 (1807|1728) - No improvement.
+[85507/93942 | CPU = 5736.06s | ETA = 565.84s]: saldo_medio_var13_corto_hace2:saldo_var13_corto analysis led to: 99|105 (1807|1728) - No improvement.
+[85510/93942 | CPU = 5735.78s | ETA = 565.6s]: saldo_medio_var13_corto_hace2:saldo_var13 analysis led to: 127|119 (1807|1728) - No improvement.
+[85527/93942 | CPU = 5737.01s | ETA = 564.46s]: saldo_medio_var13_corto_hace2:var36 analysis led to: 39|34 (1807|1728) - No improvement.
+[85530/93942 | CPU = 5737.25s | ETA = 564.27s]: saldo_medio_var13_corto_hace2:delta_imp_aport_var13_1y3 analysis led to: 42|30 (1807|1728) - No improvement.
+[85542/93942 | CPU = 5738.12s | ETA = 563.47s]: saldo_medio_var13_corto_hace2:delta_num_aport_var13_1y3 analysis led to: 42|30 (1807|1728) - No improvement.
+[85596/93942 | CPU = 5741.13s | ETA = 559.79s]: saldo_medio_var13_corto_hace2:num_var22_ult3 analysis led to: 34|44 (1807|1728) - No improvement.
+[85599/93942 | CPU = 5742.37s | ETA = 559.69s]: saldo_medio_var13_corto_hace2:num_meses_var5_ult3 analysis led to: 104|100 (1807|1728) - No improvement.
+[85601/93942 | CPU = 5743.78s | ETA = 559.68s]: saldo_medio_var13_corto_hace2:num_meses_var12_ult3 analysis led to: 224|255 (1807|1728) - No improvement.
+[85607/93942 | CPU = 5744.4s | ETA = 559.29s]: saldo_medio_var13_corto_hace2:num_meses_var33_ult3 analysis led to: 25|21 (1807|1728) - No improvement.
+[85640/93942 | CPU = 5746.56s | ETA = 557.08s]: saldo_medio_var13_corto_hace2:num_var45_ult1 analysis led to: 52|54 (1807|1728) - No improvement.
+[85655/93942 | CPU = 5748.55s | ETA = 556.16s]: saldo_medio_var13_corto_hace2:saldo_medio_var13_corto_ult1 analysis led to: 114|110 (1807|1728) - No improvement.
+[85656/93942 | CPU = 5749.12s | ETA = 556.15s]: saldo_medio_var13_corto_hace2:saldo_medio_var13_corto_ult3 analysis led to: 65|53 (1807|1728) - No improvement.
+[85816/93942 | CPU = 5757.98s | ETA = 545.23s]: saldo_medio_var13_corto_hace3:saldo_var13 analysis led to: 107|96 (1807|1728) - No improvement.
+[85913/93942 | CPU = 5763.79s | ETA = 538.65s]: saldo_medio_var13_corto_hace3:num_meses_var33_ult3 analysis led to: 25|20 (1807|1728) - No improvement.
+[86006/93942 | CPU = 5769.69s | ETA = 532.38s]: saldo_medio_var13_corto_ult1:ind_var1_0 analysis led to: 168|167 (1807|1728) - No improvement.
+[86007/93942 | CPU = 5771.16s | ETA = 532.45s]: saldo_medio_var13_corto_ult1:ind_var1 analysis led to: 292|277 (1807|1728) - No improvement.
+[86008/93942 | CPU = 5771.61s | ETA = 532.42s]: saldo_medio_var13_corto_ult1:ind_var5_0 analysis led to: 164|166 (1807|1728) - No improvement.
+[86009/93942 | CPU = 5771.68s | ETA = 532.35s]: saldo_medio_var13_corto_ult1:ind_var5 analysis led to: 39|37 (1807|1728) - No improvement.
+[86012/93942 | CPU = 5773.32s | ETA = 532.28s]: saldo_medio_var13_corto_ult1:ind_var8_0 analysis led to: 166|169 (1807|1728) - No improvement.
+[86013/93942 | CPU = 5773.92s | ETA = 532.26s]: saldo_medio_var13_corto_ult1:ind_var8 analysis led to: 166|170 (1807|1728) - No improvement.
+[86014/93942 | CPU = 5773.96s | ETA = 532.19s]: saldo_medio_var13_corto_ult1:ind_var12_0 analysis led to: 40|34 (1807|1728) - No improvement.
+[86015/93942 | CPU = 5774.29s | ETA = 532.15s]: saldo_medio_var13_corto_ult1:ind_var12 analysis led to: 132|135 (1807|1728) - No improvement.
+[86019/93942 | CPU = 5776.01s | ETA = 532.01s]: saldo_medio_var13_corto_ult1:ind_var13_largo_0 analysis led to: 167|162 (1807|1728) - No improvement.
+[86020/93942 | CPU = 5777.16s | ETA = 532.05s]: saldo_medio_var13_corto_ult1:ind_var13_largo analysis led to: 167|162 (1807|1728) - No improvement.
+[86023/93942 | CPU = 5777.42s | ETA = 531.85s]: saldo_medio_var13_corto_ult1:ind_var14_0 analysis led to: 49|36 (1807|1728) - No improvement.
+[86024/93942 | CPU = 5777.88s | ETA = 531.82s]: saldo_medio_var13_corto_ult1:ind_var14 analysis led to: 228|199 (1807|1728) - No improvement.
+[86028/93942 | CPU = 5779.58s | ETA = 531.68s]: saldo_medio_var13_corto_ult1:ind_var19 analysis led to: 284|268 (1807|1728) - No improvement.
+[86029/93942 | CPU = 5779.64s | ETA = 531.61s]: saldo_medio_var13_corto_ult1:ind_var20_0 analysis led to: 277|259 (1807|1728) - No improvement.
+[86030/93942 | CPU = 5779.71s | ETA = 531.55s]: saldo_medio_var13_corto_ult1:ind_var20 analysis led to: 206|185 (1807|1728) - No improvement.
+[86031/93942 | CPU = 5781.11s | ETA = 531.6s]: saldo_medio_var13_corto_ult1:ind_var24_0 analysis led to: 151|155 (1807|1728) - No improvement.
+[86032/93942 | CPU = 5781.4s | ETA = 531.56s]: saldo_medio_var13_corto_ult1:ind_var24 analysis led to: 154|155 (1807|1728) - No improvement.
+[86033/93942 | CPU = 5782.92s | ETA = 531.62s]: saldo_medio_var13_corto_ult1:ind_var25_cte analysis led to: 144|145 (1807|1728) - No improvement.
+[86034/93942 | CPU = 5784.43s | ETA = 531.69s]: saldo_medio_var13_corto_ult1:ind_var26_0 analysis led to: 161|159 (1807|1728) - No improvement.
+[86035/93942 | CPU = 5785.73s | ETA = 531.73s]: saldo_medio_var13_corto_ult1:ind_var26_cte analysis led to: 167|169 (1807|1728) - No improvement.
+[86036/93942 | CPU = 5786.18s | ETA = 531.7s]: saldo_medio_var13_corto_ult1:ind_var25_0 analysis led to: 161|159 (1807|1728) - No improvement.
+[86038/93942 | CPU = 5786.29s | ETA = 531.57s]: saldo_medio_var13_corto_ult1:ind_var30 analysis led to: 74|62 (1807|1728) - No improvement.
+[86039/93942 | CPU = 5787.66s | ETA = 531.62s]: saldo_medio_var13_corto_ult1:ind_var31_0 analysis led to: 291|270 (1807|1728) - No improvement.
+[86040/93942 | CPU = 5789.05s | ETA = 531.67s]: saldo_medio_var13_corto_ult1:ind_var31 analysis led to: 293|275 (1807|1728) - No improvement.
+[86046/93942 | CPU = 5789.91s | ETA = 531.31s]: saldo_medio_var13_corto_ult1:ind_var37_cte analysis led to: 158|157 (1807|1728) - No improvement.
+[86047/93942 | CPU = 5789.57s | ETA = 531.21s]: saldo_medio_var13_corto_ult1:ind_var37_0 analysis led to: 159|160 (1807|1728) - No improvement.
+[86048/93942 | CPU = 5789.92s | ETA = 531.16s]: saldo_medio_var13_corto_ult1:ind_var39_0 analysis led to: 204|184 (1807|1728) - No improvement.
+[86049/93942 | CPU = 5791.32s | ETA = 531.22s]: saldo_medio_var13_corto_ult1:ind_var40_0 analysis led to: 168|167 (1807|1728) - No improvement.
+[86050/93942 | CPU = 5792.64s | ETA = 531.27s]: saldo_medio_var13_corto_ult1:ind_var40 analysis led to: 292|277 (1807|1728) - No improvement.
+[86051/93942 | CPU = 5793.15s | ETA = 531.24s]: saldo_medio_var13_corto_ult1:ind_var41_0 analysis led to: 204|183 (1807|1728) - No improvement.
+[86055/93942 | CPU = 5793.13s | ETA = 530.94s]: saldo_medio_var13_corto_ult1:num_var1 analysis led to: 239|210 (1807|1728) - No improvement.
+[86056/93942 | CPU = 5793.16s | ETA = 530.87s]: saldo_medio_var13_corto_ult1:num_var4 analysis led to: 32|33 (1807|1728) - No improvement.
+[86057/93942 | CPU = 5794.5s | ETA = 530.92s]: saldo_medio_var13_corto_ult1:num_var5_0 analysis led to: 230|197 (1807|1728) - No improvement.
+[86058/93942 | CPU = 5794.57s | ETA = 530.86s]: saldo_medio_var13_corto_ult1:num_var5 analysis led to: 39|37 (1807|1728) - No improvement.
+[86061/93942 | CPU = 5796.02s | ETA = 530.77s]: saldo_medio_var13_corto_ult1:num_var8_0 analysis led to: 166|169 (1807|1728) - No improvement.
+[86062/93942 | CPU = 5796.64s | ETA = 530.75s]: saldo_medio_var13_corto_ult1:num_var8 analysis led to: 166|170 (1807|1728) - No improvement.
+[86064/93942 | CPU = 5797.03s | ETA = 530.64s]: saldo_medio_var13_corto_ult1:num_var12 analysis led to: 129|133 (1807|1728) - No improvement.
+[86068/93942 | CPU = 5797.87s | ETA = 530.42s]: saldo_medio_var13_corto_ult1:num_var13_largo_0 analysis led to: 164|159 (1807|1728) - No improvement.
+[86069/93942 | CPU = 5798.49s | ETA = 530.41s]: saldo_medio_var13_corto_ult1:num_var13_largo analysis led to: 169|164 (1807|1728) - No improvement.
+[86073/93942 | CPU = 5799.4s | ETA = 530.19s]: saldo_medio_var13_corto_ult1:num_var14 analysis led to: 165|163 (1807|1728) - No improvement.
+[86077/93942 | CPU = 5799.7s | ETA = 529.93s]: saldo_medio_var13_corto_ult1:num_var20_0 analysis led to: 277|259 (1807|1728) - No improvement.
+[86078/93942 | CPU = 5799.77s | ETA = 529.86s]: saldo_medio_var13_corto_ult1:num_var20 analysis led to: 206|185 (1807|1728) - No improvement.
+[86079/93942 | CPU = 5800.29s | ETA = 529.84s]: saldo_medio_var13_corto_ult1:num_var24_0 analysis led to: 151|155 (1807|1728) - No improvement.
+[86080/93942 | CPU = 5801.52s | ETA = 529.87s]: saldo_medio_var13_corto_ult1:num_var24 analysis led to: 154|155 (1807|1728) - No improvement.
+[86081/93942 | CPU = 5802.14s | ETA = 529.86s]: saldo_medio_var13_corto_ult1:num_var26_0 analysis led to: 167|170 (1807|1728) - No improvement.
+[86082/93942 | CPU = 5802.75s | ETA = 529.84s]: saldo_medio_var13_corto_ult1:num_var25_0 analysis led to: 174|174 (1807|1728) - No improvement.
+[86087/93942 | CPU = 5803.47s | ETA = 529.54s]: saldo_medio_var13_corto_ult1:num_op_var41_hace2 analysis led to: 120|131 (1807|1728) - No improvement.
+[86096/93942 | CPU = 5804.39s | ETA = 528.96s]: saldo_medio_var13_corto_ult1:num_var30 analysis led to: 119|102 (1807|1728) - No improvement.
+[86103/93942 | CPU = 5804.87s | ETA = 528.49s]: saldo_medio_var13_corto_ult1:num_var35 analysis led to: 32|31 (1807|1728) - No improvement.
+[86105/93942 | CPU = 5805.51s | ETA = 528.4s]: saldo_medio_var13_corto_ult1:num_var37_0 analysis led to: 160|164 (1807|1728) - No improvement.
+[86106/93942 | CPU = 5806.17s | ETA = 528.39s]: saldo_medio_var13_corto_ult1:num_var39_0 analysis led to: 214|191 (1807|1728) - No improvement.
+[86108/93942 | CPU = 5807.54s | ETA = 528.36s]: saldo_medio_var13_corto_ult1:num_var40 analysis led to: 292|277 (1807|1728) - No improvement.
+[86109/93942 | CPU = 5808.3s | ETA = 528.36s]: saldo_medio_var13_corto_ult1:num_var41_0 analysis led to: 144|151 (1807|1728) - No improvement.
+[86111/93942 | CPU = 5808.66s | ETA = 528.24s]: saldo_medio_var13_corto_ult1:num_var42 analysis led to: 88|90 (1807|1728) - No improvement.
+[86122/93942 | CPU = 5808.93s | ETA = 527.46s]: saldo_medio_var13_corto_ult1:saldo_var13 analysis led to: 93|88 (1807|1728) - No improvement.
+[86139/93942 | CPU = 5810.16s | ETA = 526.32s]: saldo_medio_var13_corto_ult1:var36 analysis led to: 37|27 (1807|1728) - No improvement.
+[86142/93942 | CPU = 5810.82s | ETA = 526.16s]: saldo_medio_var13_corto_ult1:delta_imp_aport_var13_1y3 analysis led to: 142|141 (1807|1728) - No improvement.
+[86154/93942 | CPU = 5812.19s | ETA = 525.4s]: saldo_medio_var13_corto_ult1:delta_num_aport_var13_1y3 analysis led to: 142|141 (1807|1728) - No improvement.
+[86186/93942 | CPU = 5813.9s | ETA = 523.2s]: saldo_medio_var13_corto_ult1:ind_var7_recib_ult1 analysis led to: 164|164 (1807|1728) - No improvement.
+[86187/93942 | CPU = 5814.31s | ETA = 523.16s]: saldo_medio_var13_corto_ult1:ind_var10_ult1 analysis led to: 158|157 (1807|1728) - No improvement.
+[86188/93942 | CPU = 5814.77s | ETA = 523.13s]: saldo_medio_var13_corto_ult1:ind_var10cte_ult1 analysis led to: 137|137 (1807|1728) - No improvement.
+[86189/93942 | CPU = 5815.43s | ETA = 523.12s]: saldo_medio_var13_corto_ult1:ind_var9_cte_ult1 analysis led to: 157|147 (1807|1728) - No improvement.
+[86190/93942 | CPU = 5815.8s | ETA = 523.08s]: saldo_medio_var13_corto_ult1:ind_var9_ult1 analysis led to: 161|153 (1807|1728) - No improvement.
+[86191/93942 | CPU = 5816.22s | ETA = 523.04s]: saldo_medio_var13_corto_ult1:ind_var43_emit_ult1 analysis led to: 135|145 (1807|1728) - No improvement.
+[86192/93942 | CPU = 5816.66s | ETA = 523.01s]: saldo_medio_var13_corto_ult1:ind_var43_recib_ult1 analysis led to: 110|108 (1807|1728) - No improvement.
+[86207/93942 | CPU = 5817.29s | ETA = 521.96s]: saldo_medio_var13_corto_ult1:num_var22_ult1 analysis led to: 119|122 (1807|1728) - No improvement.
+[86208/93942 | CPU = 5818.76s | ETA = 522.02s]: saldo_medio_var13_corto_ult1:num_var22_ult3 analysis led to: 56|59 (1807|1728) - No improvement.
+[86210/93942 | CPU = 5819.16s | ETA = 521.91s]: saldo_medio_var13_corto_ult1:num_med_var45_ult3 analysis led to: 28|35 (1807|1728) - No improvement.
+[86211/93942 | CPU = 5819.57s | ETA = 521.87s]: saldo_medio_var13_corto_ult1:num_meses_var5_ult3 analysis led to: 53|42 (1807|1728) - No improvement.
+[86212/93942 | CPU = 5820.03s | ETA = 521.84s]: saldo_medio_var13_corto_ult1:num_meses_var8_ult3 analysis led to: 163|162 (1807|1728) - No improvement.
+[86213/93942 | CPU = 5821.08s | ETA = 521.86s]: saldo_medio_var13_corto_ult1:num_meses_var12_ult3 analysis led to: 132|132 (1807|1728) - No improvement.
+[86215/93942 | CPU = 5821.94s | ETA = 521.79s]: saldo_medio_var13_corto_ult1:num_meses_var13_largo_ult3 analysis led to: 167|165 (1807|1728) - No improvement.
+[86219/93942 | CPU = 5822.11s | ETA = 521.51s]: saldo_medio_var13_corto_ult1:num_meses_var33_ult3 analysis led to: 25|20 (1807|1728) - No improvement.
+[86220/93942 | CPU = 5822.51s | ETA = 521.47s]: saldo_medio_var13_corto_ult1:num_meses_var39_vig_ult3 analysis led to: 149|145 (1807|1728) - No improvement.
+[86230/93942 | CPU = 5823.63s | ETA = 520.84s]: saldo_medio_var13_corto_ult1:num_op_var41_efect_ult1 analysis led to: 156|151 (1807|1728) - No improvement.
+[86231/93942 | CPU = 5825.01s | ETA = 520.89s]: saldo_medio_var13_corto_ult1:num_op_var41_efect_ult3 analysis led to: 154|153 (1807|1728) - No improvement.
+[86232/93942 | CPU = 5825.61s | ETA = 520.87s]: saldo_medio_var13_corto_ult1:num_op_var39_efect_ult1 analysis led to: 212|184 (1807|1728) - No improvement.
+[86233/93942 | CPU = 5826.78s | ETA = 520.9s]: saldo_medio_var13_corto_ult1:num_op_var39_efect_ult3 analysis led to: 153|153 (1807|1728) - No improvement.
+[86251/93942 | CPU = 5828.54s | ETA = 519.73s]: saldo_medio_var13_corto_ult1:num_var45_hace3 analysis led to: 39|35 (1807|1728) - No improvement.
+[86252/93942 | CPU = 5829.81s | ETA = 519.77s]: saldo_medio_var13_corto_ult1:num_var45_ult1 analysis led to: 77|65 (1807|1728) - No improvement.
+[86266/93942 | CPU = 5830.32s | ETA = 518.79s]: saldo_medio_var13_corto_ult1:saldo_medio_var13_corto_hace2 analysis led to: 114|110 (1807|1728) - No improvement.
+[86268/93942 | CPU = 5831.02s | ETA = 518.7s]: saldo_medio_var13_corto_ult1:saldo_medio_var13_corto_ult3 analysis led to: 168|164 (1807|1728) - No improvement.
+[86312/93942 | CPU = 5834.54s | ETA = 515.77s]: saldo_medio_var13_corto_ult3:ind_var1_0 analysis led to: 193|176 (1807|1728) - No improvement.
+[86313/93942 | CPU = 5835.1s | ETA = 515.75s]: saldo_medio_var13_corto_ult3:ind_var1 analysis led to: 160|150 (1807|1728) - No improvement.
+[86314/93942 | CPU = 5836.48s | ETA = 515.8s]: saldo_medio_var13_corto_ult3:ind_var5_0 analysis led to: 191|179 (1807|1728) - No improvement.
+[86315/93942 | CPU = 5836.94s | ETA = 515.77s]: saldo_medio_var13_corto_ult3:ind_var5 analysis led to: 124|117 (1807|1728) - No improvement.
+[86318/93942 | CPU = 5838.25s | ETA = 515.66s]: saldo_medio_var13_corto_ult3:ind_var8_0 analysis led to: 190|178 (1807|1728) - No improvement.
+[86319/93942 | CPU = 5839.65s | ETA = 515.71s]: saldo_medio_var13_corto_ult3:ind_var8 analysis led to: 191|178 (1807|1728) - No improvement.
+[86321/93942 | CPU = 5841.06s | ETA = 515.69s]: saldo_medio_var13_corto_ult3:ind_var12 analysis led to: 157|146 (1807|1728) - No improvement.
+[86325/93942 | CPU = 5841.71s | ETA = 515.45s]: saldo_medio_var13_corto_ult3:ind_var13_largo_0 analysis led to: 224|195 (1807|1728) - No improvement.
+[86326/93942 | CPU = 5843.15s | ETA = 515.5s]: saldo_medio_var13_corto_ult3:ind_var13_largo analysis led to: 225|199 (1807|1728) - No improvement.
+[86330/93942 | CPU = 5844.97s | ETA = 515.37s]: saldo_medio_var13_corto_ult3:ind_var14 analysis led to: 231|218 (1807|1728) - No improvement.
+[86334/93942 | CPU = 5845.44s | ETA = 515.12s]: saldo_medio_var13_corto_ult3:ind_var19 analysis led to: 236|217 (1807|1728) - No improvement.
+[86335/93942 | CPU = 5846.16s | ETA = 515.11s]: saldo_medio_var13_corto_ult3:ind_var20_0 analysis led to: 200|184 (1807|1728) - No improvement.
+[86336/93942 | CPU = 5846.23s | ETA = 515.04s]: saldo_medio_var13_corto_ult3:ind_var20 analysis led to: 206|186 (1807|1728) - No improvement.
+[86337/93942 | CPU = 5847.38s | ETA = 515.07s]: saldo_medio_var13_corto_ult3:ind_var24_0 analysis led to: 175|163 (1807|1728) - No improvement.
+[86338/93942 | CPU = 5848.81s | ETA = 515.12s]: saldo_medio_var13_corto_ult3:ind_var24 analysis led to: 176|164 (1807|1728) - No improvement.
+[86339/93942 | CPU = 5849.12s | ETA = 515.07s]: saldo_medio_var13_corto_ult3:ind_var25_cte analysis led to: 194|178 (1807|1728) - No improvement.
+[86340/93942 | CPU = 5850.48s | ETA = 515.12s]: saldo_medio_var13_corto_ult3:ind_var26_0 analysis led to: 194|177 (1807|1728) - No improvement.
+[86341/93942 | CPU = 5851.8s | ETA = 515.16s]: saldo_medio_var13_corto_ult3:ind_var26_cte analysis led to: 194|177 (1807|1728) - No improvement.
+[86342/93942 | CPU = 5853.25s | ETA = 515.22s]: saldo_medio_var13_corto_ult3:ind_var25_0 analysis led to: 194|178 (1807|1728) - No improvement.
+[86343/93942 | CPU = 5852.91s | ETA = 515.11s]: saldo_medio_var13_corto_ult3:ind_var30_0 analysis led to: 200|184 (1807|1728) - No improvement.
+[86344/93942 | CPU = 5853.22s | ETA = 515.07s]: saldo_medio_var13_corto_ult3:ind_var30 analysis led to: 199|171 (1807|1728) - No improvement.
+[86345/93942 | CPU = 5853.77s | ETA = 515.04s]: saldo_medio_var13_corto_ult3:ind_var31_0 analysis led to: 166|153 (1807|1728) - No improvement.
+[86346/93942 | CPU = 5854.31s | ETA = 515.01s]: saldo_medio_var13_corto_ult3:ind_var31 analysis led to: 170|158 (1807|1728) - No improvement.
+[86352/93942 | CPU = 5855.28s | ETA = 514.66s]: saldo_medio_var13_corto_ult3:ind_var37_cte analysis led to: 186|173 (1807|1728) - No improvement.
+[86353/93942 | CPU = 5856.69s | ETA = 514.71s]: saldo_medio_var13_corto_ult3:ind_var37_0 analysis led to: 187|176 (1807|1728) - No improvement.
+[86354/93942 | CPU = 5856.26s | ETA = 514.59s]: saldo_medio_var13_corto_ult3:ind_var39_0 analysis led to: 197|181 (1807|1728) - No improvement.
+[86355/93942 | CPU = 5857.45s | ETA = 514.63s]: saldo_medio_var13_corto_ult3:ind_var40_0 analysis led to: 193|176 (1807|1728) - No improvement.
+[86356/93942 | CPU = 5858.23s | ETA = 514.62s]: saldo_medio_var13_corto_ult3:ind_var40 analysis led to: 160|150 (1807|1728) - No improvement.
+[86357/93942 | CPU = 5858.52s | ETA = 514.57s]: saldo_medio_var13_corto_ult3:ind_var41_0 analysis led to: 196|180 (1807|1728) - No improvement.
+[86361/93942 | CPU = 5859.24s | ETA = 514.34s]: saldo_medio_var13_corto_ult3:num_var1 analysis led to: 211|189 (1807|1728) - No improvement.
+[86362/93942 | CPU = 5860.58s | ETA = 514.38s]: saldo_medio_var13_corto_ult3:num_var4 analysis led to: 64|63 (1807|1728) - No improvement.
+[86363/93942 | CPU = 5860.87s | ETA = 514.34s]: saldo_medio_var13_corto_ult3:num_var5_0 analysis led to: 204|180 (1807|1728) - No improvement.
+[86364/93942 | CPU = 5862.26s | ETA = 514.38s]: saldo_medio_var13_corto_ult3:num_var5 analysis led to: 124|117 (1807|1728) - No improvement.
+[86367/93942 | CPU = 5864.04s | ETA = 514.32s]: saldo_medio_var13_corto_ult3:num_var8_0 analysis led to: 190|178 (1807|1728) - No improvement.
+[86368/93942 | CPU = 5865.12s | ETA = 514.34s]: saldo_medio_var13_corto_ult3:num_var8 analysis led to: 191|178 (1807|1728) - No improvement.
+[86370/93942 | CPU = 5865.62s | ETA = 514.24s]: saldo_medio_var13_corto_ult3:num_var12 analysis led to: 139|135 (1807|1728) - No improvement.
+[86374/93942 | CPU = 5866.36s | ETA = 514s]: saldo_medio_var13_corto_ult3:num_var13_largo_0 analysis led to: 176|161 (1807|1728) - No improvement.
+[86375/93942 | CPU = 5867s | ETA = 513.99s]: saldo_medio_var13_corto_ult3:num_var13_largo analysis led to: 187|166 (1807|1728) - No improvement.
+[86379/93942 | CPU = 5867.85s | ETA = 513.77s]: saldo_medio_var13_corto_ult3:num_var14 analysis led to: 187|167 (1807|1728) - No improvement.
+[86383/93942 | CPU = 5868.49s | ETA = 513.53s]: saldo_medio_var13_corto_ult3:num_var20_0 analysis led to: 200|184 (1807|1728) - No improvement.
+[86384/93942 | CPU = 5868.56s | ETA = 513.46s]: saldo_medio_var13_corto_ult3:num_var20 analysis led to: 206|186 (1807|1728) - No improvement.
+[86385/93942 | CPU = 5869.2s | ETA = 513.44s]: saldo_medio_var13_corto_ult3:num_var24_0 analysis led to: 175|163 (1807|1728) - No improvement.
+[86386/93942 | CPU = 5870.49s | ETA = 513.48s]: saldo_medio_var13_corto_ult3:num_var24 analysis led to: 176|164 (1807|1728) - No improvement.
+[86387/93942 | CPU = 5871.32s | ETA = 513.48s]: saldo_medio_var13_corto_ult3:num_var26_0 analysis led to: 190|174 (1807|1728) - No improvement.
+[86388/93942 | CPU = 5871.78s | ETA = 513.44s]: saldo_medio_var13_corto_ult3:num_var25_0 analysis led to: 196|179 (1807|1728) - No improvement.
+[86393/93942 | CPU = 5872.53s | ETA = 513.14s]: saldo_medio_var13_corto_ult3:num_op_var41_hace2 analysis led to: 120|117 (1807|1728) - No improvement.
+[86402/93942 | CPU = 5873.54s | ETA = 512.56s]: saldo_medio_var13_corto_ult3:num_var30 analysis led to: 118|100 (1807|1728) - No improvement.
+[86409/93942 | CPU = 5875.31s | ETA = 512.2s]: saldo_medio_var13_corto_ult3:num_var35 analysis led to: 64|62 (1807|1728) - No improvement.
+[86411/93942 | CPU = 5875.93s | ETA = 512.11s]: saldo_medio_var13_corto_ult3:num_var37_0 analysis led to: 180|171 (1807|1728) - No improvement.
+[86412/93942 | CPU = 5876.48s | ETA = 512.08s]: saldo_medio_var13_corto_ult3:num_var39_0 analysis led to: 182|173 (1807|1728) - No improvement.
+[86414/93942 | CPU = 5876.37s | ETA = 511.92s]: saldo_medio_var13_corto_ult3:num_var40 analysis led to: 160|150 (1807|1728) - No improvement.
+[86415/93942 | CPU = 5876.69s | ETA = 511.88s]: saldo_medio_var13_corto_ult3:num_var41_0 analysis led to: 168|154 (1807|1728) - No improvement.
+[86417/93942 | CPU = 5877.97s | ETA = 511.84s]: saldo_medio_var13_corto_ult3:num_var42 analysis led to: 109|98 (1807|1728) - No improvement.
+[86428/93942 | CPU = 5879.31s | ETA = 511.14s]: saldo_medio_var13_corto_ult3:saldo_var13 analysis led to: 241|214 (1807|1728) - No improvement.
+[86445/93942 | CPU = 5880.49s | ETA = 509.99s]: saldo_medio_var13_corto_ult3:var36 analysis led to: 136|106 (1807|1728) - No improvement.
+[86448/93942 | CPU = 5882.35s | ETA = 509.93s]: saldo_medio_var13_corto_ult3:delta_imp_aport_var13_1y3 analysis led to: 212|207 (1807|1728) - No improvement.
+[86460/93942 | CPU = 5884.33s | ETA = 509.21s]: saldo_medio_var13_corto_ult3:delta_num_aport_var13_1y3 analysis led to: 212|207 (1807|1728) - No improvement.
+[86467/93942 | CPU = 5884.37s | ETA = 508.7s]: saldo_medio_var13_corto_ult3:imp_aport_var13_hace3 analysis led to: 87|92 (1807|1728) - No improvement.
+[86492/93942 | CPU = 5886.64s | ETA = 507.05s]: saldo_medio_var13_corto_ult3:ind_var7_recib_ult1 analysis led to: 167|157 (1807|1728) - No improvement.
+[86493/93942 | CPU = 5887.08s | ETA = 507.01s]: saldo_medio_var13_corto_ult3:ind_var10_ult1 analysis led to: 186|171 (1807|1728) - No improvement.
+[86494/93942 | CPU = 5887.59s | ETA = 506.98s]: saldo_medio_var13_corto_ult3:ind_var10cte_ult1 analysis led to: 183|165 (1807|1728) - No improvement.
+[86495/93942 | CPU = 5887.98s | ETA = 506.94s]: saldo_medio_var13_corto_ult3:ind_var9_cte_ult1 analysis led to: 175|163 (1807|1728) - No improvement.
+[86496/93942 | CPU = 5889.51s | ETA = 507s]: saldo_medio_var13_corto_ult3:ind_var9_ult1 analysis led to: 178|169 (1807|1728) - No improvement.
+[86497/93942 | CPU = 5890.71s | ETA = 507.03s]: saldo_medio_var13_corto_ult3:ind_var43_emit_ult1 analysis led to: 156|158 (1807|1728) - No improvement.
+[86498/93942 | CPU = 5892.15s | ETA = 507.08s]: saldo_medio_var13_corto_ult3:ind_var43_recib_ult1 analysis led to: 134|125 (1807|1728) - No improvement.
+[86513/93942 | CPU = 5893.62s | ETA = 506.09s]: saldo_medio_var13_corto_ult3:num_var22_ult1 analysis led to: 141|131 (1807|1728) - No improvement.
+[86514/93942 | CPU = 5895.19s | ETA = 506.16s]: saldo_medio_var13_corto_ult3:num_var22_ult3 analysis led to: 27|32 (1807|1728) - No improvement.
+[86516/93942 | CPU = 5895.53s | ETA = 506.04s]: saldo_medio_var13_corto_ult3:num_med_var45_ult3 analysis led to: 32|37 (1807|1728) - No improvement.
+[86517/93942 | CPU = 5896.61s | ETA = 506.05s]: saldo_medio_var13_corto_ult3:num_meses_var5_ult3 analysis led to: 56|47 (1807|1728) - No improvement.
+[86518/93942 | CPU = 5897.07s | ETA = 506.02s]: saldo_medio_var13_corto_ult3:num_meses_var8_ult3 analysis led to: 195|178 (1807|1728) - No improvement.
+[86519/93942 | CPU = 5898.7s | ETA = 506.09s]: saldo_medio_var13_corto_ult3:num_meses_var12_ult3 analysis led to: 159|145 (1807|1728) - No improvement.
+[86521/93942 | CPU = 5899.21s | ETA = 505.98s]: saldo_medio_var13_corto_ult3:num_meses_var13_largo_ult3 analysis led to: 197|178 (1807|1728) - No improvement.
+[86525/93942 | CPU = 5899.46s | ETA = 505.71s]: saldo_medio_var13_corto_ult3:num_meses_var33_ult3 analysis led to: 25|20 (1807|1728) - No improvement.
+[86526/93942 | CPU = 5899.93s | ETA = 505.67s]: saldo_medio_var13_corto_ult3:num_meses_var39_vig_ult3 analysis led to: 150|148 (1807|1728) - No improvement.
+[86536/93942 | CPU = 5900.4s | ETA = 504.97s]: saldo_medio_var13_corto_ult3:num_op_var41_efect_ult1 analysis led to: 163|152 (1807|1728) - No improvement.
+[86537/93942 | CPU = 5901.78s | ETA = 505.02s]: saldo_medio_var13_corto_ult3:num_op_var41_efect_ult3 analysis led to: 169|162 (1807|1728) - No improvement.
+[86538/93942 | CPU = 5903.19s | ETA = 505.06s]: saldo_medio_var13_corto_ult3:num_op_var39_efect_ult1 analysis led to: 188|170 (1807|1728) - No improvement.
+[86539/93942 | CPU = 5903.66s | ETA = 505.03s]: saldo_medio_var13_corto_ult3:num_op_var39_efect_ult3 analysis led to: 169|161 (1807|1728) - No improvement.
+[86557/93942 | CPU = 5905.46s | ETA = 503.85s]: saldo_medio_var13_corto_ult3:num_var45_hace3 analysis led to: 42|36 (1807|1728) - No improvement.
+[86558/93942 | CPU = 5906.77s | ETA = 503.89s]: saldo_medio_var13_corto_ult3:num_var45_ult1 analysis led to: 72|66 (1807|1728) - No improvement.
+[86559/93942 | CPU = 5907.16s | ETA = 503.85s]: saldo_medio_var13_corto_ult3:num_var45_ult3 analysis led to: 25|29 (1807|1728) - No improvement.
+[86572/93942 | CPU = 5907.86s | ETA = 502.94s]: saldo_medio_var13_corto_ult3:saldo_medio_var13_corto_hace2 analysis led to: 65|53 (1807|1728) - No improvement.
+[86574/93942 | CPU = 5908.36s | ETA = 502.84s]: saldo_medio_var13_corto_ult3:saldo_medio_var13_corto_ult1 analysis led to: 168|164 (1807|1728) - No improvement.
+[92469/93942 | CPU = 6296.28s | ETA = 100.3s]: saldo_medio_var44_hace3:ind_var33_0 analysis led to: 58|76 (1807|1728) - No improvement.
+[92470/93942 | CPU = 6296.34s | ETA = 100.23s]: saldo_medio_var44_hace3:ind_var33 analysis led to: 49|68 (1807|1728) - No improvement.
+[92645/93942 | CPU = 6307.39s | ETA = 88.3s]: saldo_medio_var44_hace3:num_meses_var33_ult3 analysis led to: 25|28 (1807|1728) - No improvement.
+[93638/93942 | CPU = 6364.24s | ETA = 20.66s]: n0:var15 analysis led to: 27|35 (1807|1728) - No improvement. 
+[93641/93942 | CPU = 6364.95s | ETA = 20.46s]: n0:imp_op_var39_comer_ult3 analysis led to: 37|31 (1807|1728) - No improvement.
+[93789/93942 | CPU = 6373.35s | ETA = 10.4s]: n0:var36 analysis led to: 130|118 (1807|1728) - No improvement.
