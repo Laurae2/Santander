@@ -4,6 +4,7 @@ library(data.table)
 #library(bit64, pos = .Machine$integer.max) #junk package that won't let use commercially and also won't let unmask functions even when you specify predescence
 library(vtreat)
 library(outliers)
+library(R.utils)
 
 remove(list = ls())
 setwd("C:/Users/Laurae/Documents/Data Science/Santander/") ##set your own working directory
