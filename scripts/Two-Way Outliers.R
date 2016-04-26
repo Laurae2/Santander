@@ -155,61 +155,73 @@ for (i in colnames(train_temp)) {
     #tempCol <- as.data.frame(cbind(c(train_temp[[i]], test_temp[[i]]), c(train_temp[[j]], test_temp[[j]])))
     tempCol <- data.frame(v1 = c(train_temp[[i]], test_temp[[i]]), v2 = c(train_temp[[j]], test_temp[[j]]), check.names = FALSE, stringsAsFactors = FALSE)
     
-    #compute Mahalonobis distance (df, m, sx)
-    tempCol <- mahalanobis(tempCol, colMeans(tempCol), cov(tempCol))
+    #compute Mahalonobis distance (df, m, sx) with near-zero tolerance to avoid unexpected interruptions
+    tryCatch(tempCol <- mahalanobis(tempCol, colMeans(tempCol), cov(tempCol), tol=1e-30))
     
-    #score the data against outliers locally
-    data_scores <- scores(tempCol)
-    scoring_input <- data_scores[TrainRows] #get scores from train set
-    min_allowance <- min(scoring_input) #get the maximum allowed score
-    max_allowance <- max(scoring_input) #get the maximum allowed score
-    
-    #gradient descent the outliers to find local isolated nodes
-    optimized_output <- optim(par = c(min_allowance, max_allowance), optimized_func, method = "L-BFGS-B", target = train_target, scores = scoring_input, min_score = minimal_score, min_node = minimal_node, false_neg = false_negatives, lower = min_allowance, upper = max_allowance, control = list(maxit = 1000, trace = 0))
-    
-    if (!(optimized_output$value == 0)) {
+    if (class(tempCol) == "data.frame") {
       
-      #not pure node?
-      #has no value for us
-      #overwrite print
-      
+      #computation failed, ignore what to do
       MaxChar <- nchar(tempText)
-      
       cat("\r", rep(" ", MaxChar), sep = "")
       
     } else {
       
-      #pure node?
-      #has value for us
+      #successful computation, continue
       
-      #MaxChar <- 0
+      #score the data against outliers locally
+      data_scores <- scores(tempCol)
+      scoring_input <- data_scores[TrainRows] #get scores from train set
+      min_allowance <- min(scoring_input) #get the maximum allowed score
+      max_allowance <- max(scoring_input) #get the maximum allowed score
       
-      #compute rows found
-      tempRows <- (data_scores >= optimized_output$par[2]) | (data_scores <= optimized_output$par[1])
-      tempRows_train <- sum(tempRows[TrainRows])
-      tempRows_test <- sum(tempRows[TestRows])
+      #gradient descent the outliers to find local isolated nodes
+      optimized_output <- optim(par = c(min_allowance, max_allowance), optimized_func, method = "L-BFGS-B", target = train_target, scores = scoring_input, min_score = minimal_score, min_node = minimal_node, false_neg = false_negatives, lower = min_allowance, upper = max_allowance, control = list(maxit = 1000, trace = 0))
       
-      #update target rows
-      tempInt <- sum(scored_rows[TestRows] == 0)
-      scored_rows[tempRows] <- 0
-      tempInt <- sum(scored_rows[TestRows] == 0) - tempInt
-      
-      #rewrite the current line
-      #cat("\r", rep(" ", nchar(tempText)), sep = "")
-      #cat("\r[", ( (which(i == colnames(train_temp)) - 1) * ncol(train_temp) ) + ( which(j == colnames(train_temp))) , "/", ncol(train_temp)*ncol(train_temp), "]: ", i, ":", j, " analysis led to: ", length(tempRows_train), "|", length(tempRows_test), " (", length(scored_rows[scored_rows[1:nrow(train_temp)] == 0]), "|", length(scored_rows[scored_rows[(nrow(train_temp)+1):(nrow(train_temp)+nrow(test_temp))] == 0]), ")", sep = "")
-      CurrentTime <- System$currentTimeMillis()
-      SpentTime <- (CurrentTime - StartTime) / 1000
-      cat("\r[", sprintf(Paster, Counter) , "/", MaxCounter, " | CPU = ", round(SpentTime, digits = 2), "s | ETA = ", round((MaxCounter - Counter) * SpentTime / Counter, 2),"s]: ", i, ":", j, " analysis led to: ", tempRows_train, "|", tempRows_test, " (", sum(scored_rows[TrainRows] == 0), "|", sum(scored_rows[TestRows] == 0), ")", sep = "")
-      
-      if (tempInt == 0) {
+      if (!(optimized_output$value == 0)) {
         
-        #if it added nothing to our test set
-        cat(" - No effect on test set.\n", sep = "")
+        #not pure node?
+        #has no value for us
+        #overwrite print
+        
+        MaxChar <- nchar(tempText)
+        
+        cat("\r", rep(" ", MaxChar), sep = "")
         
       } else {
         
-        #if it added something to our test set
-        cat(" | improved slightly our score! (+", tempInt, ")\n", sep = "")
+        #pure node?
+        #has value for us
+        
+        #MaxChar <- 0
+        
+        #compute rows found
+        tempRows <- (data_scores >= optimized_output$par[2]) | (data_scores <= optimized_output$par[1])
+        tempRows_train <- sum(tempRows[TrainRows])
+        tempRows_test <- sum(tempRows[TestRows])
+        
+        #update target rows
+        tempInt <- sum(scored_rows[TestRows] == 0)
+        scored_rows[tempRows] <- 0
+        tempInt <- sum(scored_rows[TestRows] == 0) - tempInt
+        
+        #rewrite the current line
+        #cat("\r", rep(" ", nchar(tempText)), sep = "")
+        #cat("\r[", ( (which(i == colnames(train_temp)) - 1) * ncol(train_temp) ) + ( which(j == colnames(train_temp))) , "/", ncol(train_temp)*ncol(train_temp), "]: ", i, ":", j, " analysis led to: ", length(tempRows_train), "|", length(tempRows_test), " (", length(scored_rows[scored_rows[1:nrow(train_temp)] == 0]), "|", length(scored_rows[scored_rows[(nrow(train_temp)+1):(nrow(train_temp)+nrow(test_temp))] == 0]), ")", sep = "")
+        CurrentTime <- System$currentTimeMillis()
+        SpentTime <- (CurrentTime - StartTime) / 1000
+        cat("\r[", sprintf(Paster, Counter) , "/", MaxCounter, " | CPU = ", round(SpentTime, digits = 2), "s | ETA = ", round((MaxCounter - Counter) * SpentTime / Counter, 2),"s]: ", i, ":", j, " analysis led to: ", tempRows_train, "|", tempRows_test, " (", sum(scored_rows[TrainRows] == 0), "|", sum(scored_rows[TestRows] == 0), ")", sep = "")
+        
+        if (tempInt == 0) {
+          
+          #if it added nothing to our test set
+          cat(" - No effect on test set.\n", sep = "")
+          
+        } else {
+          
+          #if it added something to our test set
+          cat(" | improved slightly our score! (+", tempInt, ")\n", sep = "")
+          
+        }
         
       }
       
