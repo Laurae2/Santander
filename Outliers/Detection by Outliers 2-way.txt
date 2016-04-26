@@ -1,3 +1,5 @@
+# Public LB: 0.841208
+
 [00409/93942 | CPU = 23.36s | ETA = 5341.53s]: var15:num_op_var41_ult3 analysis led to: 63|59 (63|59) | improved slightly! (+59)
 [00413/93942 | CPU = 23.55s | ETA = 5333.73s]: var15:num_op_var39_ult3 analysis led to: 63|58 (63|59) - No improvement.
 [00612/93942 | CPU = 33.22s | ETA = 5066.04s]: var15:n0 analysis led to: 27|35 (90|93) | improved slightly! (+34)
