@@ -145,7 +145,7 @@ for (i in colnames(train_temp)) {
     
     #merge columns
     #tempCol <- as.data.frame(cbind(c(train_temp[[i]], test_temp[[i]]), c(train_temp[[j]], test_temp[[j]])))
-    tempCol <- data.frame(c(train_temp[[i]], test_temp[[i]]), c(train_temp[[j]], test_temp[[j]]))
+    tempCol <- data.frame(v1 = c(train_temp[[i]], test_temp[[i]]), v2 = c(train_temp[[j]], test_temp[[j]]), check.names = FALSE, stringsAsFactors = FALSE)
     
     #compute Mahalonobis distance (df, m, sx)
     tempCol <- mahalanobis(tempCol, colMeans(tempCol), cov(tempCol))
