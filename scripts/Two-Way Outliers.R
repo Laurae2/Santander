@@ -133,6 +133,11 @@ false_negatives <- 0 #allow at most 1 false negative | higher allows a more perm
 #for bivariate outliers = use Mahalonobis distance
 Counter <- 0
 MaxCounter <- ncol(train_temp)*(ncol(train_temp) - 1)
+MaxChar <- 0
+Paster <- paste("%0", nchar(MaxCounter, "width"), "d", sep = "")
+TrainRows <- 1:nrow(train_temp)
+TestRows <- (nrow(train_temp)+1):(nrow(train_temp)+nrow(test_temp))
+StartTime <- System$currentTimeMillis()
 for (i in colnames(train_temp)) {
   
   for (j in colnames(train_temp)[-which(i == colnames(train_temp))]) {
@@ -140,7 +145,10 @@ for (i in colnames(train_temp)) {
     #print text for default checking
     Counter <- Counter + 1
     #tempText <- paste("\r[", ( (which(i == colnames(train_temp)) - 1) * ncol(train_temp) ) + ( which(j == colnames(train_temp))) , "/", ncol(train_temp)*ncol(train_temp), "]: ", i, ":", j, " parsed!", sep = "")
-    tempText <- paste("\r[", Counter , "/", MaxCounter, "]: ", i, ":", j, " parsed!", sep = "")
+    CurrentTime <- System$currentTimeMillis()
+    SpentTime <- (CurrentTime - StartTime) / 1000
+    tempText <- paste("\r[", sprintf(Paster, Counter) , "/", MaxCounter, " | CPU = ", round(SpentTime, digits = 2), "s | ETA = ", round((MaxCounter - Counter) * SpentTime / Counter, 2), "s]: ", i, ":", j, " parsed!", sep = "")
+    #cat(ifelse(nchar(tempText) < MaxChar, paste(tempText, rep(" ", MaxChar - nchar(tempText) + 1), sep = ""), tempText), sep = "")
     cat(tempText, sep = "")
     
     #merge columns
@@ -152,7 +160,7 @@ for (i in colnames(train_temp)) {
     
     #score the data against outliers locally
     data_scores <- scores(tempCol)
-    scoring_input <- data_scores[1:nrow(train)] #get scores from train set
+    scoring_input <- data_scores[TrainRows] #get scores from train set
     min_allowance <- min(scoring_input) #get the maximum allowed score
     max_allowance <- max(scoring_input) #get the maximum allowed score
     
@@ -165,27 +173,33 @@ for (i in colnames(train_temp)) {
       #has no value for us
       #overwrite print
       
-      cat("\r", rep(" ", nchar(tempText)), sep = "")
+      MaxChar <- nchar(tempText)
+      
+      cat("\r", rep(" ", MaxChar), sep = "")
       
     } else {
       
       #pure node?
       #has value for us
       
+      #MaxChar <- 0
+      
       #compute rows found
       tempRows <- (data_scores >= optimized_output$par[2]) | (data_scores <= optimized_output$par[1])
-      tempRows_train <- which(tempRows[1:nrow(train_temp)] == TRUE)
-      tempRows_test <- which(tempRows[(nrow(train_temp)+1):(nrow(train_temp)+nrow(test_temp))] == TRUE)
+      tempRows_train <- sum(tempRows[TrainRows])
+      tempRows_test <- sum(tempRows[TestRows])
       
       #update target rows
-      tempInt <- scored_rows[scored_rows[(nrow(train_temp)+1):(nrow(train_temp)+nrow(test_temp))] == 0]
+      tempInt <- sum(scored_rows[TestRows] == 0)
       scored_rows[tempRows] <- 0
-      tempInt <- length(scored_rows[scored_rows[(nrow(train_temp)+1):(nrow(train_temp)+nrow(test_temp))] == 0]) - length(tempInt)
+      tempInt <- sum(scored_rows[TestRows] == 0) - tempInt
       
       #rewrite the current line
-      cat("\r", rep(" ", nchar(tempText)), sep = "")
+      #cat("\r", rep(" ", nchar(tempText)), sep = "")
       #cat("\r[", ( (which(i == colnames(train_temp)) - 1) * ncol(train_temp) ) + ( which(j == colnames(train_temp))) , "/", ncol(train_temp)*ncol(train_temp), "]: ", i, ":", j, " analysis led to: ", length(tempRows_train), "|", length(tempRows_test), " (", length(scored_rows[scored_rows[1:nrow(train_temp)] == 0]), "|", length(scored_rows[scored_rows[(nrow(train_temp)+1):(nrow(train_temp)+nrow(test_temp))] == 0]), ")", sep = "")
-      cat("\r[", Counter , "/", MaxCounter, "]: ", i, ":", j, " analysis led to: ", length(tempRows_train), "|", length(tempRows_test), " (", length(scored_rows[scored_rows[1:nrow(train_temp)] == 0]), "|", length(scored_rows[scored_rows[(nrow(train_temp)+1):(nrow(train_temp)+nrow(test_temp))] == 0]), ")", sep = "")
+      CurrentTime <- System$currentTimeMillis()
+      SpentTime <- (CurrentTime - StartTime) / 1000
+      cat("\r[", sprintf(Paster, Counter) , "/", MaxCounter, " | CPU = ", round(SpentTime, digits = 2), "s | ETA = ", round((MaxCounter - Counter) * SpentTime / Counter, 2),"s]: ", i, ":", j, " analysis led to: ", tempRows_train, "|", tempRows_test, " (", sum(scored_rows[TrainRows] == 0), "|", sum(scored_rows[TestRows] == 0), ")", sep = "")
       
       if (tempInt == 0) {
         
