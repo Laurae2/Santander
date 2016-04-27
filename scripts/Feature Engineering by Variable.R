@@ -318,6 +318,7 @@ fixed_data <- cbind(fixed_data,
                     var36 = full_data[, "var36"],
                     var36ANDvar36 = (full_data[, "var36"] - 40.4491) * (full_data[, "var36"] - 40.4491),
                     var36ANDvar36ANDvar36 = (full_data[, "var36"] - 40.4491) * (full_data[, "var36"] - 40.4491) * (full_data[, "var36"] - 40.4491)
+                    var36ANDvar36ANDvar36 = (full_data[, "var36"] - 40.4491) * (full_data[, "var36"] - 40.4491) * (full_data[, "var36"] - 40.4491) * (full_data[, "var36"] - 40.4491)
                     )
 
 
