@@ -277,7 +277,7 @@ fixed_data <- cbind(fixed_data,
 fixed_data <- cbind(fixed_data,
                     full_data[, c("ind_var31_0", "ind_var31", "num_var31")],
                     num_var31ANDind_var31 = (full_data[, "num_var31"] - 0.02013) * (full_data[, "ind_var31"] - 0.00367),
-                    num_var31ANDnum_var31 = (full_data[, "ind_var31"] - 0.00367) * (full_data[, "ind_var31"] - 0.00367)
+                    num_var31ANDnum_var31 = (full_data[, "ind_var31"] - 0.00367) * (full_data[, "num_var31"] - 0.01606)
                     )
 
 
