@@ -33,8 +33,6 @@ full_data <- cbind(target = c(train_target, rep(-1, 75818)), rbind(train_temp, t
 
 write.csv(full_data, file = "fulldata.csv", row.names = FALSE)
 
-fixed_data <- data.frame(target = full_data[, "target"])
-
 # Variable 1
 
 fixed_data <- cbind(fixed_data,
@@ -185,6 +183,13 @@ fixed_data <- cbind(fixed_data,
                     imp_ent_var16_ult1ANDimp_ent_var16_ult1 = (full_data[, "imp_ent_var16_ult1"] - 86.2083) * (full_data[, "imp_ent_var16_ult1"] - 86.2083),
                     imp_ent_var16_ult1ANDnum_ent_var16_ult1 = (full_data[, "imp_ent_var16_ult1"] - 86.2083) * (full_data[, "num_ent_var16_ult1"] - 0.18796),
                     num_ent_var16_ult1ANDnum_ent_var16_ult1 = (full_data[, "num_ent_var16_ult1"] - 0.18796) * (full_data[, "num_ent_var16_ult1"] - 0.18796)
+                    )
+
+
+# Variable 17
+
+fixed_data <- cbind(fixed_data,
+                    full_data[, c("ind_var17", "num_meses_var17_ult3")]
                     )
 
 
