@@ -534,4 +534,4 @@ fixed_data <- cbind(fixed_data,
 # Output to CSV
 
 
-write.csv(full_data, file = "fulldata_parsed.csv", row.names = FALSE)
+write.csv(fixed_data, file = "fulldata_parsed.csv", row.names = FALSE)
