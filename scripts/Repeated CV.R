@@ -92,6 +92,6 @@ for (i in names(folds)) {
   score_list[which(i == names(folds)), "rounds"] <- best_out$bestInd
   CurrentTime <- System$currentTimeMillis()
   SpentTime <- (CurrentTime - StartTime) / 1000
-  cat("[Fold ", sprintf("%02d", which(i == names(folds))), "/", sprintf("%02d", NROW(names(folds))), " | CPU: ", sprintf("%.02f", SpentTime), "s | ETA: ", sprintf("%.02f", (NROW(names(folds)) - which(i == names(folds))) * SpentTime / which(i == names(folds))), "s]: test-AUC=", sprintf("%.06f", best_out$bestScore), " (", sprintf("%04d", best_out$bestInd), " rounds). Currently M/SD: ", sprintf("%.06f", mean(score_list[1:(which(i == names(folds))), 2])), "+", sprintf("%.06f", sd(score_list[1:(which(i == names(folds))), 2])), "\n", sep = "")
+  cat("[Fold ", sprintf("%02d", which(i == names(folds))), "/", sprintf("%02d", NROW(names(folds))), " | CPU: ", sprintf("%.02f", SpentTime), "s | ETA: ", sprintf("%.02f", (NROW(names(folds)) - which(i == names(folds))) * SpentTime / which(i == names(folds))), "s]: test-AUC=", sprintf("%.06f", best_out$bestScore), " (", sprintf("%04d", best_out$bestInd), " rounds). Currently M/SD: ", sprintf("%.03f", mean(score_list[1:(which(i == names(folds))), 2])), "+", sprintf("%.03f", sd(score_list[1:(which(i == names(folds))), 2])), "\n", sep = "")
 }
 cat("-----\nFinal results (M/SD): ", sprintf("%.06f", mean(score_list[, 2])), "+", sprintf("%.06f", sd(score_list[, 2])), " with ", sprintf("04d", mean(score_list[, 3])), "+", sprintf("04d", sd(score_list[, 3])), " rounds", sep = "")
