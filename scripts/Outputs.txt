@@ -19,7 +19,10 @@
 # eta = 0.05, depth = 5, subsample = 0.70, colsample_bytree = 0.65 => 0.842251+0.005992
 
 ~~~
-# linear combinations only, eta=0.02, depth=5, subsample=0.70, colsample_bytree=0.80 => 0.842384+0.005488 with 389.583+93.836 rounds
+# linear combinations only, eta=0.02, depth=5, subsample=0.70, colsample_bytree=0.80 => 0.842614+0.005357 with 394.917+69.390 rounds
+?
+
+# linear combinations only + n0, eta=0.02, depth=5, subsample=0.70, colsample_bytree=0.80 => 0.842384+0.005488 with 389.583+93.836 rounds
 
 [Fold 01/12 | CPU: 150.35s | ETA: 1653.83s]: test-AUC=0.838816 (0443 rounds). Currently M/SD: 0.838816+NA
 [Fold 02/12 | CPU: 286.87s | ETA: 1434.34s]: test-AUC=0.837891 (0381 rounds). Currently M/SD: 0.838353+0.000654
