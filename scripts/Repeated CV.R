@@ -3,6 +3,7 @@ library(R.utils)
 
 setwd("C:/Users/Laurae/Documents/Data Science/Santander/") ##set your own working directory
 train_temp <- train ##set train_temp to the appropriate training set
+train_target <- target ##set train_target to the label
 set.seed(11111)
 folds <- createMultiFolds(train_target, k = 4, times = 3)
 
