@@ -19,6 +19,8 @@
 # eta = 0.05, depth = 5, subsample = 0.70, colsample_bytree = 0.65 => 0.842251+0.005992
 
 ~~~
+
+# linear combinations only, eta=0.02, depth=5, subsample=0.70, colsample_bytree=0.70 => 0.842464+0.005522
 # linear combinations only, eta=0.02, depth=5, subsample=0.70, colsample_bytree=0.80 => 0.842614+0.005357 with 394.917+69.390 rounds
 ?
 
