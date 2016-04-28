@@ -39,6 +39,21 @@
 [Fold 11/12 | CPU: 1479.19s | ETA: 134.47s]: test-AUC=0.847301 (0401 rounds). Currently M/SD: 0.843220+0.004889
 [Fold 12/12 | CPU: 1697.19s | ETA: 0.00s]: test-AUC=0.833189 (0626 rounds). Currently M/SD: 0.842384+0.005488
 
+# linear combinations only, eta=0.02, depth=5, subsample=0.70, colsample_bytree=0.80 => 0.842614+0.005357 with 394.917+69.390 rounds
+
+[Fold 01/12 | CPU: 159.64s | ETA: 1756.04s]: test-AUC=0.838173 (0494 rounds). Currently M/SD: 0.838173+NA
+[Fold 02/12 | CPU: 291.51s | ETA: 1457.54s]: test-AUC=0.838200 (0372 rounds). Currently M/SD: 0.838186+0.000019
+[Fold 03/12 | CPU: 436.80s | ETA: 1310.39s]: test-AUC=0.850394 (0449 rounds). Currently M/SD: 0.842256+0.007048
+[Fold 04/12 | CPU: 552.97s | ETA: 1105.93s]: test-AUC=0.845570 (0342 rounds). Currently M/SD: 0.843084+0.005989
+[Fold 05/12 | CPU: 666.01s | ETA: 932.41s]: test-AUC=0.839516 (0329 rounds). Currently M/SD: 0.842371+0.005426
+[Fold 06/12 | CPU: 800.07s | ETA: 800.07s]: test-AUC=0.847846 (0408 rounds). Currently M/SD: 0.843283+0.005343
+[Fold 07/12 | CPU: 933.79s | ETA: 666.99s]: test-AUC=0.845434 (0410 rounds). Currently M/SD: 0.843590+0.004945
+[Fold 08/12 | CPU: 1050.93s | ETA: 525.47s]: test-AUC=0.837463 (0350 rounds). Currently M/SD: 0.842824+0.005065
+[Fold 09/12 | CPU: 1162.31s | ETA: 387.44s]: test-AUC=0.838825 (0332 rounds). Currently M/SD: 0.842380+0.004922
+[Fold 10/12 | CPU: 1275.15s | ETA: 255.03s]: test-AUC=0.847623 (0336 rounds). Currently M/SD: 0.842904+0.004928
+[Fold 11/12 | CPU: 1398.98s | ETA: 127.18s]: test-AUC=0.847950 (0373 rounds). Currently M/SD: 0.843363+0.004916
+[Fold 12/12 | CPU: 1571.81s | ETA: 0.00s]: test-AUC=0.834379 (0544 rounds). Currently M/SD: 0.842614+0.005357
+
 # linear combinations only + n0, eta=0.02, depth=5, subsample=0.70, colsample_bytree=0.70 => 0.842395+0.005500 with 392.583+78.025 rounds
 
 [Fold 01/12 | CPU: 152.40s | ETA: 1676.42s]: test-AUC=0.838873 (0506 rounds). Currently M/SD: 0.838873+NA
