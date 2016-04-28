@@ -39,7 +39,7 @@
 [Fold 11/12 | CPU: 1479.19s | ETA: 134.47s]: test-AUC=0.847301 (0401 rounds). Currently M/SD: 0.843220+0.004889
 [Fold 12/12 | CPU: 1697.19s | ETA: 0.00s]: test-AUC=0.833189 (0626 rounds). Currently M/SD: 0.842384+0.005488
 
-# linear combinations only, eta=0.02, depth=5, subsample=0.70, colsample_bytree=0.70 => 0.842395+0.005500 with 392.583+78.025 rounds
+# linear combinations only + n0, eta=0.02, depth=5, subsample=0.70, colsample_bytree=0.70 => 0.842395+0.005500 with 392.583+78.025 rounds
 
 [Fold 01/12 | CPU: 152.40s | ETA: 1676.42s]: test-AUC=0.838873 (0506 rounds). Currently M/SD: 0.838873+NA
 [Fold 02/12 | CPU: 273.41s | ETA: 1367.06s]: test-AUC=0.838487 (0406 rounds). Currently M/SD: 0.838680+0.000273
@@ -53,3 +53,18 @@
 [Fold 10/12 | CPU: 1145.70s | ETA: 229.14s]: test-AUC=0.846659 (0364 rounds). Currently M/SD: 0.842801+0.004913
 [Fold 11/12 | CPU: 1268.25s | ETA: 115.30s]: test-AUC=0.847630 (0411 rounds). Currently M/SD: 0.843240+0.004883
 [Fold 12/12 | CPU: 1411.36s | ETA: 0.00s]: test-AUC=0.833100 (0494 rounds). Currently M/SD: 0.842395+0.005500
+
+# linear combinations only, eta=0.02, depth=5, subsample=0.70, colsample_bytree=0.70 => 0.842464+0.005522 with 384.083+77.199 rounds
+
+[Fold 01/12 | CPU: 125.39s | ETA: 1379.30s]: test-AUC=0.838139 (0412 rounds). Currently M/SD: 0.838139+NA
+[Fold 02/12 | CPU: 237.25s | ETA: 1186.23s]: test-AUC=0.837658 (0374 rounds). Currently M/SD: 0.837898+0.000340
+[Fold 03/12 | CPU: 369.64s | ETA: 1108.91s]: test-AUC=0.850759 (0432 rounds). Currently M/SD: 0.842185+0.007429
+[Fold 04/12 | CPU: 473.26s | ETA: 946.53s]: test-AUC=0.845174 (0327 rounds). Currently M/SD: 0.842932+0.006247
+[Fold 05/12 | CPU: 587.99s | ETA: 823.18s]: test-AUC=0.839603 (0385 rounds). Currently M/SD: 0.842267+0.005611
+[Fold 06/12 | CPU: 710.10s | ETA: 710.10s]: test-AUC=0.848096 (0408 rounds). Currently M/SD: 0.843238+0.005555
+[Fold 07/12 | CPU: 827.60s | ETA: 591.14s]: test-AUC=0.845446 (0393 rounds). Currently M/SD: 0.843554+0.005139
+[Fold 08/12 | CPU: 933.77s | ETA: 466.88s]: test-AUC=0.836684 (0350 rounds). Currently M/SD: 0.842695+0.005342
+[Fold 09/12 | CPU: 1001.33s | ETA: 333.78s]: test-AUC=0.838445 (0203 rounds). Currently M/SD: 0.842223+0.005194
+[Fold 10/12 | CPU: 1106.15s | ETA: 221.23s]: test-AUC=0.846813 (0346 rounds). Currently M/SD: 0.842682+0.005107
+[Fold 11/12 | CPU: 1243.09s | ETA: 113.01s]: test-AUC=0.848371 (0469 rounds). Currently M/SD: 0.843199+0.005140
+[Fold 12/12 | CPU: 1389.95s | ETA: 0.00s]: test-AUC=0.834383 (0510 rounds). Currently M/SD: 0.842464+0.005522
