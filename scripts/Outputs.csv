@@ -1,0 +1,19 @@
+
+# eta = x.xx, depth = x, subsample = x.xx, colsample_bytree = x.xx => (seed 11111)      (seed 2016)
+# ----------  ---------  ----------------  -----------------------    -----------------
+# eta = 0.05, depth = 5, subsample = 0.70, colsample_bytree = 0.90 => 0.842621+0.006069
+# eta = 0.05, depth = 5, subsample = 0.70, colsample_bytree = 0.81 => 0.841886+0.005938
+# eta = 0.05, depth = 5, subsample = 0.60, colsample_bytree = 0.80 => 0.841966+0.006320
+# eta = 0.05, depth = 5, subsample = 0.70, colsample_bytree = 0.80 => 0.842750+0.005507 0.840920+0.006854
+# eta = 0.05, depth = 5, subsample = 0.71, colsample_bytree = 0.80 => 0.841836+0.005420
+# eta = 0.05, depth = 5, subsample = 0.72, colsample_bytree = 0.80 => 0.842531+0.005884
+# eta = 0.05, depth = 5, subsample = 0.73, colsample_bytree = 0.80 => 0.842182+0.005467
+# eta = 0.05, depth = 5, subsample = 0.80, colsample_bytree = 0.80 => 0.842576+0.005941
+# eta = 0.05, depth = 5, subsample = 0.90, colsample_bytree = 0.80 => 0.842042+0.005951
+# eta = 0.05, depth = 5, subsample = 1.00, colsample_bytree = 0.80 => 0.841377+0.006188
+# eta = 0.05, depth = 5, subsample = 0.70, colsample_bytree = 0.79 => 0.842501+0.006180
+# eta = 0.05, depth = 5, subsample = 0.70, colsample_bytree = 0.78 => 0.842575+0.005248
+# eta = 0.05, depth = 5, subsample = 0.70, colsample_bytree = 0.75 => 0.842513+0.005836
+# eta = 0.05, depth = 5, subsample = 0.70, colsample_bytree = 0.70 => 0.842686+0.005401
+# eta = 0.01, depth = 5, subsample = 0.70, colsample_bytree = 0.70 => 0.842689+0.006422
+# eta = 0.05, depth = 5, subsample = 0.70, colsample_bytree = 0.65 => 0.842251+0.005992
