@@ -6,7 +6,7 @@ library(caret)
 
 setwd("C:/Users/Laurae/Documents/Data Science/Santander/") ##set your own working directory
 full_data <- as.data.frame(fread("fulldata - Copy2.csv", header = TRUE, sep = ","))
-full_data_temp <- full_data[, !(colnames(full_data) %in% c("SinglesNN15", "SinglesNN30", "SinglesNN38",
+full_data_temp <- full_data[-151839, !(colnames(full_data) %in% c("SinglesNN15", "SinglesNN30", "SinglesNN38",
                                                            "NzvNN15", "NzvNN30", "NzvNN38",
                                                            "var5NN15", "var5NN30", "var5NN38",
                                                            "var8NN15", "var8NN30", "var8NN38",
