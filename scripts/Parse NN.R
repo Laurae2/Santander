@@ -76,3 +76,6 @@ train_temp <- train_temp[, feature.names]
 test_temp <- test_temp[, feature.names]
 
 full_data_temp <- cbind(full_data_temp, rbind(train_temp, test_temp))
+
+train_temp <- full_data_temp[1:76020, ]
+test_temp <- full_data_temp[76021:151838, ]
