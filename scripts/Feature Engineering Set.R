@@ -10,7 +10,7 @@ CreateFeatures <- function(data, which, diff = TRUE, ratio = TRUE, indicator = T
   IndicatorMaker <- function(data, nums) {
     temp_num <- data[[nums[1]]]
     for (i in nums[-1]) {
-      temp_num <- temp_num + data[[nums[i]]]
+      temp_num <- temp_num + data[[i]]
     }
     return(temp_num)
   }
@@ -658,7 +658,7 @@ CreateFeatureSets <- function(data, indicator = 999, var = TRUE, num = 999, sald
   IndicatorMaker <- function(data, nums) {
     temp_num <- data[[nums[1]]]
     for (i in nums[-1]) {
-      temp_num <- temp_num + data[[nums[i]]]
+      temp_num <- temp_num + data[[i]]
     }
     return(temp_num)
   }
@@ -771,7 +771,7 @@ CreateFeatureSets <- function(data, indicator = 999, var = TRUE, num = 999, sald
                                                                                                   "ind_var26_cte",
                                                                                                   "ind_var32_cte",
                                                                                                   "ind_var37_cte",
-                                                                                                  "ind_var43_emit_ult1", "ind_var_recib_ult1")))}
+                                                                                                  "ind_var43_emit_ult1", "ind_var43_recib_ult1")))}
   
   # sum of cte indicators
   if ((indicator == 3) | (indicator == 999)) {temp_list <- cbind(temp_list,
@@ -788,7 +788,7 @@ CreateFeatureSets <- function(data, indicator = 999, var = TRUE, num = 999, sald
   # sum of recib indicators
   if ((indicator == 5) | (indicator == 999)) {temp_list <- cbind(temp_list,
                                                                  indSum5 = IndicatorMaker(data, c("ind_var7_recib_ult1",
-                                                                                                  "ind_var_recib_ult1")))}
+                                                                                                  "ind_var43_recib_ult1")))}
   
   # sum of all special indicators
   if ((indicator == 6) | (indicator == 999)) {temp_list <- cbind(temp_list,
@@ -802,7 +802,7 @@ CreateFeatureSets <- function(data, indicator = 999, var = TRUE, num = 999, sald
                                                                                                   "ind_var26_cte",
                                                                                                   "ind_var32_cte",
                                                                                                   "ind_var37_cte",
-                                                                                                  "ind_var43_emit_ult1", "ind_var_recib_ult1")))}
+                                                                                                  "ind_var43_emit_ult1", "ind_var43_recib_ult1")))}
   # sum of all indicators
   if ((indicator == 7) | (indicator == 999)) {temp_list <- cbind(temp_list,
                                                                  indSum7 = IndicatorMaker(data, c("ind_var1_0", "ind_var1",
@@ -843,7 +843,7 @@ CreateFeatureSets <- function(data, indicator = 999, var = TRUE, num = 999, sald
                                                                                                   "ind_var26_cte",
                                                                                                   "ind_var32_cte",
                                                                                                   "ind_var37_cte",
-                                                                                                  "ind_var43_emit_ult1", "ind_var_recib_ult1")))}
+                                                                                                  "ind_var43_emit_ult1", "ind_var43_recib_ult1")))}
   
   # sum of var
   if (var == TRUE) {temp_list <- cbind(temp_list, varSUM = SumMaker(data, c("var3", "var15", "var21", "var36", "var38")))}
@@ -1215,7 +1215,7 @@ CreateFeatureSets <- function(data, indicator = 999, var = TRUE, num = 999, sald
   
   # sum of efect imp
   if ((imp == 6) | (imp == 999)) {temp_list <- cbind(temp_list,
-                                                     impSUM6 = SumMaker(data, c("imp_op_var39_efect_ult1", "imp_op_var39 efect_ult3",
+                                                     impSUM6 = SumMaker(data, c("imp_op_var39_efect_ult1", "imp_op_var39_efect_ult3",
                                                                                 "imp_op_var40_efect_ult1", "imp_op_var40_efect_ult3",
                                                                                 "imp_op_var41_efect_ult1", "imp_op_var41_efect_ult3")))}
   
@@ -1253,7 +1253,7 @@ CreateFeatureSets <- function(data, indicator = 999, var = TRUE, num = 999, sald
                                                                                 "imp_amort_var34_hace3", "imp_amort_var34_ult1",
                                                                                 "imp_trans_var37_ult1",
                                                                                 "imp_op_var39_comer_ult1", "imp_op_var39_comer_ult3",
-                                                                                "imp_op_var39_efect_ult1", "imp_op_var39 efect_ult3",
+                                                                                "imp_op_var39_efect_ult1", "imp_op_var39_efect_ult3",
                                                                                 "imp_op_var39_ult1",
                                                                                 "imp_op_var40_comer_ult1", "imp_op_var40_comer_ult3",
                                                                                 "imp_op_var40_efect_ult1", "imp_op_var40_efect_ult3",
@@ -1301,13 +1301,12 @@ CreateFeatureSets <- function(data, indicator = 999, var = TRUE, num = 999, sald
                                                                                                     "delta_num_venta_var44_1y3")))}
   
   # sum of aport deltaI
-  if ((deltaI == 1) | (deltaI == 999)) {temp_list <- cbind(temp_list, deltaISUM1 = SumMaker(data, c("delta_imp_aport_reemb_var13_1y3",
-                                                                                                    "delta_imp_aport_reemb_var17_1y3",
+  if ((deltaI == 1) | (deltaI == 999)) {temp_list <- cbind(temp_list, deltaISUM1 = SumMaker(data, c("delta_imp_aport_var13_1y3",
+                                                                                                    "delta_imp_aport_var17_1y3",
                                                                                                     "delta_imp_aport_var33_1y3")))}
   # sum of reemb deltaI
   if ((deltaI == 2) | (deltaI == 999)) {temp_list <- cbind(temp_list, deltaISUM2 = SumMaker(data, c("delta_imp_reemb_var13_1y3",
-                                                                                                    "delta_imp_aport_reemb_var17_1y3",
-                                                                                                    "delta_imp_reemb_var16_1y3",
+                                                                                                    "delta_imp_reemb_var17_1y3",
                                                                                                     "delta_imp_reemb_var33_1y3")))}
   # sum of trasp deltaI
   if ((deltaI == 3) | (deltaI == 999)) {temp_list <- cbind(temp_list, deltaISUM3 = SumMaker(data, c("delta_imp_trasp_var17_in_1y3",
@@ -1321,10 +1320,10 @@ CreateFeatureSets <- function(data, indicator = 999, var = TRUE, num = 999, sald
   if ((deltaI == 5) | (deltaI == 999)) {temp_list <- cbind(temp_list, deltaISUM5 = SumMaker(data, c("delta_imp_compra_var44_1y3",
                                                                                                     "delta_imp_venta_var44_1y3")))}
   # sum of all deltaI
-  if ((deltaI == 6) | (deltaI == 999)) {temp_list <- cbind(temp_list, deltaISUM6 = SumMaker(data, c("delta_imp_aport_reemb_var13_1y3",
+  if ((deltaI == 6) | (deltaI == 999)) {temp_list <- cbind(temp_list, deltaISUM6 = SumMaker(data, c("delta_imp_aport_var13_1y3",
                                                                                                     "delta_imp_reemb_var13_1y3",
-                                                                                                    "delta_imp_aport_reemb_var17_1y3",
-                                                                                                    "delta_imp_reemb_var16_1y3",
+                                                                                                    "delta_imp_aport_var17_1y3",
+                                                                                                    "delta_imp_reemb_var17_1y3",
                                                                                                     "delta_imp_trasp_var17_in_1y3",
                                                                                                     "delta_imp_trasp_var17_out_1y3",
                                                                                                     "delta_imp_amort_var18_1y3",
