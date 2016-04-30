@@ -39,6 +39,7 @@ full_data <- cbind(full_data, CreateFeatures(data, "var43"))
 full_data <- cbind(full_data, CreateFeatures(data, "var44"))
 full_data <- cbind(full_data, CreateFeatures(data, "var45"))
 full_data <- cbind(full_data, CreateFeatures(data, "var46"))
+full_data <- cbind(full_data CreateFeatureSets(data))
 
 train_temp <- full_data[1:76020, ]
 test_temp <- full_data[76021:151838, ]
