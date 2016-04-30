@@ -132,6 +132,8 @@ CreateFeatures <- function(data, which, diff = TRUE, ratio = TRUE, indicator = T
     
   } else if (which == "var13") {
     
+    # VARIABLE 13
+    
     if (indicator == TRUE) {temp_list <- cbind(temp_list,
                                                ind_var13SUM = IndicatorMaker(data, c("ind_var13_0", "ind_var13")),
                                                ind_var13_cortoSUM = IndicatorMaker(data, c("ind_var13_corto_0", "ind_var13_corto")),
@@ -584,6 +586,755 @@ CreateFeatures <- function(data, which, diff = TRUE, ratio = TRUE, indicator = T
     if (numeric == TRUE) {temp_list <- cbind(temp_list, num_var46SUM = SumMaker(data, c("num_var46_0", "num_var46")))}
     
   }
+  
+  temp_list$ZZZ <- NULL
+  return(temp_list)
+  
+}
+
+CreateFeatureSets <- function(data, indicator = 999, var = TRUE, num = 999, saldo = 999, imp = 999, deltaN = 999, deltaI = 999) {
+  
+  # indicator = -1 => sum of regular_0 indcators
+  # indicator = 0 => sum of regular indicators
+  # indicator = 1 => sum of all regular indicators
+  # indicator = 2 => sum of special non-cte/emit/recib indicators
+  # indicator = 3 => sum of cte indicators
+  # indicator = 4 => sum of emit indicators
+  # indicator = 5 => sum of recib indicators
+  # indicator = 6 => sum of special indicators
+  # indicator = 7 => sum of all indicators
+  # indicator = 999 => add all
+  
+  # var => sum of var
+  
+  # var = -1 => sum of regular_0 num
+  # var = 0 => sum of regular num
+  # var = 1 => sum of all regular num
+  # var = 2 => sum of meses num
+  # var = 3 => sum of aport num
+  # var = 4 => sum of reemb num
+  # var = 5 => sum of trasp num
+  # var = 6 => sum of op num
+  # var = 7 => sum of comer num
+  # var = 8 => sum of efect num
+  # var = 9 => sum of med num
+  # var = 10 => sum of emit num
+  # var = 11 => sum of recib num
+  # var = 12 => sum of special num
+  # var = 13 => sum of all
+  # var = 999 => add all
+  
+  # saldo = 1 => sum of regular saldo
+  # saldo = 2 => sum of special saldo
+  # saldo = 3 => sum of all saldo
+  # saldo = 999 => add all
+  
+  # imp = 1 => sum of emit imp
+  # imp = 2 => sum of aport imp
+  # imp = 3 => sum of trasp imp
+  # imp = 4 => sum of amort imp
+  # imp = 5 => sum of comer imp
+  # imp = 6 => sum of efect imp
+  # imp = 7 => sum of op imp
+  # imp = 8 => sum of special imp
+  # imp = 9 => sum of all imp
+  # imp = 999 => add all
+  
+  # deltaN = 1 => sum of aport deltaN
+  # deltaN = 2 => sum of reemb deltaN
+  # deltaN = 3 => sum of trasp deltaN
+  # deltaN = 4 => sum of special deltaN
+  # deltaN = 5 => sum of all deltaN
+  # deltaN = 999 => add all
+  
+  # deltaI = 1 => sum of aport deltaI
+  # deltaI = 2 => sum of reemb deltaI
+  # deltaI = 3 => sum of trasp deltaI
+  # deltaI = 4 => sum of amort deltaI
+  # deltaI = 5 => sum of special deltaI
+  # deltaI = 6 => sum of all deltaI
+  # deltaI = 999 => add all
+  
+  IndicatorMaker <- function(data, nums) {
+    temp_num <- data[[nums[1]]]
+    for (i in nums[-1]) {
+      temp_num <- temp_num + data[[nums[i]]]
+    }
+    return(temp_num)
+  }
+  
+  SumMaker <- function(data, nums) {
+    return(IndicatorMaker(data, nums))
+  }
+  
+  temp_list <- data.frame(ZZZ = rep(0, nrow(data)))
+  
+  # sum of regular_0 indicators
+  if ((indicator == -1) | (indicator == 999)) {temp_list <- cbind(temp_list,
+                                                                  indSum00 = IndicatorMaker(data, c("ind_var1_0",
+                                                                                                    "ind_var2_0",
+                                                                                                    "ind_var5_0",
+                                                                                                    "ind_var6_0",
+                                                                                                    "ind_var8_0",
+                                                                                                    "ind_var12_0",
+                                                                                                    "ind_var13_0",
+                                                                                                    "ind_var14_0",
+                                                                                                    "ind_var17_0",
+                                                                                                    "ind_var18_0",
+                                                                                                    "ind_var24_0",
+                                                                                                    "ind_var25_0",
+                                                                                                    "ind_var26_0",
+                                                                                                    "ind_var27_0",
+                                                                                                    "ind_var28_0",
+                                                                                                    "ind_var29_0",
+                                                                                                    "ind_var30_0",
+                                                                                                    "ind_var31_0",
+                                                                                                    "ind_var32_0",
+                                                                                                    "ind_var33_0",
+                                                                                                    "ind_var34_0",
+                                                                                                    "ind_var37_0",
+                                                                                                    "ind_var39_0",
+                                                                                                    "ind_var40_0",
+                                                                                                    "ind_var41_0",
+                                                                                                    "ind_var44_0",
+                                                                                                    "ind_var46_0")))}
+  # sum of regular indicators
+  if ((indicator == 0) | (indicator == 999)) {temp_list <- cbind(temp_list,
+                                                                 indSum0 = IndicatorMaker(data, c("ind_var1",
+                                                                                                  "ind_var2",
+                                                                                                  "ind_var5",
+                                                                                                  "ind_var6",
+                                                                                                  "ind_var8",
+                                                                                                  "ind_var12",
+                                                                                                  "ind_var13",
+                                                                                                  "ind_var14",
+                                                                                                  "ind_var17",
+                                                                                                  "ind_var18",
+                                                                                                  "ind_var19",
+                                                                                                  "ind_var24",
+                                                                                                  "ind_var25",
+                                                                                                  "ind_var26",
+                                                                                                  "ind_var27",
+                                                                                                  "ind_var28",
+                                                                                                  "ind_var29",
+                                                                                                  "ind_var30",
+                                                                                                  "ind_var31",
+                                                                                                  "ind_var32",
+                                                                                                  "ind_var33",
+                                                                                                  "ind_var34",
+                                                                                                  "ind_var37",
+                                                                                                  "ind_var39",
+                                                                                                  "ind_var40",
+                                                                                                  "ind_var41",
+                                                                                                  "ind_var44",
+                                                                                                  "ind_var46")))}
+  # sum of all regular indicators
+  if ((indicator == 1) | (indicator == 999)) {temp_list <- cbind(temp_list,
+                                                                 indSum1 = IndicatorMaker(data, c("ind_var1_0", "ind_var1",
+                                                                                                  "ind_var2_0", "ind_var2",
+                                                                                                  "ind_var5_0", "ind_var5",
+                                                                                                  "ind_var6_0", "ind_var6",
+                                                                                                  "ind_var8_0", "ind_var8",
+                                                                                                  "ind_var12_0", "ind_var12",
+                                                                                                  "ind_var13_0", "ind_var13",
+                                                                                                  "ind_var14_0", "ind_var14",
+                                                                                                  "ind_var17_0", "ind_var17",
+                                                                                                  "ind_var18_0", "ind_var18",
+                                                                                                  "ind_var19",
+                                                                                                  "ind_var24_0", "ind_var24",
+                                                                                                  "ind_var25_0", "ind_var25",
+                                                                                                  "ind_var26_0", "ind_var26",
+                                                                                                  "ind_var27_0", "ind_var27",
+                                                                                                  "ind_var28_0", "ind_var28",
+                                                                                                  "ind_var29_0", "ind_var29",
+                                                                                                  "ind_var30_0", "ind_var30",
+                                                                                                  "ind_var31_0", "ind_var31",
+                                                                                                  "ind_var32_0", "ind_var32",
+                                                                                                  "ind_var33_0", "ind_var33",
+                                                                                                  "ind_var34_0", "ind_var34",
+                                                                                                  "ind_var37_0", "ind_var37",
+                                                                                                  "ind_var39_0", "ind_var39",
+                                                                                                  "ind_var40_0", "ind_var40",
+                                                                                                  "ind_var41_0", "ind_var41",
+                                                                                                  "ind_var44_0", "ind_var44",
+                                                                                                  "ind_var46_0", "ind_var46")))}
+  
+  # sum of special non-cte/emit/recib indicators
+  if ((indicator == 2) | (indicator == 999)) {temp_list <- cbind(temp_list,
+                                                                 indSum2 = IndicatorMaker(data, c("ind_var7_emit_ult1", "ind_var7_recib_ult1",
+                                                                                                  "ind_var9_cte_ult1", "ind_var9_ult1",
+                                                                                                  "ind_var10_ult1", "ind_var10cte_ult1",
+                                                                                                  "ind_var13_corto_0", "ind_var13_corto",
+                                                                                                  "ind_var13_largo_0", "ind_var13_largo",
+                                                                                                  "ind_var13_medio_0", "ind_var13_medio",
+                                                                                                  "ind_var25_cte",
+                                                                                                  "ind_var26_cte",
+                                                                                                  "ind_var32_cte",
+                                                                                                  "ind_var37_cte",
+                                                                                                  "ind_var43_emit_ult1", "ind_var_recib_ult1")))}
+  
+  # sum of cte indicators
+  if ((indicator == 3) | (indicator == 999)) {temp_list <- cbind(temp_list,
+                                                                 indSum3 = IndicatorMaker(data, c("ind_var9_cte_ult1",
+                                                                                                  "ind_var10cte_ult1",
+                                                                                                  "ind_var25_cte",
+                                                                                                  "ind_var26_cte",
+                                                                                                  "ind_var32_cte",
+                                                                                                  "ind_var37_cte")))}
+  # sum of emit indicators
+  if ((indicator == 4) | (indicator == 999)) {temp_list <- cbind(temp_list,
+                                                                 indSum4 = IndicatorMaker(data, c("ind_var7_emit_ult1",
+                                                                                                  "ind_var43_emit_ult1")))}
+  # sum of recib indicators
+  if ((indicator == 5) | (indicator == 999)) {temp_list <- cbind(temp_list,
+                                                                 indSum5 = IndicatorMaker(data, c("ind_var7_recib_ult1",
+                                                                                                  "ind_var_recib_ult1")))}
+  
+  # sum of all special indicators
+  if ((indicator == 6) | (indicator == 999)) {temp_list <- cbind(temp_list,
+                                                                 indSum6 = IndicatorMaker(data, c("ind_var7_emit_ult1", "ind_var7_recib_ult1",
+                                                                                                  "ind_var9_cte_ult1", "ind_var9_ult1",
+                                                                                                  "ind_var10_ult1", "ind_var10cte_ult1",
+                                                                                                  "ind_var13_corto_0", "ind_var13_corto",
+                                                                                                  "ind_var13_largo_0", "ind_var13_largo",
+                                                                                                  "ind_var13_medio_0", "ind_var13_medio",
+                                                                                                  "ind_var25_cte",
+                                                                                                  "ind_var26_cte",
+                                                                                                  "ind_var32_cte",
+                                                                                                  "ind_var37_cte",
+                                                                                                  "ind_var43_emit_ult1", "ind_var_recib_ult1")))}
+  # sum of all indicators
+  if ((indicator == 7) | (indicator == 999)) {temp_list <- cbind(temp_list,
+                                                                 indSum7 = IndicatorMaker(data, c("ind_var1_0", "ind_var1",
+                                                                                                  "ind_var2_0", "ind_var2",
+                                                                                                  "ind_var5_0", "ind_var5",
+                                                                                                  "ind_var6_0", "ind_var6",
+                                                                                                  "ind_var8_0", "ind_var8",
+                                                                                                  "ind_var12_0", "ind_var12",
+                                                                                                  "ind_var13_0", "ind_var13",
+                                                                                                  "ind_var14_0", "ind_var14",
+                                                                                                  "ind_var17_0", "ind_var17",
+                                                                                                  "ind_var18_0", "ind_var18",
+                                                                                                  "ind_var19",
+                                                                                                  "ind_var24_0", "ind_var24",
+                                                                                                  "ind_var25_0", "ind_var25",
+                                                                                                  "ind_var26_0", "ind_var26",
+                                                                                                  "ind_var27_0", "ind_var27",
+                                                                                                  "ind_var28_0", "ind_var28",
+                                                                                                  "ind_var29_0", "ind_var29",
+                                                                                                  "ind_var30_0", "ind_var30",
+                                                                                                  "ind_var31_0", "ind_var31",
+                                                                                                  "ind_var32_0", "ind_var32",
+                                                                                                  "ind_var33_0", "ind_var33",
+                                                                                                  "ind_var34_0", "ind_var34",
+                                                                                                  "ind_var37_0", "ind_var37",
+                                                                                                  "ind_var39_0", "ind_var39",
+                                                                                                  "ind_var40_0", "ind_var40",
+                                                                                                  "ind_var41_0", "ind_var41",
+                                                                                                  "ind_var44_0", "ind_var44",
+                                                                                                  "ind_var46_0", "ind_var46",
+                                                                                                  "ind_var7_emit_ult1", "ind_var7_recib_ult1",
+                                                                                                  "ind_var9_cte_ult1", "ind_var9_ult1",
+                                                                                                  "ind_var10_ult1", "ind_var10cte_ult1",
+                                                                                                  "ind_var13_corto_0", "ind_var13_corto",
+                                                                                                  "ind_var13_largo_0", "ind_var13_largo",
+                                                                                                  "ind_var13_medio_0", "ind_var13_medio",
+                                                                                                  "ind_var25_cte",
+                                                                                                  "ind_var26_cte",
+                                                                                                  "ind_var32_cte",
+                                                                                                  "ind_var37_cte",
+                                                                                                  "ind_var43_emit_ult1", "ind_var_recib_ult1")))}
+  
+  # sum of var
+  if (var == TRUE) {temp_list <- cbind(temp_list, varSUM = SumMaker(data, c("var3", "var15", "var21", "var36", "var38")))}
+  
+  # sum of var_0 num
+  if ((num == -1) | (num == 999)) {temp_list <- cbind(temp_list,
+                                                      numSUM00 = SumMaker(data, c("num_var1_0",
+                                                                                  "num_var2_0_ult1",
+                                                                                  "num_var4",
+                                                                                  "num_var5_0",
+                                                                                  "num_var6_0",
+                                                                                  "num_var8_0",
+                                                                                  "num_var12_0",
+                                                                                  "num_var13_0",
+                                                                                  "num_var14_0",
+                                                                                  "num_var17_0",
+                                                                                  "num_var18_0",
+                                                                                  "num_var20_0",
+                                                                                  "num_var24_0",
+                                                                                  "num_var25_0",
+                                                                                  "num_var26_0",
+                                                                                  "num_var27_0",
+                                                                                  "num_var28_0",
+                                                                                  "num_var29_0",
+                                                                                  "num_var30_0",
+                                                                                  "num_var31_0",
+                                                                                  "num_var32_0",
+                                                                                  "num_var33_0",
+                                                                                  "num_var34_0",
+                                                                                  "num_var37_0",
+                                                                                  "num_var39_0",
+                                                                                  "num_var40_0",
+                                                                                  "num_var41_0",
+                                                                                  "num_var42_0",
+                                                                                  "num_var44_0",
+                                                                                  "num_var46_0")))}
+  
+  # var_0, var, meses, aport, reemb, trasp, op, comer, efect, special(corto, largo, medio, med)
+  # sum of var num
+  if ((num == 0) | (num == 999)) {temp_list <- cbind(temp_list,
+                                                     numSUM0 = SumMaker(data, c("num_var1",
+                                                                                "num_var2_ult1",
+                                                                                "num_var5",
+                                                                                "num_var6",
+                                                                                "num_var8",
+                                                                                "num_var12",
+                                                                                "num_var13",
+                                                                                "num_var14",
+                                                                                "num_var17",
+                                                                                "num_var18",
+                                                                                "num_var20",
+                                                                                "num_var24",
+                                                                                "num_var25",
+                                                                                "num_var26",
+                                                                                "num_var27",
+                                                                                "num_var28",
+                                                                                "num_var29",
+                                                                                "num_var30",
+                                                                                "num_var31",
+                                                                                "num_var32",
+                                                                                "num_var33",
+                                                                                "num_var34",
+                                                                                "num_var35",
+                                                                                "num_var37",
+                                                                                "num_var39",
+                                                                                "num_var40",
+                                                                                "num_var41",
+                                                                                "num_var42",
+                                                                                "num_var44",
+                                                                                "num_var46_0")))}
+  
+  # var_0, var, meses, aport, reemb, trasp, op, comer, efect, special(corto, largo, medio, med)
+  # sum of var num
+  if ((num == 1) | (num == 999)) {temp_list <- cbind(temp_list,
+                                                     numSUM1 = SumMaker(data, c("num_var1_0", "num_var1",
+                                                                                "num_var2_0_ult1", "num_var2_ult1",
+                                                                                "num_var4",
+                                                                                "num_var5_0", "num_var5",
+                                                                                "num_var6_0", "num_var6",
+                                                                                "num_var8_0", "num_var8",
+                                                                                "num_var12_0", "num_var12",
+                                                                                "num_var13_0", "num_var13",
+                                                                                "num_var14_0", "num_var14",
+                                                                                "num_var17_0", "num_var17",
+                                                                                "num_var18_0", "num_var18",
+                                                                                "num_var20_0", "num_var20",
+                                                                                "num_var24_0", "num_var24",
+                                                                                "num_var25_0", "num_var25",
+                                                                                "num_var26_0", "num_var26",
+                                                                                "num_var27_0", "num_var27",
+                                                                                "num_var28_0", "num_var28",
+                                                                                "num_var29_0", "num_var29",
+                                                                                "num_var30_0", "num_var30",
+                                                                                "num_var31_0", "num_var31",
+                                                                                "num_var32_0", "num_var32",
+                                                                                "num_var33_0", "num_var33",
+                                                                                "num_var34_0", "num_var34",
+                                                                                "num_var35",
+                                                                                "num_var37_0", "num_var37",
+                                                                                "num_var39_0", "num_var39",
+                                                                                "num_var40_0", "num_var40",
+                                                                                "num_var41_0", "num_var41",
+                                                                                "num_var42_0", "num_var42",
+                                                                                "num_var44_0", "num_var44",
+                                                                                "num_var46_0", "num_var46")))}
+  
+  # sum of meses num
+  if ((num == 2) | (num == 999)) {temp_list <- cbind(temp_list,
+                                                     numSUM2 = SumMaker(data, c("num_meses_var5_ult3",
+                                                                                "num_meses_var8_ult3",
+                                                                                "num_meses_var13_corto_ult3",
+                                                                                "num_meses_var13_largo_ult3",
+                                                                                "num_meses_var13_medio_ult3",
+                                                                                "num_meses_var17_ult3",
+                                                                                "num_meses_var29_ult3",
+                                                                                "num_meses_var33_ult3",
+                                                                                "num_meses_var39_vig_ult3")))}
+  
+  # sum of aport num
+  if ((num == 3) | (num == 999)) {temp_list <- cbind(temp_list,
+                                                     numSUM3 = SumMaker(data, c("num_aport_var13_hace3", "num_aport_var13_ult1",
+                                                                                "num_aport_var17_hace3", "num_aport_var17_ult1",
+                                                                                "num_aport_var33_hace3", "num_aport_var33_ult1")))}
+  
+  # sum of reemb num
+  if ((num == 4) | (num == 999)) {temp_list <- cbind(temp_list,
+                                                     numSUM4 = SumMaker(data, c("num_reemb_var13_hace3", "num_reemb_var13_ult1",
+                                                                                "num_reemb_var17_hace3", "num_reemb_var17_ult1",
+                                                                                "num_reemb_var33_hace3", "num_reemb_var33_ult1")))}
+  
+  # sum of trasp num
+  if ((num == 5) | (num == 999)) {temp_list <- cbind(temp_list,
+                                                     numSUM5 = SumMaker(data, c("num_trasp_var11_ult1",
+                                                                                "num_trasp_var17_in_hace3", "num_trasp_var17_in_ult1",
+                                                                                "num_trasp_var17_out_hace3", "num_trasp_var17_out_ult1",
+                                                                                "num_trasp_var33_in_hace3", "num_trasp_var33_in_ult1",
+                                                                                "num_trasp_var33_out_hace3", "num_trasp_var33_out_ult1")))}
+  
+  # sum of op num
+  if ((num == 6) | (num == 999)) {temp_list <- cbind(temp_list,
+                                                     numSUM6 = SumMaker(data, c("num_op_var39_hace2", "num_op_var39_hace3",
+                                                                                "num_op_var39_ult1", "num_op_var39_ult3",
+                                                                                "num_op_var40_hace2", "num_op_var40_hace3",
+                                                                                "num_op_var40_ult1", "num_op_var40_ult3",
+                                                                                "num_op_var41_hace2", "num_op_var41_hace3",
+                                                                                "num_op_var41_ult1", "num_op_var41_ult3")))}
+  
+  # sum of comer num
+  if ((num == 7) | (num == 999)) {temp_list <- cbind(temp_list,
+                                                     numSUM7 = SumMaker(data, c("num_op_var39_comer_ult1", "num_op_var39_comer_ult3",
+                                                                                "num_op_var40_comer_ult1", "num_op_var40_comer_ult3",
+                                                                                "num_op_var41_comer_ult1", "num_op_var41_comer_ult3")))}
+  
+  # sum of efect num
+  if ((num == 8) | (num == 999)) {temp_list <- cbind(temp_list,
+                                                     numSUM8 = SumMaker(data, c("num_op_var39_efect_ult1", "num_op_var39_efect_ult3",
+                                                                                "num_op_var40_efect_ult1", "num_op_var40_efect_ult3",
+                                                                                "num_op_var41_efect_ult1", "num_op_var41_efect_ult3")))}
+  
+  # sum of med num
+  if ((num == 9) | (num == 999)) {temp_list <- cbind(temp_list,
+                                                     numSUM9 = SumMaker(data, c("num_med_var22_ult3",
+                                                                                "num_med_var45_ult3")))}
+  
+  # sum of emit num
+  if ((num == 10) | (num == 999)) {temp_list <- cbind(temp_list,
+                                                      numSUM10 = SumMaker(data, c("num_var7_emit_ult1",
+                                                                                  "num_var43_emit_ult1")))}
+  
+  # sum of recib num
+  if ((num == 11) | (num == 999)) {temp_list <- cbind(temp_list,
+                                                      numSUM11 = SumMaker(data, c("num_var7_recib_ult1",
+                                                                                  "num_var43_recib_ult1")))}
+  
+  
+  # sum of special num
+  if ((num == 12) | (num == 999)) {temp_list <- cbind(temp_list,
+                                                      numSUM12 = SumMaker(data, c("num_var7_emit_ult1", "num_var7_recib_ult1",
+                                                                                  "num_var13_corto_0", "num_var13_corto",
+                                                                                  "num_var13_largo_0", "num_var13_largo",
+                                                                                  "num_var13_medio_0", "num_var13_medio",
+                                                                                  "num_ent_var16_ult1", "num_sal_var16_ult1",
+                                                                                  "num_var43_emit_ult1", "num_var43_recib_ult1",
+                                                                                  "num_compra_var44_hace3", "num_compra_var44_ult1",
+                                                                                  "num_venta_var44_hace3", "num_venta_var44_ult1")))}
+  
+  # sum of num
+  if ((num == 13) | (num == 999)) {temp_list <- cbind(temp_list,
+                                                      numSUM13 = SumMaker(data, c("num_var1_0", "num_var1",
+                                                                                  "num_var2_0_ult1", "num_var2_ult1",
+                                                                                  "num_var4",
+                                                                                  "num_var5_0", "num_var5",
+                                                                                  "num_meses_var5_ult3",
+                                                                                  "num_var6_0", "num_var6",
+                                                                                  "num_var7_emit_ult1", "num_var7_recib_ult1",
+                                                                                  "num_var8_0", "num_var8",
+                                                                                  "num_meses_var8_ult3",
+                                                                                  "num_trasp_var11_ult1",
+                                                                                  "num_var12_0", "num_var12",
+                                                                                  "num_meses_var12_ult3",
+                                                                                  "num_var13_0", "num_var13",
+                                                                                  "num_var13_corto_0", "num_var13_corto",
+                                                                                  "num_var13_largo_0", "num_var13_largo",
+                                                                                  "num_var13_medio_0", "num_var13_medio",
+                                                                                  "num_aport_var13_hace3", "num_aport_var13_ult1",
+                                                                                  "num_meses_var13_corto_ult3",
+                                                                                  "num_meses_var13_largo_ult3",
+                                                                                  "num_meses_var13_medio_ult3",
+                                                                                  "num_reemb_var13_hace3", "num_reemb_var13_ult1",
+                                                                                  "num_var14_0", "num_var14",
+                                                                                  "num_ent_var16_ult1", "num_sal_var16_ult1",
+                                                                                  "num_var17_0", "num_var17",
+                                                                                  "num_aport_var17_hace3", "num_aport_var17_ult1",
+                                                                                  "num_meses_var17_ult3",
+                                                                                  "num_reemb_var17_hace3", "num_reemb_var17_ult1",
+                                                                                  "num_trasp_var17_in_hace3", "num_trasp_var17_in_ult1",
+                                                                                  "num_trasp_var17_out_hace3", "num_trasp_var17_out_ult1",
+                                                                                  "num_var18_0", "num_var18",
+                                                                                  "num_var20_0", "num_var20",
+                                                                                  "num_var22_hace2", "num_var22_hace3",
+                                                                                  "num_var22_ult1", "num_var22_ult3",
+                                                                                  "num_med_var22_ult3",
+                                                                                  "num_var24_0", "num_var24",
+                                                                                  "num_var25_0", "num_var25",
+                                                                                  "num_var26_0", "num_var26",
+                                                                                  "num_var27_0", "num_var27",
+                                                                                  "num_var28_0", "num_var28",
+                                                                                  "num_var29_0", "num_var29",
+                                                                                  "num_meses_var29_ult3",
+                                                                                  "num_var30_0", "num_var30",
+                                                                                  "num_var31_0", "num_var31",
+                                                                                  "num_var32_0", "num_var32",
+                                                                                  "num_var33_0", "num_var33",
+                                                                                  "num_aport_var33_hace3", "num_aport_var33_ult1",
+                                                                                  "num_meses_var33_ult3",
+                                                                                  "num_reemb_var33_hace3", "num_reemb_var33_ult1",
+                                                                                  "num_trasp_var33_in_hace3", "num_trasp_var33_in_ult1",
+                                                                                  "num_trasp_var33_out_hace3", "num_trasp_var33_out_ult1",
+                                                                                  "num_var34_0", "num_var34",
+                                                                                  "num_var35",
+                                                                                  "num_var37_med_ult2",
+                                                                                  "num_var37_0", "num_var37",
+                                                                                  "num_var39_0", "num_var39",
+                                                                                  "num_op_var39_hace2", "num_op_var39_hace3",
+                                                                                  "num_op_var39_ult1", "num_op_var39_ult3",
+                                                                                  "num_meses_var39_vig_ult3",
+                                                                                  "num_op_var39_comer_ult1", "num_op_var39_comer_ult3",
+                                                                                  "num_op_var39_efect_ult1", "num_op_var39_efect_ult3",
+                                                                                  "num_var40_0", "num_var40",
+                                                                                  "num_op_var40_hace2", "num_op_var40_hace3",
+                                                                                  "num_op_var40_ult1", "num_op_var40_ult3",
+                                                                                  "num_op_var40_comer_ult1", "num_op_var40_comer_ult3",
+                                                                                  "num_op_var40_efect_ult1", "num_op_var40_efect_ult3",
+                                                                                  "num_var41_0", "num_var41",
+                                                                                  "num_op_var41_hace2", "num_op_var41_hace3",
+                                                                                  "num_op_var41_ult1", "num_op_var41_ult3",
+                                                                                  "num_op_var41_comer_ult1", "num_op_var41_comer_ult3",
+                                                                                  "num_op_var41_efect_ult1", "num_op_var41_efect_ult3",
+                                                                                  "num_var42_0", "num_var42",
+                                                                                  "num_var43_emit_ult1", "num_var43_recib_ult1",
+                                                                                  "num_var44_0", "num_var44",
+                                                                                  "num_compra_var44_hace3", "num_compra_var44_ult1",
+                                                                                  "num_meses_var44_ult3",
+                                                                                  "num_venta_var44_hace3", "num_venta_var44_ult1",
+                                                                                  "num_med_var45_ult3",
+                                                                                  "num_var45_hace2", "num_var45_hace3",
+                                                                                  "num_var45_ult1", "num_var45_ult3",
+                                                                                  "num_var46_0", "num_var46")))}
+  
+  # sum of regular saldo
+  if ((saldo == 1) | (saldo == 999)) {temp_list <- cbind(temp_list,
+                                                         saldoSUM1 = SumMaker(data, c("saldo_var1",
+                                                                                      "saldo_var5",
+                                                                                      "saldo_var6",
+                                                                                      "saldo_var8",
+                                                                                      "saldo_var12",
+                                                                                      "saldo_var13",
+                                                                                      "saldo_var14",
+                                                                                      "saldo_var17",
+                                                                                      "saldo_var18",
+                                                                                      "saldo_var20",
+                                                                                      "saldo_var24",
+                                                                                      "saldo_var25",
+                                                                                      "saldo_var26",
+                                                                                      "saldo_var27",
+                                                                                      "saldo_var28",
+                                                                                      "saldo_var29",
+                                                                                      "saldo_var30",
+                                                                                      "saldo_var31",
+                                                                                      "saldo_var32",
+                                                                                      "saldo_var33",
+                                                                                      "saldo_var34",
+                                                                                      "saldo_var37",
+                                                                                      "saldo_var40",
+                                                                                      "saldo_var41",
+                                                                                      "saldo_var42",
+                                                                                      "saldo_var44",
+                                                                                      "saldo_var46")))}
+  
+  # sum of special saldo
+  if ((saldo == 2) | (saldo == 999)) {temp_list <- cbind(temp_list,
+                                                         saldoSUM2 = SumMaker(data, c("saldo_var2_ult1",
+                                                                                      "saldo_var13_corto",
+                                                                                      "saldo_var13_largo",
+                                                                                      "saldo_var13_medio")))}
+  
+  # sum of all saldo
+  if ((saldo == 3) | (saldo == 999)) {temp_list <- cbind(temp_list,
+                                                         saldoSUM3 = SumMaker(data, c("saldo_var1",
+                                                                                      "saldo_var2_ult1",
+                                                                                      "saldo_var5",
+                                                                                      "saldo_var6",
+                                                                                      "saldo_var8",
+                                                                                      "saldo_var12",
+                                                                                      "saldo_var13",
+                                                                                      "saldo_var13_corto",
+                                                                                      "saldo_var13_largo",
+                                                                                      "saldo_var13_medio",
+                                                                                      "saldo_var14",
+                                                                                      "saldo_var17",
+                                                                                      "saldo_var18",
+                                                                                      "saldo_var20",
+                                                                                      "saldo_var24",
+                                                                                      "saldo_var25",
+                                                                                      "saldo_var26",
+                                                                                      "saldo_var27",
+                                                                                      "saldo_var28",
+                                                                                      "saldo_var29",
+                                                                                      "saldo_var30",
+                                                                                      "saldo_var31",
+                                                                                      "saldo_var32",
+                                                                                      "saldo_var33",
+                                                                                      "saldo_var34",
+                                                                                      "saldo_var37",
+                                                                                      "saldo_var40",
+                                                                                      "saldo_var41",
+                                                                                      "saldo_var42",
+                                                                                      "saldo_var44",
+                                                                                      "saldo_var46")))}
+  # sum of emit imp
+  if ((imp == 1) | (imp == 999)) {temp_list <- cbind(temp_list,
+                                                     impSUM1 = SumMaker(data, c("imp_var7_emit_ult1",
+                                                                                "imp_var43_emit_ult1")))}
+  
+  # sum of aport imp
+  if ((imp == 2) | (imp == 999)) {temp_list <- cbind(temp_list,
+                                                     impSUM2 = SumMaker(data, c("imp_aport_var13_hace3", "imp_aport_var13_ult1",
+                                                                                "imp_aport_var17_hace3", "imp_aport_var17_ult1",
+                                                                                "imp_amort_var34_hace3")))}
+  
+  # sum of trasp imp
+  if ((imp == 3) | (imp == 999)) {temp_list <- cbind(temp_list,
+                                                     impSUM3 = SumMaker(data, c("imp_trasp_var17_in_hace3", "imp_trasp_var17_in_ult1",
+                                                                                "imp_trasp_var17_out_hace3", "imp_trasp_var17_out_ult1",
+                                                                                "imp_trasp_var33_in_hace3", "imp_trasp_var33_in_ult1",
+                                                                                "imp_trasp_var33_out_hace3", "imp_trasp_var33_out_ult1")))}
+  
+  # sum of amort imp
+  if ((imp == 4) | (imp == 999)) {temp_list <- cbind(temp_list,
+                                                     impSUM4 = SumMaker(data, c("imp_amort_var18_hace3", "imp_amort_var18_ult1",
+                                                                                "imp_amort_var34_hace3", "imp_amort_var34_ult1")))}
+  
+  
+  # sum of comer imp
+  if ((imp == 5) | (imp == 999)) {temp_list <- cbind(temp_list,
+                                                     impSUM5 = SumMaker(data, c("imp_op_var39_comer_ult1", "imp_op_var39_comer_ult3",
+                                                                                "imp_op_var40_comer_ult1", "imp_op_var40_comer_ult3",
+                                                                                "imp_op_var41_comer_ult1", "imp_op_var41_comer_ult3")))}
+  
+  # sum of efect imp
+  if ((imp == 6) | (imp == 999)) {temp_list <- cbind(temp_list,
+                                                     impSUM6 = SumMaker(data, c("imp_op_var39_efect_ult1", "imp_op_var39 efect_ult3",
+                                                                                "imp_op_var40_efect_ult1", "imp_op_var40_efect_ult3",
+                                                                                "imp_op_var41_efect_ult1", "imp_op_var41_efect_ult3")))}
+  
+  
+  # sum of op imp
+  if ((imp == 7) | (imp == 999)) {temp_list <- cbind(temp_list,
+                                                     impSUM7 = SumMaker(data, c("imp_op_var39_ult1",
+                                                                                "imp_op_var40_ult1",
+                                                                                "imp_op_var41_ult1")))}
+  
+  # sum of special imp
+  if ((imp == 8) | (imp == 999)) {temp_list <- cbind(temp_list,
+                                                     impSUM8 = SumMaker(data, c("imp_var7_recib_ult1",
+                                                                                "imp_ent_var16_ult1", "imp_sal_var16_ult1",
+                                                                                "imp_trans_var37_ult1",
+                                                                                "imp_compra_var44_hace3", "imp_compra_var44_ult1",
+                                                                                "imp_venta_var44_hace3", "imp_venta_var44_ult1")))}
+  
+  
+  # sum of all imp
+  if ((imp == 9) | (imp == 999)) {temp_list <- cbind(temp_list,
+                                                     impSUM9 = SumMaker(data, c("imp_var7_emit_ult1", "imp_var7_recib_ult1",
+                                                                                "imp_aport_var13_hace3", "imp_aport_var13_ult1",
+                                                                                "imp_reemb_var13_hace3", "imp_reemb_var13_ult1",
+                                                                                "imp_ent_var16_ult1", "imp_sal_var16_ult1",
+                                                                                "imp_aport_var17_hace3", "imp_aport_var17_ult1",
+                                                                                "imp_reemb_var17_hace3", "imp_reemb_var17_ult1",
+                                                                                "imp_trasp_var17_in_hace3", "imp_trasp_var17_in_ult1",
+                                                                                "imp_trasp_var17_out_hace3", "imp_trasp_var17_out_ult1",
+                                                                                "imp_amort_var18_hace3", "imp_amort_var18_ult1",
+                                                                                "imp_aport_var33_hace3", "imp_aport_var33_ult1",
+                                                                                "imp_reemb_var33_hace3", "imp_reemb_var33_ult1",
+                                                                                "imp_trasp_var33_in_hace3", "imp_trasp_var33_in_ult1",
+                                                                                "imp_trasp_var33_out_hace3", "imp_trasp_var33_out_ult1",
+                                                                                "imp_amort_var34_hace3", "imp_amort_var34_ult1",
+                                                                                "imp_trans_var37_ult1",
+                                                                                "imp_op_var39_comer_ult1", "imp_op_var39_comer_ult3",
+                                                                                "imp_op_var39_efect_ult1", "imp_op_var39 efect_ult3",
+                                                                                "imp_op_var39_ult1",
+                                                                                "imp_op_var40_comer_ult1", "imp_op_var40_comer_ult3",
+                                                                                "imp_op_var40_efect_ult1", "imp_op_var40_efect_ult3",
+                                                                                "imp_op_var40_ult1",
+                                                                                "imp_op_var41_comer_ult1", "imp_op_var41_comer_ult3",
+                                                                                "imp_op_var41_efect_ult1", "imp_op_var41_efect_ult3",
+                                                                                "imp_op_var41_ult1",
+                                                                                "imp_var43_emit_ult1",
+                                                                                "imp_compra_var44_hace3", "imp_compra_var44_ult1",
+                                                                                "imp_venta_var44_hace3", "imp_venta_var44_ult1")))}
+  
+  #aport reemb trasp special all
+  # sum of aport deltaN
+  if ((deltaN == 1) | (deltaN == 999)) {temp_list <- cbind(temp_list, deltaNSUM1 = SumMaker(data, c("delta_num_aport_var13_1y3",
+                                                                                                    "delta_num_aport_var17_1y3",
+                                                                                                    "delta_num_aport_var33_1y3")))}
+  
+  # sum of reemb deltaN
+  if ((deltaN == 2) | (deltaN == 999)) {temp_list <- cbind(temp_list, deltaNSUM2 = SumMaker(data, c("delta_num_reemb_var13_1y3",
+                                                                                                    "delta_num_reemb_var17_1y3",
+                                                                                                    "delta_num_reemb_var33_1y3")))}
+  
+  # sum of trasp deltaN
+  if ((deltaN == 3) | (deltaN == 999)) {temp_list <- cbind(temp_list, deltaNSUM3 = SumMaker(data, c("delta_num_trasp_var17_in_1y3",
+                                                                                                    "delta_num_trasp_var17_out_1y3",
+                                                                                                    "delta_num_trasp_var33_in_1y3",
+                                                                                                    "delta_num_trasp_var33_out_1y3")))}
+  
+  # sum of special deltaN
+  if ((deltaN == 4) | (deltaN == 999)) {temp_list <- cbind(temp_list, deltaNSUM4 = SumMaker(data, c("delta_num_compra_var44_1y3",
+                                                                                                    "delta_num_venta_var44_1y3")))}
+  
+  # sum of all deltaN
+  if ((deltaN == 5) | (deltaN == 999)) {temp_list <- cbind(temp_list, deltaNSUM5 = SumMaker(data, c("delta_num_aport_var13_1y3",
+                                                                                                    "delta_num_reemb_var13_1y3",
+                                                                                                    "delta_num_aport_var17_1y3",
+                                                                                                    "delta_num_reemb_var17_1y3",
+                                                                                                    "delta_num_trasp_var17_in_1y3",
+                                                                                                    "delta_num_trasp_var17_out_1y3",
+                                                                                                    "delta_num_aport_var33_1y3",
+                                                                                                    "delta_num_reemb_var33_1y3",
+                                                                                                    "delta_num_trasp_var33_in_1y3",
+                                                                                                    "delta_num_trasp_var33_out_1y3",
+                                                                                                    "delta_num_compra_var44_1y3",
+                                                                                                    "delta_num_venta_var44_1y3")))}
+  
+  # sum of aport deltaI
+  if ((deltaI == 1) | (deltaI == 999)) {temp_list <- cbind(temp_list, deltaISUM1 = SumMaker(data, c("delta_imp_aport_reemb_var13_1y3",
+                                                                                                    "delta_imp_aport_reemb_var17_1y3",
+                                                                                                    "delta_imp_aport_var33_1y3")))}
+  # sum of reemb deltaI
+  if ((deltaI == 2) | (deltaI == 999)) {temp_list <- cbind(temp_list, deltaISUM2 = SumMaker(data, c("delta_imp_reemb_var13_1y3",
+                                                                                                    "delta_imp_aport_reemb_var17_1y3",
+                                                                                                    "delta_imp_reemb_var16_1y3",
+                                                                                                    "delta_imp_reemb_var33_1y3")))}
+  # sum of trasp deltaI
+  if ((deltaI == 3) | (deltaI == 999)) {temp_list <- cbind(temp_list, deltaISUM3 = SumMaker(data, c("delta_imp_trasp_var17_in_1y3",
+                                                                                                    "delta_imp_trasp_var17_out_1y3",
+                                                                                                    "delta_imp_trasp_var33_in_1y3",
+                                                                                                    "delta_imp_trasp_var33_out_1y3")))}
+  # sum of amort deltaI
+  if ((deltaI == 4) | (deltaI == 999)) {temp_list <- cbind(temp_list, deltaISUM4 = SumMaker(data, c("delta_imp_amort_var18_1y3",
+                                                                                                    "delta_imp_amort_var34_1y3")))}
+  # sum of special deltaI
+  if ((deltaI == 5) | (deltaI == 999)) {temp_list <- cbind(temp_list, deltaISUM5 = SumMaker(data, c("delta_imp_compra_var44_1y3",
+                                                                                                    "delta_imp_venta_var44_1y3")))}
+  # sum of all deltaI
+  if ((deltaI == 6) | (deltaI == 999)) {temp_list <- cbind(temp_list, deltaISUM6 = SumMaker(data, c("delta_imp_aport_reemb_var13_1y3",
+                                                                                                    "delta_imp_reemb_var13_1y3",
+                                                                                                    "delta_imp_aport_reemb_var17_1y3",
+                                                                                                    "delta_imp_reemb_var16_1y3",
+                                                                                                    "delta_imp_trasp_var17_in_1y3",
+                                                                                                    "delta_imp_trasp_var17_out_1y3",
+                                                                                                    "delta_imp_amort_var18_1y3",
+                                                                                                    "delta_imp_aport_var33_1y3",
+                                                                                                    "delta_imp_reemb_var33_1y3",
+                                                                                                    "delta_imp_trasp_var33_in_1y3",
+                                                                                                    "delta_imp_trasp_var33_out_1y3",
+                                                                                                    "delta_imp_amort_var34_1y3",
+                                                                                                    "delta_imp_compra_var44_1y3",
+                                                                                                    "delta_imp_venta_var44_1y3")))}
   
   temp_list$ZZZ <- NULL
   return(temp_list)
