@@ -326,7 +326,7 @@ SimulatorROCBoot <- function(actual, predicted, ruled, prob = 0.00, kick = 0.000
         part1 <- actual0[sample(actual0.count, FastSeq0)]
         part2 <- actual1[sample(actual1.count, FastSeq1)]
         parts <- c(part1, part2)
-        temp_ROC[(j-1)*boot+k] <- FastROC(fake_actual[parts], predicted[parts])
+        temp_ROC[(j-1)*boot+k] <- FastROC(fake_actual[parts], temp_probs[parts])
         
       }
       if (verbose == TRUE) {
@@ -353,7 +353,7 @@ SimulatorROCBoot <- function(actual, predicted, ruled, prob = 0.00, kick = 0.000
 }
 
 
-SimulatorROCProbBoot <- function(actual, predicted, ruled, falseAbs = 1, prob = c(0.00, 0.01, 0.02, 0.03), kick = 0.0000001, target = 1, verbose = TRUE, size = 0.50, batch = 10, boot = 100, seed = 0) {
+SimulatorROCProbBoot <- function(actual, predicted, ruled, falseAbs = 1, prob = c(0.00, 0.01, 0.02, 0.03), kick = 0.0000001, target = 1, verbose = TRUE, size = 0.50, batch = 10, boot = 100, seed = 0, ROCBase = NA) {
   
   # actual = actual predictions
   # predicted = predicted predictions
@@ -390,63 +390,24 @@ SimulatorROCProbBoot <- function(actual, predicted, ruled, falseAbs = 1, prob = 
   temp_probs <- probabilities
   temp_ROC <- rep(0, boot*batch)
   
-  for (j in 1:batch) {
-    
-    set.seed(j+seed)
-    for (k in 1:boot) {
-      set.seed(j*boot+k+seed)
-      part1 <- actual0[sample(actual0.count, FastSeq0)]
-      part2 <- actual1[sample(actual1.count, FastSeq1)]
-      parts <- c(part1, part2)
-      temp_ROC[(j-1)*boot+k] <- FastROC(actual[parts], predicted[parts])
-    }
-    if (verbose == TRUE) {
-      meanROC <- mean(temp_ROC[1:(j*boot)])
-      sdROC <- sd(temp_ROC[1:(j*boot)])
-      minROC <- min(temp_ROC[1:(j*boot)])
-      maxROC <- max(temp_ROC[1:(j*boot)])
-      cat("\rCurrent ROC:", sprintf("%.07f", round(baseROC, digits = 7)), "(", ifelse(meanROC > baseROC, "+", "-"), ") | from Simulation: ", sprintf("%.07f", round(meanROC, digits = 7)), "+", sprintf("%.07f", round(sdROC, digits = 7)), "[", sprintf("%.07f", round(minROC, digits = 7)), ", ", sprintf("%.07f", round(maxROC, digits = 7)), "] (", round(j/batch*100, digits = 0), "%)", sep = "")
-    }
-    
-  }
-  
-  meanROC <- mean(temp_ROC)
-  sdROC <- sd(temp_ROC)
-  minROC <- min(temp_ROC)
-  maxROC <- max(temp_ROC)
-  
-  if (verbose == TRUE) {
-    cat("\rCurrent ROC:", sprintf("%.07f", round(baseROC, digits = 7)), "(", ifelse(meanROC > baseROC, "+", "-"), ") | from Simulation: ", sprintf("%.07f", round(meanROC, digits = 7)), "+", sprintf("%.07f", round(sdROC, digits = 7)), "[", sprintf("%.07f", round(minROC, digits = 7)), ", ", sprintf("%.07f", round(maxROC, digits = 7)), "]       \n\n", sep = "")
-  }
-  
-  bootROC <- meanROC
-  
-  for (i in 1:NROW(prob)) {
-    
-    temp_probs <- probabilities
-    temp_probs[which_rules] <- prob[i]
-    temp_ROC <- rep(0, boot*batch)
+  if (is.na(ROCBase[1])) {
     
     for (j in 1:batch) {
       
       set.seed(j+seed)
       for (k in 1:boot) {
-        fake_actual <- actual
-        set.seed(j*boot+k+seed)
-        fake_actual[sample(which_rules, i)] <- target
         set.seed(j*boot+k+seed)
         part1 <- actual0[sample(actual0.count, FastSeq0)]
         part2 <- actual1[sample(actual1.count, FastSeq1)]
         parts <- c(part1, part2)
-        temp_ROC[(j-1)*boot+k] <- FastROC(fake_actual[parts], predicted[parts])
-        
+        temp_ROC[(j-1)*boot+k] <- FastROC(actual[parts], predicted[parts])
       }
       if (verbose == TRUE) {
         meanROC <- mean(temp_ROC[1:(j*boot)])
         sdROC <- sd(temp_ROC[1:(j*boot)])
         minROC <- min(temp_ROC[1:(j*boot)])
         maxROC <- max(temp_ROC[1:(j*boot)])
-        cat("\rFalses in rule: ", falseAbs, "(", ifelse(meanROC > baseROC, "+", "-"), ifelse(bootROC > baseROC, "+", "-"), ") => ROC = ", sprintf("%.07f", round(meanROC, digits = 7)), "+", sprintf("%.07f", round(sdROC, digits = 7)), "[", sprintf("%.07f", round(minROC, digits = 7)), ", ", sprintf("%.07f", round(maxROC, digits = 7)), "]  (", sprintf("%.03f", 100*i/ruled.count), "% | Adj: ", sprintf("%.03f", 100*((i/ruled.count) * (sum(actual == 0) / sum(actual == 1)))), "%) with prob = ", sprintf("%.04f", prob[i]), " (", round(j/batch*100, digits = 0), "%)", sep = "")
+        cat("\rCurrent ROC:", sprintf("%.07f", round(baseROC, digits = 7)), "(", ifelse(meanROC > baseROC, "+", "-"), ") | from Simulation: ", sprintf("%.07f", round(meanROC, digits = 7)), "+", sprintf("%.07f", round(sdROC, digits = 7)), "[", sprintf("%.07f", round(minROC, digits = 7)), ", ", sprintf("%.07f", round(maxROC, digits = 7)), "] (", round(j/batch*100, digits = 0), "%)", sep = "")
       }
       
     }
@@ -457,11 +418,75 @@ SimulatorROCProbBoot <- function(actual, predicted, ruled, falseAbs = 1, prob = 
     maxROC <- max(temp_ROC)
     
     if (verbose == TRUE) {
-      cat("\rFalses in rule: ", falseAbs, "(", ifelse(meanROC > baseROC, "+", "-"), ifelse(bootROC > baseROC, "+", "-"), ") => ROC = ", sprintf("%.07f", round(meanROC, digits = 7)), "+", sprintf("%.07f", round(sdROC, digits = 7)), "[", sprintf("%.07f", round(minROC, digits = 7)), ", ", sprintf("%.07f", round(maxROC, digits = 7)), "]  (", sprintf("%.03f", 100*i/ruled.count), "% | Adj: ", sprintf("%.03f", 100*((i/ruled.count) * (sum(actual == 0) / sum(actual == 1)))), "%) with prob = ", sprintf("%.04f", prob[i]), "       \n", sep = "")
+      cat("\rCurrent ROC:", sprintf("%.07f", round(baseROC, digits = 7)), "(", ifelse(meanROC > baseROC, "+", "-"), ") | from Simulation: ", sprintf("%.07f", round(meanROC, digits = 7)), "+", sprintf("%.07f", round(sdROC, digits = 7)), "[", sprintf("%.07f", round(minROC, digits = 7)), ", ", sprintf("%.07f", round(maxROC, digits = 7)), "]       \n", sep = "")
     }
+    
+    bootROC <- meanROC
+    
+  } else {
+    
+    meanROC <- ROCBase[1]
+    bootROC <- ROCBase[2]
     
   }
   
-  return(1-meanROC)
+  if (!(is.na(prob))) {
+    
+    for (i in 1:NROW(prob)) {
+      
+      temp_probs <- probabilities
+      temp_probs[which_rules] <- prob[i]
+      temp_ROC <- rep(0, boot*batch)
+      
+      for (j in 1:batch) {
+        
+        set.seed(j+seed)
+        for (k in 1:boot) {
+          fake_actual <- actual
+          set.seed(j*boot+k+seed)
+          fake_actual[sample(which_rules, i)] <- target
+          set.seed(j*boot+k+seed)
+          part1 <- actual0[sample(actual0.count, FastSeq0)]
+          part2 <- actual1[sample(actual1.count, FastSeq1)]
+          parts <- c(part1, part2)
+          temp_ROC[(j-1)*boot+k] <- FastROC(fake_actual[parts], temp_probs[parts])
+          
+        }
+        if (verbose == TRUE) {
+          meanROC <- mean(temp_ROC[1:(j*boot)])
+          sdROC <- sd(temp_ROC[1:(j*boot)])
+          minROC <- min(temp_ROC[1:(j*boot)])
+          maxROC <- max(temp_ROC[1:(j*boot)])
+          cat("\rFalses in rule: ", falseAbs, "(", ifelse(meanROC > baseROC, "+", "-"), ifelse(bootROC > baseROC, "+", "-"), ") => ROC = ", sprintf("%.07f", round(meanROC, digits = 7)), "+", sprintf("%.07f", round(sdROC, digits = 7)), "[", sprintf("%.07f", round(minROC, digits = 7)), ", ", sprintf("%.07f", round(maxROC, digits = 7)), "]  (", sprintf("%.03f", 100*i/ruled.count), "% | Adj: ", sprintf("%.03f", 100*((i/ruled.count) * (sum(actual == 0) / sum(actual == 1)))), "%) with prob = ", sprintf("%.08f", prob[i]), " (", round(j/batch*100, digits = 0), "%)", sep = "")
+        }
+        
+      }
+      
+      meanROC <- mean(temp_ROC)
+      sdROC <- sd(temp_ROC)
+      minROC <- min(temp_ROC)
+      maxROC <- max(temp_ROC)
+      
+      if (verbose == TRUE) {
+        cat("\rFalses in rule: ", falseAbs, "(", ifelse(meanROC > baseROC, "+", "-"), ifelse(bootROC > baseROC, "+", "-"), ") => ROC = ", sprintf("%.07f", round(meanROC, digits = 7)), "+", sprintf("%.07f", round(sdROC, digits = 7)), "[", sprintf("%.07f", round(minROC, digits = 7)), ", ", sprintf("%.07f", round(maxROC, digits = 7)), "]  (", sprintf("%.03f", 100*i/ruled.count), "% | Adj: ", sprintf("%.03f", 100*((i/ruled.count) * (sum(actual == 0) / sum(actual == 1)))), "%) with prob = ", sprintf("%.08f", prob[i]), "       \n", sep = "")
+      }
+      
+    }
+    
+    return(1-meanROC)
+    
+  } else {
+    
+    return(c(meanROC, bootROC))
+    
+  }
+  
+}
+
+optimize_ROC <- function(actual, predicted, ruled, falseAbs, lower = 0, upper = 0.5, iter = 15, ...) {
+  
+  ROCBase <- SimulatorROCProbBoot(actual, predicted, ruled, prob = NA, ...)
+  optimized_output <- optim(par = 0, SimulatorROCProbBoot, method = "Brent", actual = actual, predicted = predicted, ruled = ruled, falseAbs = falseAbs, ..., ROCBase = ROCBase, lower = lower, upper = upper, control = list(maxit = iter, trace = 0))
+  return(optimized_output)
   
 }
