@@ -6,24 +6,22 @@ Created on Sun Apr 17 12:08:38 2016
 """
 
 from sklearn import cross_validation
-from sklearn.metrics import mean_squared_error, accuracy_score #adapt this
+from sklearn.metrics import roc_auc_score #adapt this
 import numpy as np
 import pandas as pd
 import random
-#import md5
-import json
 import gc
 import time
 
 #%%
 
 def fmean_squared_error(ground_truth, predictions):
-    fmean_squared_error_ = mean_squared_error(ground_truth, predictions)**0.5 # adapt to metric
+    fmean_squared_error_ = roc_auc_score(ground_truth, predictions) # adapt to metric
     return fmean_squared_error_
 
 #%%
 
-def blend_proba(clf, X_train, y, X_test, nfolds=5, seed=11111, category="classifier"):
+def blend_proba(clf, X_train, y, X_test, nfolds=5, seed=11111, category="classifier", filename='lambda', setused='1'):
   print("\nBlending with classifier:\n\t%s"%(clf))
   start_time = time.time()
   folds = list(cross_validation.StratifiedKFold(y, nfolds,shuffle=True,random_state=seed))
@@ -49,15 +47,15 @@ def blend_proba(clf, X_train, y, X_test, nfolds=5, seed=11111, category="classif
         fold_preds = clf.predict(fold_X_test)
     
     for i in range(len(fold_preds)):
-        if fold_preds[i]<1.0: #adapt to metric
+        if fold_preds[i]<0.0: #adapt to metric
+            fold_preds[i] = 0.0 #adapt to metric
+        if fold_preds[i]>1.0: #adapt to metric
             fold_preds[i] = 1.0 #adapt to metric
-        if fold_preds[i]>3.0: #adapt to metric
-            fold_preds[i] = 3.0 #adapt to metric
     
-    print("Logistic loss: %s"%fmean_squared_error(fold_y_test,fold_preds)) #adapt to metric
+    print("ROC loss: %s"%fmean_squared_error(fold_y_test,fold_preds)) #adapt to metric
     
     dataset_blend_train[test_index] = fold_preds
-      loss += fmean_squared_error(fold_y_test,fold_preds)
+    loss += fmean_squared_error(fold_y_test,fold_preds)
 
     print("Predicting test set", " ||| Time: ", round(((time.time() - start_time)/60),2))
     
@@ -67,10 +65,10 @@ def blend_proba(clf, X_train, y, X_test, nfolds=5, seed=11111, category="classif
         dataset_blend_test = clf.predict(X_test)
     
     for i in range(len(dataset_blend_test)):
-       if dataset_blend_test[i]<1.0: #adapt to metric
+       if dataset_blend_test[i]<0.0: #adapt to metric
+          dataset_blend_test[i] = 0.0 #adapt to metric
+       if dataset_blend_test[i]>0.0: #adapt to metric
           dataset_blend_test[i] = 1.0 #adapt to metric
-       if dataset_blend_test[i]>3.0: #adapt to metric
-          dataset_blend_test[i] = 3.0 #adapt to metric
     test_temp = test_temp+dataset_blend_test
     gc.collect()
     
@@ -78,5 +76,8 @@ def blend_proba(clf, X_train, y, X_test, nfolds=5, seed=11111, category="classif
   print("\nAverage:\t%s\n"%avg_loss)
   
   dataset_blend_test = (test_temp / nfolds)
+  
+  np.savetxt('train'+setused+'_'+seed+'_'+filename+'.csv' ,np.asarray(dataset_blend_train), delimiter=",")
+  np.savetxt('test'+setused+'_'+seed+'_'+filename+'.csv' ,np.asarray(dataset_blend_test), delimiter=",")
   
   return dataset_blend_train, dataset_blend_test
