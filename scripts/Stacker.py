@@ -67,10 +67,10 @@ def blend_proba(clf, X_train, y, X_test, nfolds=5, seed=11111, category="classif
         dataset_blend_test = clf.predict(X_test)
     
     for i in range(len(dataset_blend_test)):
-       if dataset_blend_test[i]<1.0: to metric
-          dataset_blend_test[i] = 1.0 to metric
-       if dataset_blend_test[i]>3.0: to metric
-          dataset_blend_test[i] = 3.0 to metric
+       if dataset_blend_test[i]<1.0: #adapt to metric
+          dataset_blend_test[i] = 1.0 #adapt to metric
+       if dataset_blend_test[i]>3.0: #adapt to metric
+          dataset_blend_test[i] = 3.0 #adapt to metric
     test_temp = test_temp+dataset_blend_test
     gc.collect()
     
