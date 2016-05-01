@@ -132,7 +132,6 @@ np.savetxt('Fold1.5.csv', folds1[4][0], delimiter = ',', header = 'Rep1.Fold5')
 # Level 2 Score: 
 
 clf = ensemble.ExtraTreesClassifier(n_estimators=nET*2, max_features=10, max_depth=8, criterion='entropy', n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="classifier", filename = "ETC", setused=setused, tag = '10_8')
 
 #%%
@@ -140,7 +139,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.ExtraTreesClassifier(n_estimators=nET*1.75, max_features=20, max_depth=15, criterion='entropy', n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="classifier", filename = "ETC", setused=setused, tag = '20_15')
 
 #%%
@@ -148,7 +146,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.ExtraTreesClassifier(n_estimators=nET*1.5, max_features=30, max_depth=23, criterion='entropy', n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="classifier", filename = "ETC", setused=setused, tag = '30_23')
 
 #%%
@@ -156,7 +153,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.ExtraTreesClassifier(n_estimators=nET*1.25, max_features=40, max_depth=30, criterion='entropy', n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="classifier", filename = "ETC", setused=setused, tag = '40_30')
 
 #%%
@@ -164,7 +160,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.ExtraTreesClassifier(n_estimators=nET, max_features=50, max_depth=37, criterion='entropy', n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="classifier", filename = "ETC", setused=setused, tag = '50_37')
 
 #%%
@@ -172,7 +167,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.ExtraTreesClassifier(n_estimators=nET, max_features=60, max_depth=45, criterion='entropy', n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="classifier", filename = "ETC", setused=setused, tag = '60_45')
 
 #%%
@@ -180,7 +174,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.ExtraTreesRegressor(n_estimators=nET*2, max_features=10, max_depth=8, n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="regressor", filename = "ETR", setused=setused, tag = '10_8')
 
 #%%
@@ -188,7 +181,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.ExtraTreesRegressor(n_estimators=nET*1.75, max_features=20, max_depth=15, n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="regressor", filename = "ETR", setused=setused, tag = '20_15')
 
 #%%
@@ -196,7 +188,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.ExtraTreesRegressor(n_estimators=nET*1.5, max_features=30, max_depth=23, n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="regressor", filename = "ETR", setused=setused, tag = '30_23')
 
 #%%
@@ -204,7 +195,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.RandomForestClassifier(n_estimators=nET*2, max_features=10, max_depth=8, criterion='entropy', n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="classifier", filename = "RFC", setused=setused, tag = '10_8')
 
 #%%
@@ -212,7 +202,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.RandomForestClassifier(n_estimators=nET*1.75, max_features=20, max_depth=15, criterion='entropy', n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="classifier", filename = "RFC", setused=setused, tag = '20_15')
 
 #%%
@@ -220,7 +209,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.RandomForestClassifier(n_estimators=nET*1.5, max_features=30, max_depth=23, criterion='entropy', n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="classifier", filename = "RFC", setused=setused, tag = '30_23')
 
 #%%
@@ -228,7 +216,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.RandomForestClassifier(n_estimators=nET*1.25, max_features=40, max_depth=30, criterion='entropy', n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="classifier", filename = "RFC", setused=setused, tag = '40_30')
 
 #%%
@@ -236,7 +223,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.RandomForestClassifier(n_estimators=nET, max_features=50, max_depth=37, criterion='entropy', n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="classifier", filename = "RFC", setused=setused, tag = '50_37')
 
 #%%
@@ -244,7 +230,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.RandomForestClassifier(n_estimators=nET, max_features=60, max_depth=45, criterion='entropy', n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="classifier", filename = "RFC", setused=setused, tag = '60_45')
 
 #%%
@@ -252,7 +237,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.RandomForestRegressor(n_estimators=nET*2, max_features=10, max_depth=8, n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="regressor", filename = "RFR", setused=setused, tag = '10_8')
 
 #%%
@@ -260,7 +244,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.RandomForestRegressor(n_estimators=nET*1.75, max_features=20, max_depth=15, n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="regressor", filename = "RFR", setused=setused, tag = '20_15')
 
 #%%
@@ -268,7 +251,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.RandomForestRegressor(n_estimators=nET*1.5, max_features=30, max_depth=23, n_jobs=-1, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="regressor", filename = "RFR", setused=setused, tag = '30_23')
 
 #%%
@@ -276,7 +258,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.AdaBoostClassifier(random_state=rnd, learning_rate=0.4, loss='linear')     
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="classifier", filename = "AdaClass", setused=setused)
 
 #%%
@@ -284,7 +265,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = ensemble.AdaBoostRegressor(random_state=rnd, learning_rate=0.4, loss='linear')     
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="regressor", filename = "AdaReg", setused=setused)
 
 #%%
@@ -292,7 +272,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = linear_model.LinearRegression()
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="regressor", filename = "LinReg", setused=setused)
 
 #%%
@@ -300,7 +279,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = linear_model.LogisticRegression(solver='sag', random_state=rnd, verbose=0, n_jobs=-1)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="classifier", filename = "LogReg", setused=setused)
 
 #%%
@@ -308,7 +286,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = linear_model.RidgeCV(cv = 5)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="regressor", filename = "RidgeCV", setused=setused)
 
 #%%
@@ -316,7 +293,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = linear_model.PassiveAggressiveClassifier(n_iter=100, random_state=rnd, verbose=0, n_jobs=-1)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="regressor", filename = "PasAggC", setused=setused, tag = "1")
 
 #%%
@@ -324,7 +300,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = linear_model.PassiveAggressiveClassifier(n_iter=100, loss='squared_hinge', random_state=rnd, verbose=0, n_jobs=-1)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="regressor", filename = "PasAggC", setused=setused, tag = "2")
 
 #%%
@@ -332,7 +307,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = linear_model.PassiveAggressiveRegressor(n_iter=100, random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="regressor", filename = "PasAggR", setused=setused, tag = "1")
 
 #%%
@@ -340,7 +314,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = linear_model.PassiveAggressiveRegressor(n_iter=100, loss='squared_epsilon_insensitive', random_state=rnd, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="regressor", filename = "PasAggR", setused=setused, tag = "2")
 
 #%%
@@ -348,7 +321,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = discriminant_analysis.LinearDiscriminantAnalysis()
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="classifier", filename = "LDA", setused=setused)
 
 #%%
@@ -356,7 +328,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = linear_model.LarsCV(cv=5, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="regressor", filename = "LeastAngle", setused=setused)
 
 #%%
@@ -364,7 +335,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = linear_model.ElasticNetCV(cv=5, verbose=0)
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,seed=rnd, category="regressor", filename = "ElasticNet", setused=setused)
 
 #%%
@@ -372,7 +342,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = linear_model.BayesianRidge()
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="regressor", filename = "BayesianRidge", setused=setused)
 
 #%%
@@ -380,7 +349,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = neighbors.NearestCentroid()
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="regressor", filename = "NearCentroid", setused=setused)
 
 #%%
@@ -388,7 +356,6 @@ model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5,
 # Level 2 Score: 
 
 clf = naive_bayes.GaussianNB()
-
 model_sum = blend_proba(clf=clf, X_train=train, y=target, X_test=test, nfolds=5, seed=rnd, category="classifier", filename = "GaussianNB", setused=setused)
 
 #%%
