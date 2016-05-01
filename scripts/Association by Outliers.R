@@ -1,3 +1,5 @@
+# for >0.8426, see at the end for the formal changes
+
 library(xgboost)
 library(Matrix)
 library(data.table)
@@ -125,3 +127,21 @@ submission$TARGET[tempInt]
 submission$TARGET[submission$TARGET == 0] <- 0.00000001 #because we know some are wrong
 submission$TARGET[tempInt] <- 0 #because we know we are right there
 write.csv(submission, file = "submission_rules_out.csv", row.names = FALSE)
+
+
+
+# this part should give you 0.8426 LB score
+# submission_ens_5.csv => download from our submission page
+# use RuleMaker from the ROC simulator
+
+# 0.842644
+submission <- read.csv("submission_ens_5.csv")
+ruled <- RuleMaker(test_temp, c("numSUM2", 8, 12), c("numSUM4", 0, 0))
+submission$TARGET[ruled == 0] <- 0.001
+write.csv(submission, file = "submission_rules_out7.csv", row.names = FALSE)
+
+# 0.842684
+submission <- read.csv("submission_ens_5.csv")
+ruled <- RuleMaker(test_temp, c("numSUM2", 8, 8), c("numSUM5", 0, 0))
+submission$TARGET[ruled == 0] <- 0.001
+write.csv(submission, file = "submission_rules_out8.csv", row.names = FALSE)
