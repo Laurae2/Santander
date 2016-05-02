@@ -10,7 +10,7 @@ for (i in colnames(full_data)) {
   df_temp[j, 1] <- i
   df_temp[j, 2] <- NROW(unique(full_data[, i]))
   df_temp[j, 3] <- ifelse(sum(floor(full_data[, i]) == full_data[, i]) == nrow(full_data), 1, 0)
-  df_temp[j, 3] <- ifelse((df_temp[j ,3] == 1) & (df_temp[j, 2]), 2, df_temp[j, 3])
+  df_temp[j, 3] <- ifelse((df_temp[j ,3] == 1) & (df_temp[j, 2] == 2), 2, df_temp[j, 3])
   cat(i, ifelse(df_temp[j ,3] > 0, ifelse(df_temp[j, 3] == 1, " (Integer Valued)", " ( Binary Valued)"), " (Real Valued)"), ": ", df_temp[j, 2], " unique values.\n", sep = "")
 }
 df_temp <- df_temp[order(-df_temp[, 2]), ]
