@@ -22,376 +22,376 @@ table(df_temp[, 2])
 
 
 
-#ID: 151838 unique values.
-#var38: 109982 unique values.
-#saldo_var30: 30654 unique values.
-#saldo_medio_var5_ult3: 29322 unique values.
-#saldo_var42: 28458 unique values.
-#saldo_medio_var5_ult1: 25650 unique values.
-#saldo_medio_var5_hace2: 25270 unique values.
-#saldo_var5: 20454 unique values.
-#imp_op_var39_comer_ult3: 16284 unique values.
-#imp_op_var41_comer_ult3: 16003 unique values.
-#imp_op_var39_ult1: 14814 unique values.
-#imp_op_var41_ult1: 14597 unique values.
-#imp_op_var39_comer_ult1: 13414 unique values.
-#saldo_medio_var5_hace3: 13249 unique values.
-#imp_op_var41_comer_ult1: 13155 unique values.
-#saldo_var37: 7247 unique values.
-#imp_trans_var37_ult1: 6808 unique values.
-#saldo_medio_var12_ult3: 6801 unique values.
-#saldo_medio_var12_ult1: 6676 unique values.
-#saldo_var12: 5858 unique values.
-#saldo_medio_var12_hace2: 5469 unique values.
-#saldo_var24: 5041 unique values.
-#saldo_medio_var13_corto_ult3: 4513 unique values.
-#saldo_medio_var8_ult3: 4364 unique values.
-#saldo_medio_var8_ult1: 4260 unique values.
-#imp_var43_emit_ult1: 4240 unique values.
-#saldo_var8: 3948 unique values.
-#saldo_var26: 3139 unique values.
-#saldo_var25: 3006 unique values.
-#saldo_medio_var13_corto_hace2: 2902 unique values.
-#saldo_medio_var8_hace2: 2618 unique values.
-#saldo_medio_var12_hace3: 2110 unique values.
-#saldo_medio_var13_corto_ult1: 1671 unique values.
-#saldo_medio_var13_corto_hace3: 1608 unique values.
-#saldo_var13: 1469 unique values.
-#saldo_var13_corto: 1254 unique values.
-#saldo_medio_var13_largo_ult3: 999 unique values.
-#imp_ent_var16_ult1: 938 unique values.
-#saldo_medio_var8_hace3: 793 unique values.
-#imp_aport_var13_hace3: 712 unique values.
-#imp_op_var40_comer_ult3: 705 unique values.
-#imp_op_var39_efect_ult3: 680 unique values.
-#imp_op_var41_efect_ult3: 673 unique values.
-#saldo_var14: 636 unique values.
-#imp_op_var40_comer_ult1: 601 unique values.
-#saldo_var31: 567 unique values.
-#saldo_var1: 565 unique values.
-#saldo_var40: 560 unique values.
-#saldo_medio_var13_largo_hace2: 547 unique values.
-#imp_op_var39_efect_ult1: 503 unique values.
-#imp_op_var41_efect_ult1: 497 unique values.
-#saldo_medio_var13_largo_hace3: 495 unique values.
-#imp_op_var40_ult1: 462 unique values.
-#saldo_medio_var13_largo_ult1: 417 unique values.
-#saldo_var13_largo: 388 unique values.
-#imp_var7_recib_ult1: 320 unique values.
-#saldo_var20: 301 unique values.
-#saldo_medio_var44_ult1: 288 unique values.
-#saldo_medio_var44_ult3: 288 unique values.
-#imp_aport_var13_ult1: 287 unique values.
-#saldo_var44: 267 unique values.
-#var3: 231 unique values.
-#saldo_medio_var17_ult1: 228 unique values.
-#saldo_medio_var17_ult3: 228 unique values.
-#saldo_var17: 215 unique values.
-#num_var45_ult3: 197 unique values.
-#saldo_medio_var44_hace2: 197 unique values.
-#imp_compra_var44_ult1: 175 unique values.
-#saldo_medio_var17_hace2: 164 unique values.
-#saldo_var32: 150 unique values.
-#imp_sal_var16_ult1: 124 unique values.
-#num_op_var39_ult3: 119 unique values.
-#num_op_var41_ult3: 116 unique values.
-#num_op_var41_comer_ult3: 114 unique values.
-#num_op_var39_comer_ult3: 113 unique values.
-#saldo_medio_var33_ult1: 107 unique values.
-#saldo_medio_var33_ult3: 107 unique values.
-#saldo_var33: 106 unique values.
-#num_var45_ult1: 105 unique values.
-#num_var45_hace2: 102 unique values.
-#var15: 101 unique values.
-#saldo_medio_var33_hace2: 90 unique values.
-#num_op_var39_ult1: 81 unique values.
-#imp_venta_var44_ult1: 79 unique values.
-#num_op_var41_ult1: 78 unique values.
-#num_med_var45_ult3: 77 unique values.
-#num_op_var39_comer_ult1: 73 unique values.
-#num_var45_hace3: 71 unique values.
-#num_op_var41_comer_ult1: 69 unique values.
-#imp_aport_var17_ult1: 68 unique values.
-#num_op_var41_hace2: 64 unique values.
-#num_op_var39_hace2: 63 unique values.
-#num_op_var40_comer_ult3: 62 unique values.
-#saldo_medio_var44_hace3: 60 unique values.
-#imp_compra_var44_hace3: 59 unique values.
-#delta_imp_aport_var13_1y3: 51 unique values.
-#imp_op_var40_efect_ult3: 50 unique values.
-#imp_reemb_var13_ult1: 48 unique values.
-#num_var43_recib_ult1: 48 unique values.
-#saldo_medio_var33_hace3: 45 unique values.
-#num_op_var41_efect_ult3: 43 unique values.
-#num_op_var39_efect_ult3: 43 unique values.
-#imp_op_var40_efect_ult1: 42 unique values.
-#num_op_var40_ult3: 41 unique values.
-#num_var22_ult3: 39 unique values.
-#num_op_var40_comer_ult1: 39 unique values.
-#saldo_medio_var17_hace3: 37 unique values.
-#imp_aport_var17_hace3: 35 unique values.
-#num_op_var40_ult1: 34 unique values.
-#imp_reemb_var17_ult1: 31 unique values.
-#delta_imp_compra_var44_1y3: 29 unique values.
-#num_op_var39_efect_ult1: 28 unique values.
-#num_op_var41_hace3: 27 unique values.
-#num_op_var39_hace3: 27 unique values.
-#num_var37_0: 27 unique values.
-#num_var37: 27 unique values.
-#var21: 27 unique values.
-#num_op_var41_efect_ult1: 27 unique values.
-#num_var43_emit_ult1: 27 unique values.
-#num_op_var40_hace2: 26 unique values.
-#imp_aport_var33_hace3: 25 unique values.
-#num_var22_hace2: 25 unique values.
-#num_var37_med_ult2: 23 unique values.
-#num_var22_hace3: 21 unique values.
-#num_trasp_var11_ult1: 21 unique values.
-#num_ent_var16_ult1: 19 unique values.
-#num_var22_ult1: 19 unique values.
-#imp_aport_var33_ult1: 18 unique values.
-#imp_trasp_var33_in_ult1: 18 unique values.
-#num_med_var22_ult3: 17 unique values.
-#delta_num_compra_var44_1y3: 15 unique values.
-#num_var35: 14 unique values.
-#imp_trasp_var33_in_hace3: 14 unique values.
-#num_var30_0: 13 unique values.
-#delta_imp_aport_var33_1y3: 13 unique values.
-#imp_trasp_var17_in_ult1: 13 unique values.
-#num_var17_0: 12 unique values.
-#num_var31_0: 12 unique values.
-#num_compra_var44_ult1: 12 unique values.
-#num_var39_0: 11 unique values.
-#num_var41_0: 11 unique values.
-#delta_imp_aport_var17_1y3: 11 unique values.
-#num_venta_var44_ult1: 11 unique values.
-#num_var4: 10 unique values.
-#num_var26_0: 10 unique values.
-#num_var26: 10 unique values.
-#num_var25_0: 10 unique values.
-#num_var25: 10 unique values.
-#num_var30: 10 unique values.
-#num_aport_var17_ult1: 10 unique values.
-#num_op_var40_efect_ult1: 10 unique values.
-#num_op_var40_efect_ult3: 10 unique values.
-#num_var17: 9 unique values.
-#num_var31: 9 unique values.
-#num_var42_0: 9 unique values.
-#imp_trasp_var17_in_hace3: 9 unique values.
-#imp_venta_var44_hace3: 9 unique values.
-#num_compra_var44_hace3: 9 unique values.
-#num_var13_0: 8 unique values.
-#num_var13_largo_0: 8 unique values.
-#num_var13_largo: 8 unique values.
-#num_var13: 8 unique values.
-#delta_imp_venta_var44_1y3: 8 unique values.
-#delta_num_aport_var13_1y3: 8 unique values.
-#num_aport_var13_hace3: 8 unique values.
-#saldo_medio_var13_medio_hace2: 8 unique values.
-#saldo_medio_var13_medio_ult3: 8 unique values.
-#saldo_medio_var29_hace2: 8 unique values.
-#num_var12_0: 7 unique values.
-#num_var42: 7 unique values.
-#delta_num_aport_var17_1y3: 7 unique values.
-#delta_num_venta_var44_1y3: 7 unique values.
-#num_aport_var13_ult1: 7 unique values.
-#saldo_medio_var13_medio_ult1: 7 unique values.
-#saldo_medio_var29_ult1: 7 unique values.
-#saldo_medio_var29_ult3: 7 unique values.
-#num_var5_0: 6 unique values.
-#num_var5: 6 unique values.
-#num_var14_0: 6 unique values.
-#num_op_var40_hace3: 6 unique values.
-#saldo_var13_medio: 6 unique values.
-#imp_var7_emit_ult1: 6 unique values.
-#num_aport_var17_hace3: 6 unique values.
-#num_var7_recib_ult1: 6 unique values.
-#num_reemb_var17_ult1: 6 unique values.
-#num_sal_var16_ult1: 6 unique values.
-#num_var32_0: 5 unique values.
-#num_var32: 5 unique values.
-#saldo_var6: 5 unique values.
-#saldo_var29: 5 unique values.
-#saldo_var34: 5 unique values.
-#var36: 5 unique values.
-#delta_num_aport_var33_1y3: 5 unique values.
-#imp_amort_var34_ult1: 5 unique values.
-#imp_trasp_var17_out_ult1: 5 unique values.
-#num_aport_var33_hace3: 5 unique values.
-#num_venta_var44_hace3: 5 unique values.
-#num_var12: 4 unique values.
-#num_var14: 4 unique values.
-#num_var24_0: 4 unique values.
-#num_var33_0: 4 unique values.
-#saldo_var18: 4 unique values.
-#imp_amort_var18_ult1: 4 unique values.
-#num_aport_var33_ult1: 4 unique values.
-#num_meses_var5_ult3: 4 unique values.
-#num_meses_var8_ult3: 4 unique values.
-#num_meses_var12_ult3: 4 unique values.
-#num_meses_var13_corto_ult3: 4 unique values.
-#num_meses_var13_largo_ult3: 4 unique values.
-#num_meses_var17_ult3: 4 unique values.
-#num_meses_var33_ult3: 4 unique values.
-#num_meses_var39_vig_ult3: 4 unique values.
-#num_meses_var44_ult3: 4 unique values.
-#num_var1_0: 3 unique values.
-#num_var1: 3 unique values.
-#num_var8_0: 3 unique values.
-#num_var13_corto_0: 3 unique values.
-#num_var13_corto: 3 unique values.
-#num_var13_medio_0: 3 unique values.
-#num_var24: 3 unique values.
-#num_var33: 3 unique values.
-#num_var40_0: 3 unique values.
-#num_var44_0: 3 unique values.
-#num_var44: 3 unique values.
-#delta_imp_reemb_var17_1y3: 3 unique values.
-#delta_imp_trasp_var17_in_1y3: 3 unique values.
-#delta_imp_trasp_var33_in_1y3: 3 unique values.
-#delta_num_reemb_var17_1y3: 3 unique values.
-#delta_num_trasp_var17_in_1y3: 3 unique values.
-#delta_num_trasp_var33_in_1y3: 3 unique values.
-#imp_trasp_var33_out_ult1: 3 unique values.
-#num_var7_emit_ult1: 3 unique values.
-#num_meses_var29_ult3: 3 unique values.
-#num_trasp_var17_in_hace3: 3 unique values.
-#num_trasp_var17_in_ult1: 3 unique values.
-#num_trasp_var33_in_ult1: 3 unique values.
-#ind_var1_0: 2 unique values.
-#ind_var1: 2 unique values.
-#ind_var5_0: 2 unique values.
-#ind_var5: 2 unique values.
-#ind_var6_0: 2 unique values.
-#ind_var6: 2 unique values.
-#ind_var8_0: 2 unique values.
-#ind_var8: 2 unique values.
-#ind_var12_0: 2 unique values.
-#ind_var12: 2 unique values.
-#ind_var13_0: 2 unique values.
-#ind_var13_corto_0: 2 unique values.
-#ind_var13_corto: 2 unique values.
-#ind_var13_largo_0: 2 unique values.
-#ind_var13_largo: 2 unique values.
-#ind_var13_medio_0: 2 unique values.
-#ind_var13_medio: 2 unique values.
-#ind_var13: 2 unique values.
-#ind_var14_0: 2 unique values.
-#ind_var14: 2 unique values.
-#ind_var17_0: 2 unique values.
-#ind_var17: 2 unique values.
-#ind_var18_0: 2 unique values.
-#ind_var18: 2 unique values.
-#ind_var19: 2 unique values.
-#ind_var20_0: 2 unique values.
-#ind_var20: 2 unique values.
-#ind_var24_0: 2 unique values.
-#ind_var24: 2 unique values.
-#ind_var25_cte: 2 unique values.
-#ind_var26_0: 2 unique values.
-#ind_var26_cte: 2 unique values.
-#ind_var26: 2 unique values.
-#ind_var25_0: 2 unique values.
-#ind_var25: 2 unique values.
-#ind_var29_0: 2 unique values.
-#ind_var29: 2 unique values.
-#ind_var30_0: 2 unique values.
-#ind_var30: 2 unique values.
-#ind_var31_0: 2 unique values.
-#ind_var31: 2 unique values.
-#ind_var32_cte: 2 unique values.
-#ind_var32_0: 2 unique values.
-#ind_var32: 2 unique values.
-#ind_var33_0: 2 unique values.
-#ind_var33: 2 unique values.
-#ind_var34_0: 2 unique values.
-#ind_var34: 2 unique values.
-#ind_var37_cte: 2 unique values.
-#ind_var37_0: 2 unique values.
-#ind_var37: 2 unique values.
-#ind_var39_0: 2 unique values.
-#ind_var40_0: 2 unique values.
-#ind_var40: 2 unique values.
-#ind_var41_0: 2 unique values.
-#ind_var39: 2 unique values.
-#ind_var44_0: 2 unique values.
-#ind_var44: 2 unique values.
-#num_var6_0: 2 unique values.
-#num_var6: 2 unique values.
-#num_var8: 2 unique values.
-#num_var13_medio: 2 unique values.
-#num_var18_0: 2 unique values.
-#num_var18: 2 unique values.
-#num_var20_0: 2 unique values.
-#num_var20: 2 unique values.
-#num_var29_0: 2 unique values.
-#num_var29: 2 unique values.
-#num_var34_0: 2 unique values.
-#num_var34: 2 unique values.
-#num_var40: 2 unique values.
-#num_var39: 2 unique values.
-#delta_imp_amort_var18_1y3: 2 unique values.
-#delta_imp_amort_var34_1y3: 2 unique values.
-#delta_imp_reemb_var13_1y3: 2 unique values.
-#delta_imp_reemb_var33_1y3: 2 unique values.
-#delta_imp_trasp_var17_out_1y3: 2 unique values.
-#delta_imp_trasp_var33_out_1y3: 2 unique values.
-#delta_num_reemb_var13_1y3: 2 unique values.
-#delta_num_reemb_var33_1y3: 2 unique values.
-#delta_num_trasp_var17_out_1y3: 2 unique values.
-#delta_num_trasp_var33_out_1y3: 2 unique values.
-#imp_reemb_var17_hace3: 2 unique values.
-#imp_reemb_var33_ult1: 2 unique values.
-#ind_var7_emit_ult1: 2 unique values.
-#ind_var7_recib_ult1: 2 unique values.
-#ind_var10_ult1: 2 unique values.
-#ind_var10cte_ult1: 2 unique values.
-#ind_var9_cte_ult1: 2 unique values.
-#ind_var9_ult1: 2 unique values.
-#ind_var43_emit_ult1: 2 unique values.
-#ind_var43_recib_ult1: 2 unique values.
-#num_meses_var13_medio_ult3: 2 unique values.
-#num_reemb_var13_ult1: 2 unique values.
-#num_reemb_var17_hace3: 2 unique values.
-#num_reemb_var33_ult1: 2 unique values.
-#num_trasp_var17_out_ult1: 2 unique values.
-#num_trasp_var33_in_hace3: 2 unique values.
-#num_trasp_var33_out_ult1: 2 unique values.
-#saldo_medio_var29_hace3: 2 unique values.
-#ind_var2_0: 1 unique values.
-#ind_var2: 1 unique values.
-#ind_var27_0: 1 unique values.
-#ind_var28_0: 1 unique values.
-#ind_var28: 1 unique values.
-#ind_var27: 1 unique values.
-#ind_var41: 1 unique values.
-#ind_var46_0: 1 unique values.
-#ind_var46: 1 unique values.
-#num_var27_0: 1 unique values.
-#num_var28_0: 1 unique values.
-#num_var28: 1 unique values.
-#num_var27: 1 unique values.
-#num_var41: 1 unique values.
-#num_var46_0: 1 unique values.
-#num_var46: 1 unique values.
-#saldo_var28: 1 unique values.
-#saldo_var27: 1 unique values.
-#saldo_var41: 1 unique values.
-#saldo_var46: 1 unique values.
-#imp_amort_var18_hace3: 1 unique values.
-#imp_amort_var34_hace3: 1 unique values.
-#imp_reemb_var13_hace3: 1 unique values.
-#imp_reemb_var33_hace3: 1 unique values.
-#imp_trasp_var17_out_hace3: 1 unique values.
-#imp_trasp_var33_out_hace3: 1 unique values.
-#num_var2_0_ult1: 1 unique values.
-#num_var2_ult1: 1 unique values.
-#num_reemb_var13_hace3: 1 unique values.
-#num_reemb_var33_hace3: 1 unique values.
-#num_trasp_var17_out_hace3: 1 unique values.
-#num_trasp_var33_out_hace3: 1 unique values.
-#saldo_var2_ult1: 1 unique values.
-#saldo_medio_var13_medio_hace3: 1 unique values.
+#ID (Integer Valued): 151838 unique values.
+#var38 (Real Valued): 109982 unique values.
+#saldo_var30 (Real Valued): 30654 unique values.
+#saldo_medio_var5_ult3 (Real Valued): 29322 unique values.
+#saldo_var42 (Real Valued): 28458 unique values.
+#saldo_medio_var5_ult1 (Real Valued): 25650 unique values.
+#saldo_medio_var5_hace2 (Real Valued): 25270 unique values.
+#saldo_var5 (Real Valued): 20454 unique values.
+#imp_op_var39_comer_ult3 (Real Valued): 16284 unique values.
+#imp_op_var41_comer_ult3 (Real Valued): 16003 unique values.
+#imp_op_var39_ult1 (Real Valued): 14814 unique values.
+#imp_op_var41_ult1 (Real Valued): 14597 unique values.
+#imp_op_var39_comer_ult1 (Real Valued): 13414 unique values.
+#saldo_medio_var5_hace3 (Real Valued): 13249 unique values.
+#imp_op_var41_comer_ult1 (Real Valued): 13155 unique values.
+#saldo_var37 (Real Valued): 7247 unique values.
+#imp_trans_var37_ult1 (Real Valued): 6808 unique values.
+#saldo_medio_var12_ult3 (Real Valued): 6801 unique values.
+#saldo_medio_var12_ult1 (Real Valued): 6676 unique values.
+#saldo_var12 (Real Valued): 5858 unique values.
+#saldo_medio_var12_hace2 (Real Valued): 5469 unique values.
+#saldo_var24 (Real Valued): 5041 unique values.
+#saldo_medio_var13_corto_ult3 (Real Valued): 4513 unique values.
+#saldo_medio_var8_ult3 (Real Valued): 4364 unique values.
+#saldo_medio_var8_ult1 (Real Valued): 4260 unique values.
+#imp_var43_emit_ult1 (Real Valued): 4240 unique values.
+#saldo_var8 (Real Valued): 3948 unique values.
+#saldo_var26 (Real Valued): 3139 unique values.
+#saldo_var25 (Real Valued): 3006 unique values.
+#saldo_medio_var13_corto_hace2 (Real Valued): 2902 unique values.
+#saldo_medio_var8_hace2 (Real Valued): 2618 unique values.
+#saldo_medio_var12_hace3 (Real Valued): 2110 unique values.
+#saldo_medio_var13_corto_ult1 (Real Valued): 1671 unique values.
+#saldo_medio_var13_corto_hace3 (Real Valued): 1608 unique values.
+#saldo_var13 (Real Valued): 1469 unique values.
+#saldo_var13_corto (Real Valued): 1254 unique values.
+#saldo_medio_var13_largo_ult3 (Real Valued): 999 unique values.
+#imp_ent_var16_ult1 (Real Valued): 938 unique values.
+#saldo_medio_var8_hace3 (Real Valued): 793 unique values.
+#imp_aport_var13_hace3 (Real Valued): 712 unique values.
+#imp_op_var40_comer_ult3 (Real Valued): 705 unique values.
+#imp_op_var39_efect_ult3 (Real Valued): 680 unique values.
+#imp_op_var41_efect_ult3 (Real Valued): 673 unique values.
+#saldo_var14 (Real Valued): 636 unique values.
+#imp_op_var40_comer_ult1 (Real Valued): 601 unique values.
+#saldo_var31 (Real Valued): 567 unique values.
+#saldo_var1 (Real Valued): 565 unique values.
+#saldo_var40 (Real Valued): 560 unique values.
+#saldo_medio_var13_largo_hace2 (Real Valued): 547 unique values.
+#imp_op_var39_efect_ult1 (Real Valued): 503 unique values.
+#imp_op_var41_efect_ult1 (Real Valued): 497 unique values.
+#saldo_medio_var13_largo_hace3 (Real Valued): 495 unique values.
+#imp_op_var40_ult1 (Real Valued): 462 unique values.
+#saldo_medio_var13_largo_ult1 (Real Valued): 417 unique values.
+#saldo_var13_largo (Real Valued): 388 unique values.
+#imp_var7_recib_ult1 (Real Valued): 320 unique values.
+#saldo_var20 (Real Valued): 301 unique values.
+#saldo_medio_var44_ult1 (Real Valued): 288 unique values.
+#saldo_medio_var44_ult3 (Real Valued): 288 unique values.
+#imp_aport_var13_ult1 (Real Valued): 287 unique values.
+#saldo_var44 (Real Valued): 267 unique values.
+#var3 (Integer Valued): 231 unique values.
+#saldo_medio_var17_ult1 (Real Valued): 228 unique values.
+#saldo_medio_var17_ult3 (Real Valued): 228 unique values.
+#saldo_var17 (Real Valued): 215 unique values.
+#num_var45_ult3 (Integer Valued): 197 unique values.
+#saldo_medio_var44_hace2 (Real Valued): 197 unique values.
+#imp_compra_var44_ult1 (Real Valued): 175 unique values.
+#saldo_medio_var17_hace2 (Real Valued): 164 unique values.
+#saldo_var32 (Real Valued): 150 unique values.
+#imp_sal_var16_ult1 (Real Valued): 124 unique values.
+#num_op_var39_ult3 (Integer Valued): 119 unique values.
+#num_op_var41_ult3 (Integer Valued): 116 unique values.
+#num_op_var41_comer_ult3 (Integer Valued): 114 unique values.
+#num_op_var39_comer_ult3 (Integer Valued): 113 unique values.
+#saldo_medio_var33_ult1 (Real Valued): 107 unique values.
+#saldo_medio_var33_ult3 (Real Valued): 107 unique values.
+#saldo_var33 (Real Valued): 106 unique values.
+#num_var45_ult1 (Integer Valued): 105 unique values.
+#num_var45_hace2 (Integer Valued): 102 unique values.
+#var15 (Integer Valued): 101 unique values.
+#saldo_medio_var33_hace2 (Real Valued): 90 unique values.
+#num_op_var39_ult1 (Integer Valued): 81 unique values.
+#imp_venta_var44_ult1 (Real Valued): 79 unique values.
+#num_op_var41_ult1 (Integer Valued): 78 unique values.
+#num_med_var45_ult3 (Integer Valued): 77 unique values.
+#num_op_var39_comer_ult1 (Integer Valued): 73 unique values.
+#num_var45_hace3 (Integer Valued): 71 unique values.
+#num_op_var41_comer_ult1 (Integer Valued): 69 unique values.
+#imp_aport_var17_ult1 (Real Valued): 68 unique values.
+#num_op_var41_hace2 (Integer Valued): 64 unique values.
+#num_op_var39_hace2 (Integer Valued): 63 unique values.
+#num_op_var40_comer_ult3 (Integer Valued): 62 unique values.
+#saldo_medio_var44_hace3 (Real Valued): 60 unique values.
+#imp_compra_var44_hace3 (Real Valued): 59 unique values.
+#delta_imp_aport_var13_1y3 (Real Valued): 51 unique values.
+#imp_op_var40_efect_ult3 (Real Valued): 50 unique values.
+#imp_reemb_var13_ult1 (Real Valued): 48 unique values.
+#num_var43_recib_ult1 (Integer Valued): 48 unique values.
+#saldo_medio_var33_hace3 (Real Valued): 45 unique values.
+#num_op_var41_efect_ult3 (Integer Valued): 43 unique values.
+#num_op_var39_efect_ult3 (Integer Valued): 43 unique values.
+#imp_op_var40_efect_ult1 (Real Valued): 42 unique values.
+#num_op_var40_ult3 (Integer Valued): 41 unique values.
+#num_var22_ult3 (Integer Valued): 39 unique values.
+#num_op_var40_comer_ult1 (Integer Valued): 39 unique values.
+#saldo_medio_var17_hace3 (Real Valued): 37 unique values.
+#imp_aport_var17_hace3 (Real Valued): 35 unique values.
+#num_op_var40_ult1 (Integer Valued): 34 unique values.
+#imp_reemb_var17_ult1 (Real Valued): 31 unique values.
+#delta_imp_compra_var44_1y3 (Real Valued): 29 unique values.
+#num_op_var39_efect_ult1 (Integer Valued): 28 unique values.
+#num_op_var41_hace3 (Integer Valued): 27 unique values.
+#num_op_var39_hace3 (Integer Valued): 27 unique values.
+#num_var37_0 (Integer Valued): 27 unique values.
+#num_var37 (Integer Valued): 27 unique values.
+#var21 (Integer Valued): 27 unique values.
+#num_op_var41_efect_ult1 (Integer Valued): 27 unique values.
+#num_var43_emit_ult1 (Integer Valued): 27 unique values.
+#num_op_var40_hace2 (Integer Valued): 26 unique values.
+#imp_aport_var33_hace3 (Real Valued): 25 unique values.
+#num_var22_hace2 (Integer Valued): 25 unique values.
+#num_var37_med_ult2 (Integer Valued): 23 unique values.
+#num_var22_hace3 (Integer Valued): 21 unique values.
+#num_trasp_var11_ult1 (Integer Valued): 21 unique values.
+#num_ent_var16_ult1 (Integer Valued): 19 unique values.
+#num_var22_ult1 (Integer Valued): 19 unique values.
+#imp_aport_var33_ult1 (Real Valued): 18 unique values.
+#imp_trasp_var33_in_ult1 (Real Valued): 18 unique values.
+#num_med_var22_ult3 (Integer Valued): 17 unique values.
+#delta_num_compra_var44_1y3 (Real Valued): 15 unique values.
+#num_var35 (Integer Valued): 14 unique values.
+#imp_trasp_var33_in_hace3 (Real Valued): 14 unique values.
+#num_var30_0 (Integer Valued): 13 unique values.
+#delta_imp_aport_var33_1y3 (Real Valued): 13 unique values.
+#imp_trasp_var17_in_ult1 (Real Valued): 13 unique values.
+#num_var17_0 (Integer Valued): 12 unique values.
+#num_var31_0 (Integer Valued): 12 unique values.
+#num_compra_var44_ult1 (Integer Valued): 12 unique values.
+#num_var39_0 (Integer Valued): 11 unique values.
+#num_var41_0 (Integer Valued): 11 unique values.
+#delta_imp_aport_var17_1y3 (Real Valued): 11 unique values.
+#num_venta_var44_ult1 (Integer Valued): 11 unique values.
+#num_var4 (Integer Valued): 10 unique values.
+#num_var26_0 (Integer Valued): 10 unique values.
+#num_var26 (Integer Valued): 10 unique values.
+#num_var25_0 (Integer Valued): 10 unique values.
+#num_var25 (Integer Valued): 10 unique values.
+#num_var30 (Integer Valued): 10 unique values.
+#num_aport_var17_ult1 (Integer Valued): 10 unique values.
+#num_op_var40_efect_ult1 (Integer Valued): 10 unique values.
+#num_op_var40_efect_ult3 (Integer Valued): 10 unique values.
+#num_var17 (Integer Valued): 9 unique values.
+#num_var31 (Integer Valued): 9 unique values.
+#num_var42_0 (Integer Valued): 9 unique values.
+#imp_trasp_var17_in_hace3 (Real Valued): 9 unique values.
+#imp_venta_var44_hace3 (Real Valued): 9 unique values.
+#num_compra_var44_hace3 (Integer Valued): 9 unique values.
+#num_var13_0 (Integer Valued): 8 unique values.
+#num_var13_largo_0 (Integer Valued): 8 unique values.
+#num_var13_largo (Integer Valued): 8 unique values.
+#num_var13 (Integer Valued): 8 unique values.
+#delta_imp_venta_var44_1y3 (Real Valued): 8 unique values.
+#delta_num_aport_var13_1y3 (Real Valued): 8 unique values.
+#num_aport_var13_hace3 (Integer Valued): 8 unique values.
+#saldo_medio_var13_medio_hace2 (Real Valued): 8 unique values.
+#saldo_medio_var13_medio_ult3 (Real Valued): 8 unique values.
+#saldo_medio_var29_hace2 (Real Valued): 8 unique values.
+#num_var12_0 (Integer Valued): 7 unique values.
+#num_var42 (Integer Valued): 7 unique values.
+#delta_num_aport_var17_1y3 (Real Valued): 7 unique values.
+#delta_num_venta_var44_1y3 (Real Valued): 7 unique values.
+#num_aport_var13_ult1 (Integer Valued): 7 unique values.
+#saldo_medio_var13_medio_ult1 (Real Valued): 7 unique values.
+#saldo_medio_var29_ult1 (Real Valued): 7 unique values.
+#saldo_medio_var29_ult3 (Real Valued): 7 unique values.
+#num_var5_0 (Integer Valued): 6 unique values.
+#num_var5 (Integer Valued): 6 unique values.
+#num_var14_0 (Integer Valued): 6 unique values.
+#num_op_var40_hace3 (Integer Valued): 6 unique values.
+#saldo_var13_medio (Integer Valued): 6 unique values.
+#imp_var7_emit_ult1 (Real Valued): 6 unique values.
+#num_aport_var17_hace3 (Integer Valued): 6 unique values.
+#num_var7_recib_ult1 (Integer Valued): 6 unique values.
+#num_reemb_var17_ult1 (Integer Valued): 6 unique values.
+#num_sal_var16_ult1 (Integer Valued): 6 unique values.
+#num_var32_0 (Integer Valued): 5 unique values.
+#num_var32 (Integer Valued): 5 unique values.
+#saldo_var6 (Real Valued): 5 unique values.
+#saldo_var29 (Real Valued): 5 unique values.
+#saldo_var34 (Integer Valued): 5 unique values.
+#var36 (Integer Valued): 5 unique values.
+#delta_num_aport_var33_1y3 (Real Valued): 5 unique values.
+#imp_amort_var34_ult1 (Real Valued): 5 unique values.
+#imp_trasp_var17_out_ult1 (Real Valued): 5 unique values.
+#num_aport_var33_hace3 (Integer Valued): 5 unique values.
+#num_venta_var44_hace3 (Integer Valued): 5 unique values.
+#num_var12 (Integer Valued): 4 unique values.
+#num_var14 (Integer Valued): 4 unique values.
+#num_var24_0 (Integer Valued): 4 unique values.
+#num_var33_0 (Integer Valued): 4 unique values.
+#saldo_var18 (Integer Valued): 4 unique values.
+#imp_amort_var18_ult1 (Real Valued): 4 unique values.
+#num_aport_var33_ult1 (Integer Valued): 4 unique values.
+#num_meses_var5_ult3 (Integer Valued): 4 unique values.
+#num_meses_var8_ult3 (Integer Valued): 4 unique values.
+#num_meses_var12_ult3 (Integer Valued): 4 unique values.
+#num_meses_var13_corto_ult3 (Integer Valued): 4 unique values.
+#num_meses_var13_largo_ult3 (Integer Valued): 4 unique values.
+#num_meses_var17_ult3 (Integer Valued): 4 unique values.
+#num_meses_var33_ult3 (Integer Valued): 4 unique values.
+#num_meses_var39_vig_ult3 (Integer Valued): 4 unique values.
+#num_meses_var44_ult3 (Integer Valued): 4 unique values.
+#num_var1_0 (Integer Valued): 3 unique values.
+#num_var1 (Integer Valued): 3 unique values.
+#num_var8_0 (Integer Valued): 3 unique values.
+#num_var13_corto_0 (Integer Valued): 3 unique values.
+#num_var13_corto (Integer Valued): 3 unique values.
+#num_var13_medio_0 (Integer Valued): 3 unique values.
+#num_var24 (Integer Valued): 3 unique values.
+#num_var33 (Integer Valued): 3 unique values.
+#num_var40_0 (Integer Valued): 3 unique values.
+#num_var44_0 (Integer Valued): 3 unique values.
+#num_var44 (Integer Valued): 3 unique values.
+#delta_imp_reemb_var17_1y3 (Integer Valued): 3 unique values.
+#delta_imp_trasp_var17_in_1y3 (Integer Valued): 3 unique values.
+#delta_imp_trasp_var33_in_1y3 (Integer Valued): 3 unique values.
+#delta_num_reemb_var17_1y3 (Integer Valued): 3 unique values.
+#delta_num_trasp_var17_in_1y3 (Integer Valued): 3 unique values.
+#delta_num_trasp_var33_in_1y3 (Integer Valued): 3 unique values.
+#imp_trasp_var33_out_ult1 (Real Valued): 3 unique values.
+#num_var7_emit_ult1 (Integer Valued): 3 unique values.
+#num_meses_var29_ult3 (Integer Valued): 3 unique values.
+#num_trasp_var17_in_hace3 (Integer Valued): 3 unique values.
+#num_trasp_var17_in_ult1 (Integer Valued): 3 unique values.
+#num_trasp_var33_in_ult1 (Integer Valued): 3 unique values.
+#ind_var1_0 (Binary Valued): 2 unique values.
+#ind_var1 (Binary Valued): 2 unique values.
+#ind_var5_0 (Binary Valued): 2 unique values.
+#ind_var5 (Binary Valued): 2 unique values.
+#ind_var6_0 (Binary Valued): 2 unique values.
+#ind_var6 (Binary Valued): 2 unique values.
+#ind_var8_0 (Binary Valued): 2 unique values.
+#ind_var8 (Binary Valued): 2 unique values.
+#ind_var12_0 (Binary Valued): 2 unique values.
+#ind_var12 (Binary Valued): 2 unique values.
+#ind_var13_0 (Binary Valued): 2 unique values.
+#ind_var13_corto_0 (Binary Valued): 2 unique values.
+#ind_var13_corto (Binary Valued): 2 unique values.
+#ind_var13_largo_0 (Binary Valued): 2 unique values.
+#ind_var13_largo (Binary Valued): 2 unique values.
+#ind_var13_medio_0 (Binary Valued): 2 unique values.
+#ind_var13_medio (Binary Valued): 2 unique values.
+#ind_var13 (Binary Valued): 2 unique values.
+#ind_var14_0 (Binary Valued): 2 unique values.
+#ind_var14 (Binary Valued): 2 unique values.
+#ind_var17_0 (Binary Valued): 2 unique values.
+#ind_var17 (Binary Valued): 2 unique values.
+#ind_var18_0 (Binary Valued): 2 unique values.
+#ind_var18 (Binary Valued): 2 unique values.
+#ind_var19 (Binary Valued): 2 unique values.
+#ind_var20_0 (Binary Valued): 2 unique values.
+#ind_var20 (Binary Valued): 2 unique values.
+#ind_var24_0 (Binary Valued): 2 unique values.
+#ind_var24 (Binary Valued): 2 unique values.
+#ind_var25_cte (Binary Valued): 2 unique values.
+#ind_var26_0 (Binary Valued): 2 unique values.
+#ind_var26_cte (Binary Valued): 2 unique values.
+#ind_var26 (Binary Valued): 2 unique values.
+#ind_var25_0 (Binary Valued): 2 unique values.
+#ind_var25 (Binary Valued): 2 unique values.
+#ind_var29_0 (Binary Valued): 2 unique values.
+#ind_var29 (Binary Valued): 2 unique values.
+#ind_var30_0 (Binary Valued): 2 unique values.
+#ind_var30 (Binary Valued): 2 unique values.
+#ind_var31_0 (Binary Valued): 2 unique values.
+#ind_var31 (Binary Valued): 2 unique values.
+#ind_var32_cte (Binary Valued): 2 unique values.
+#ind_var32_0 (Binary Valued): 2 unique values.
+#ind_var32 (Binary Valued): 2 unique values.
+#ind_var33_0 (Binary Valued): 2 unique values.
+#ind_var33 (Binary Valued): 2 unique values.
+#ind_var34_0 (Binary Valued): 2 unique values.
+#ind_var34 (Binary Valued): 2 unique values.
+#ind_var37_cte (Binary Valued): 2 unique values.
+#ind_var37_0 (Binary Valued): 2 unique values.
+#ind_var37 (Binary Valued): 2 unique values.
+#ind_var39_0 (Binary Valued): 2 unique values.
+#ind_var40_0 (Binary Valued): 2 unique values.
+#ind_var40 (Binary Valued): 2 unique values.
+#ind_var41_0 (Binary Valued): 2 unique values.
+#ind_var39 (Binary Valued): 2 unique values.
+#ind_var44_0 (Binary Valued): 2 unique values.
+#ind_var44 (Binary Valued): 2 unique values.
+#num_var6_0 (Binary Valued): 2 unique values.
+#num_var6 (Binary Valued): 2 unique values.
+#num_var8 (Binary Valued): 2 unique values.
+#num_var13_medio (Binary Valued): 2 unique values.
+#num_var18_0 (Binary Valued): 2 unique values.
+#num_var18 (Binary Valued): 2 unique values.
+#num_var20_0 (Binary Valued): 2 unique values.
+#num_var20 (Binary Valued): 2 unique values.
+#num_var29_0 (Binary Valued): 2 unique values.
+#num_var29 (Binary Valued): 2 unique values.
+#num_var34_0 (Binary Valued): 2 unique values.
+#num_var34 (Binary Valued): 2 unique values.
+#num_var40 (Binary Valued): 2 unique values.
+#num_var39 (Binary Valued): 2 unique values.
+#delta_imp_amort_var18_1y3 (Binary Valued): 2 unique values.
+#delta_imp_amort_var34_1y3 (Binary Valued): 2 unique values.
+#delta_imp_reemb_var13_1y3 (Binary Valued): 2 unique values.
+#delta_imp_reemb_var33_1y3 (Binary Valued): 2 unique values.
+#delta_imp_trasp_var17_out_1y3 (Binary Valued): 2 unique values.
+#delta_imp_trasp_var33_out_1y3 (Binary Valued): 2 unique values.
+#delta_num_reemb_var13_1y3 (Binary Valued): 2 unique values.
+#delta_num_reemb_var33_1y3 (Binary Valued): 2 unique values.
+#delta_num_trasp_var17_out_1y3 (Binary Valued): 2 unique values.
+#delta_num_trasp_var33_out_1y3 (Binary Valued): 2 unique values.
+#imp_reemb_var17_hace3 (Real Valued): 2 unique values.
+#imp_reemb_var33_ult1 (Binary Valued): 2 unique values.
+#ind_var7_emit_ult1 (Binary Valued): 2 unique values.
+#ind_var7_recib_ult1 (Binary Valued): 2 unique values.
+#ind_var10_ult1 (Binary Valued): 2 unique values.
+#ind_var10cte_ult1 (Binary Valued): 2 unique values.
+#ind_var9_cte_ult1 (Binary Valued): 2 unique values.
+#ind_var9_ult1 (Binary Valued): 2 unique values.
+#ind_var43_emit_ult1 (Binary Valued): 2 unique values.
+#ind_var43_recib_ult1 (Binary Valued): 2 unique values.
+#num_meses_var13_medio_ult3 (Binary Valued): 2 unique values.
+#num_reemb_var13_ult1 (Binary Valued): 2 unique values.
+#num_reemb_var17_hace3 (Binary Valued): 2 unique values.
+#num_reemb_var33_ult1 (Binary Valued): 2 unique values.
+#num_trasp_var17_out_ult1 (Binary Valued): 2 unique values.
+#num_trasp_var33_in_hace3 (Binary Valued): 2 unique values.
+#num_trasp_var33_out_ult1 (Binary Valued): 2 unique values.
+#saldo_medio_var29_hace3 (Real Valued): 2 unique values.
+#ind_var2_0 (Integer Valued): 1 unique values.
+#ind_var2 (Integer Valued): 1 unique values.
+#ind_var27_0 (Integer Valued): 1 unique values.
+#ind_var28_0 (Integer Valued): 1 unique values.
+#ind_var28 (Integer Valued): 1 unique values.
+#ind_var27 (Integer Valued): 1 unique values.
+#ind_var41 (Integer Valued): 1 unique values.
+#ind_var46_0 (Integer Valued): 1 unique values.
+#ind_var46 (Integer Valued): 1 unique values.
+#num_var27_0 (Integer Valued): 1 unique values.
+#num_var28_0 (Integer Valued): 1 unique values.
+#num_var28 (Integer Valued): 1 unique values.
+#num_var27 (Integer Valued): 1 unique values.
+#num_var41 (Integer Valued): 1 unique values.
+#num_var46_0 (Integer Valued): 1 unique values.
+#num_var46 (Integer Valued): 1 unique values.
+#saldo_var28 (Integer Valued): 1 unique values.
+#saldo_var27 (Integer Valued): 1 unique values.
+#saldo_var41 (Integer Valued): 1 unique values.
+#saldo_var46 (Integer Valued): 1 unique values.
+#imp_amort_var18_hace3 (Integer Valued): 1 unique values.
+#imp_amort_var34_hace3 (Integer Valued): 1 unique values.
+#imp_reemb_var13_hace3 (Integer Valued): 1 unique values.
+#imp_reemb_var33_hace3 (Integer Valued): 1 unique values.
+#imp_trasp_var17_out_hace3 (Integer Valued): 1 unique values.
+#imp_trasp_var33_out_hace3 (Integer Valued): 1 unique values.
+#num_var2_0_ult1 (Integer Valued): 1 unique values.
+#num_var2_ult1 (Integer Valued): 1 unique values.
+#num_reemb_var13_hace3 (Integer Valued): 1 unique values.
+#num_reemb_var33_hace3 (Integer Valued): 1 unique values.
+#num_trasp_var17_out_hace3 (Integer Valued): 1 unique values.
+#num_trasp_var33_out_hace3 (Integer Valued): 1 unique values.
+#saldo_var2_ult1 (Integer Valued): 1 unique values.
+#saldo_medio_var13_medio_hace3 (Integer Valued): 1 unique values.
 
 #     1      2      3      4      5      6      7      8      9     10     11     12     13     14     15     17     18     19     21     23     25     26 
 #    34    100     23     16     11     10      8     10      6      9      4      3      3      2      1      1      2      2      2      1      2      1 
